@@ -1,0 +1,18 @@
+#Tue Oct 06 23:57:23 MSD 2009
+eclipse.preferences.version=1
+encoding//fca/__init__.py=utf-8
+encoding//fca/algorithms/__init__.py=utf-8
+encoding//fca/algorithms/covering_relation.py=utf-8
+encoding//fca/algorithms/norris.py=utf-8
+encoding//fca/algorithms/scaling.py=utf-8
+encoding//fca/concept.py=utf-8
+encoding//fca/concept_system.py=utf-8
+encoding//fca/context.py=utf-8
+encoding//fca/mvcontext.py=utf-8
+encoding//fca/readwrite/__init__.py=utf-8
+encoding//fca/readwrite/cxt.py=utf-8
+encoding//fca/readwrite/dot.py=utf-8
+encoding//fca/readwrite/tab_separated.py=utf-8
+encoding//fca/scale.py=utf-8
+encoding/<project>=UTF-8
+encoding/setup.py=utf-8

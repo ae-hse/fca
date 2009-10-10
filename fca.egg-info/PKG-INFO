@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: fca
+Version: 0.0.1
+Summary: Python package for formal concept analysis
+Home-page: UNKNOWN
+Author: Nikita Romashkin
+Author-email: romashkin.nikita@gmail.com
+License: LGPL
+Description: UNKNOWN
+Keywords: FCA,Concept mining,Mathematics,lattice theory
+Platform: Linux
+Platform: Mac OSX
+Platform: Windows XP/2000/NT
