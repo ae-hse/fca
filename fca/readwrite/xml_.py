@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Holds functions that read and write concept system from .xml file"""
+"""Holds functions that read a concept system from .xml file"""
 
 import xml.parsers.expat
 

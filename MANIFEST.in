@@ -1,2 +1,2 @@
 recursive-include fca *.txt *.py
-exclude .bzr
+exclude .git

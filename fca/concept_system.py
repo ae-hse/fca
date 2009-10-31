@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """Holds ConceptSystem class"""
 
+from copy import copy
 from concept import Concept
 
 class ConceptSystem(object):
@@ -28,7 +29,7 @@ class ConceptSystem(object):
     """
 
     def __init__(self, concepts=[]):
-        self._concepts = concepts
+        self._concepts = copy(concepts)
 
     def __len__(self):
         return len(self._concepts)
