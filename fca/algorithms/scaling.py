@@ -23,7 +23,7 @@ def scale_mvcontext(mvcontext, scales):
     ['7', '6', '7']
     ['7', '2', '9']
     ['1', '3', '4']
-    >>> c = scale_mvcontext(mvc, [s for i in xrange(len(mvc.attributes))])
+    >>> c = scale_mvcontext(mvc, [s]*len(mvc.attributes))
     >>> for o in c:
     ...     print o
     ...

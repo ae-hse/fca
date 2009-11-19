@@ -4,3 +4,4 @@
 from fca.readwrite.tab_separated import *
 from fca.readwrite.cxt import *
 from fca.readwrite.dot import *
+from fca.readwrite.xml_ import *

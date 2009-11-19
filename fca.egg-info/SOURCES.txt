@@ -18,5 +18,6 @@ fca/readwrite/__init__.py
 fca/readwrite/cxt.py
 fca/readwrite/dot.py
 fca/readwrite/tab_separated.py
+fca/readwrite/xml_.py
 fca/readwrite/tests/context.txt
 fca/readwrite/tests/table.txt

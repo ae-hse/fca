@@ -8,4 +8,4 @@ from fca.mvcontext import ManyValuedContext
 from fca.scale import Scale
 
 from fca.algorithms import norris, compute_covering_relation, scale_mvcontext
-from fca.readwrite import read_txt, read_cxt, write_dot, read_mv_txt
+from fca.readwrite import read_txt, read_cxt, write_dot, read_mv_txt, read_xml

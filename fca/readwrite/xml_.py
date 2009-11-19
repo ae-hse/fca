@@ -59,6 +59,9 @@ def read_xml(path):
             new_intent = []
     
     def char_data(data):
+        if data[0] == "\n":
+            return
+        data = data.strip()
         global new_obj, new_attr
         if new_obj:
             d_objects[new_obj] = repr(data)
