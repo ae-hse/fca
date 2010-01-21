@@ -2,6 +2,7 @@
 """Holds ConceptSystem class"""
 
 from concept import Concept
+#from algorithms import compute_covering_relation
 
 class ConceptSystem(object):
     """A ConceptSystem class contains a set of concepts
@@ -29,6 +30,7 @@ class ConceptSystem(object):
 
     def __init__(self, concepts=[]):
         self._concepts = concepts[:]
+        self._parents = None
 
     def __len__(self):
         return len(self._concepts)
@@ -45,14 +47,70 @@ class ConceptSystem(object):
             s = s + "%s\n" % str(c)
         return s[:-1]
 
+    def index(self, concept):
+        return self._concepts.index(concept)
+        
     def append(self, concept):
         if isinstance(concept, Concept):
             self._concepts.append(concept)
         else:
             raise TypeError("concept must be an instance of the Concept class")
+        self._parents = None
+        # TODO: optimize
+        
+    def remove(self, concept):
+        if isinstance(concept, Concept):
+            self._concepts.remove(concept)
+        
+    def compute_covering_relation(self):
+        """Computes covering relation for a given concept system.
 
-    def index(self, concept):
-        return self._concepts.index(concept)
+        Returns a dictionary containing sets of parents for each concept.
+
+        Examples
+        ========
+
+        """
+        cs = self
+        parents = dict([(c, set()) for c in cs])
+
+        for i in xrange(len(cs)):
+            for j in xrange(len(cs)):
+                if cs[i].intent < cs[j].intent:
+                    parents[cs[j]].add(cs[i])
+                    for k in xrange(len(cs)):
+                        if cs[i].intent < cs[k].intent and\
+                           cs[k].intent < cs[j].intent:
+                                parents[cs[j]].remove(cs[i])
+                                break
+        return parents
+
+    def parents(self, concept):
+        if not self._parents:
+            self._parents = self.compute_covering_relation()
+        return self._parents[concept]
+
+    def children(self, concept):
+        return set([c for c in self._concepts if concept in self.parents(c)])
+            
+            
+class ConceptLattice(ConceptSystem):
+
+    def top_concept(self):
+        # TODO: change
+        return [c for c in self._concepts if not self.filter(c)][0]
+
+    def bottom_concept(self):
+        # TODO: change
+        return [c for c in self._concepts if not self.ideal(c)][0]
+
+    def filter(self, concept):
+        # TODO: optimize
+        return [c for c in self._concepts if concept.intent > c.intent]
+
+    def ideal(self, concept):
+        # TODO: optimize
+        return [c for c in self._concepts if c.extent < concept.extent]
 
 
 if __name__ == "__main__":

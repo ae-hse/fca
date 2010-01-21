@@ -14,6 +14,7 @@ fca/algorithms/__init__.py
 fca/algorithms/covering_relation.py
 fca/algorithms/norris.py
 fca/algorithms/scaling.py
+fca/algorithms/stability.py
 fca/readwrite/__init__.py
 fca/readwrite/cxt.py
 fca/readwrite/dot.py

@@ -41,13 +41,13 @@ class Concept(object):
             e = list(self.extent)
             e.sort()
         else:
-            # TODO: Sometimes intent > 0, but extent is G.
+            # TODO: Sometimes |intent| > 0, but extent is G.
             e = "G"
         if len(self.extent) > 0:
             i = list(self.intent)
             i.sort()
         else:
-            # TODO: Sometimes extent > 0, but intent is M.
+            # TODO: Sometimes |extent| > 0, but intent is M.
             i = "M"
         return "(%s, %s)" % (e, i)
 

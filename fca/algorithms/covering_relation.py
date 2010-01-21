@@ -2,8 +2,6 @@
 """Holds a function that computes covering relation for a given concept
 system"""
 
-from fca import *
-
 def compute_covering_relation(cs):
     """Computes covering relation for a given concept system.
     
@@ -12,6 +10,7 @@ def compute_covering_relation(cs):
     Examples
     ========
 
+    >>> from fca import *
     >>> ct = [[True, False, False, True],\
               [True, False, True, False],\
               [False, True, True, False],\

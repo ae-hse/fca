@@ -1,10 +1,11 @@
-#Wed Oct 21 13:43:48 MSD 2009
+#Tue Jan 19 16:31:39 MSK 2010
 eclipse.preferences.version=1
 encoding//fca/__init__.py=utf-8
 encoding//fca/algorithms/__init__.py=utf-8
 encoding//fca/algorithms/covering_relation.py=utf-8
 encoding//fca/algorithms/norris.py=utf-8
 encoding//fca/algorithms/scaling.py=utf-8
+encoding//fca/algorithms/stability.py=utf-8
 encoding//fca/concept.py=utf-8
 encoding//fca/concept_system.py=utf-8
 encoding//fca/context.py=utf-8
