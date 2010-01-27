@@ -8,7 +8,7 @@ class ConceptSystem(object):
     """A ConceptSystem class contains a set of concepts
 
     Emulates container
-    
+
     Examples
     ========
 
@@ -27,10 +27,31 @@ class ConceptSystem(object):
     ([1, 2], ['a', 'b'])
 
     """
+    def get_top_concept(self):
+        # TODO: change
+        return [c for c in self._concepts if not self.filter(c)][0]
+
+    top_concept = property(get_top_concept)
+
+    def get_bottom_concept(self):
+        # TODO: change
+        return [c for c in self._concepts if not self.ideal(c)][0]
+
+    bottom_concept = property(get_bottom_concept)
+
+    def filter(self, concept):
+        # TODO: optimize
+        return [c for c in self._concepts if concept.intent > c.intent]
+
+    def ideal(self, concept):
+        # TODO: optimize
+        return [c for c in self._concepts if c.intent > concept.intent]
 
     def __init__(self, concepts=[]):
         self._concepts = concepts[:]
         self._parents = None
+        self._bottom_concept = None
+        self._top_concept = None
 
     def __len__(self):
         return len(self._concepts)
@@ -49,7 +70,7 @@ class ConceptSystem(object):
 
     def index(self, concept):
         return self._concepts.index(concept)
-        
+
     def append(self, concept):
         if isinstance(concept, Concept):
             self._concepts.append(concept)
@@ -57,11 +78,11 @@ class ConceptSystem(object):
             raise TypeError("concept must be an instance of the Concept class")
         self._parents = None
         # TODO: optimize
-        
+
     def remove(self, concept):
         if isinstance(concept, Concept):
             self._concepts.remove(concept)
-        
+
     def compute_covering_relation(self):
         """Computes covering relation for a given concept system.
 
@@ -92,8 +113,8 @@ class ConceptSystem(object):
 
     def children(self, concept):
         return set([c for c in self._concepts if concept in self.parents(c)])
-            
-            
+
+
 class ConceptLattice(ConceptSystem):
 
     def top_concept(self):
@@ -110,7 +131,7 @@ class ConceptLattice(ConceptSystem):
 
     def ideal(self, concept):
         # TODO: optimize
-        return [c for c in self._concepts if c.extent < concept.extent]
+        return [c for c in self._concepts if c.intent > concept.intent]
 
 
 if __name__ == "__main__":

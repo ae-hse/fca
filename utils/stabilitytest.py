@@ -32,7 +32,7 @@ def main():
         else:
             print "Unknown file extension"
             return
-        
+
         try:
             context = readfunction(path)
         except:
@@ -45,30 +45,30 @@ def main():
         print "Compute extensional stability"
         es = fca.compute_estability(cs)
         out = file(".".join([path, "e-s.txt"]), "w")
-        
+
         l = es.items()
         l.sort(cmp=lambda x,y: cmp(x[1], y[1]), reverse=True)
-        
+
         for concept in [c[0] for c in l]:
             s ="({0} , {1}) {2}\n".format(" ".join(concept.extent), " ".join(concept.intent),
                                         es[concept])
             out.write(s)
         out.close()
-        
+
         print "Compute intensional stability"
         is_ = fca.compute_istability(cs)
         out = file(".".join([path, "i-s.txt"]), "w")
-        
+
         l = is_.items()
         l.sort(cmp=lambda x,y: cmp(x[1], y[1]), reverse=True)
-        
+
         for concept in [c[0] for c in l]:
             s ="({0} , {1}) {2}\n".format(" ".join(concept.extent), " ".join(concept.intent),
                                         is_[concept])
             out.write(s)
         out.close()
         print "End"
-        
+
 
 if __name__ == '__main__':
 	main()

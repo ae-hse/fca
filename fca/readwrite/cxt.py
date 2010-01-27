@@ -4,7 +4,7 @@
 import fca
 
 def read_cxt(path):
-    """Read context from path, which is .cxt file 
+    """Read context from path, which is .cxt file
 
     Format
     ======
@@ -12,10 +12,10 @@ def read_cxt(path):
     Example of .cxt file (tests/context.cxt):
 
     B
-    
+
     4
     4
-    
+
     Obj 1
     Obj 2
     Obj 3
@@ -54,7 +54,7 @@ def read_cxt(path):
     Traceback (most recent call last):
         ...
     AssertionError: File is not valid cxt
-    
+
     """
     input_file = open(path, "r")
     assert input_file.readline().strip() == "B",\
@@ -75,7 +75,30 @@ def read_cxt(path):
     input_file.close()
 
     return fca.Context(table, objects, attributes)
-    
+
+
+def write_cxt(context, path):
+    output_file = open(path, "w")
+    output_file.write("B\n\n")
+
+    output_file.write(str(len(context.objects))+"\n")
+    output_file.write(str(len(context.attributes))+"\n\n")
+
+    for i in xrange(len(context.objects)):
+        output_file.write(context.objects[i])
+        output_file.write("\n")
+
+    for i in xrange(len(context.attributes)):
+        output_file.write(context.attributes[i])
+        output_file.write("\n")
+
+    cross = {True : "X", False : "."}
+    for i in xrange(len(context.objects)):
+        output_file.write("".join([cross[b] for b in context[i]]))
+        output_file.write("\n")
+
+    output_file.close()
+
 
 if __name__ == "__main__":
     import doctest
