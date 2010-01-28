@@ -12,7 +12,6 @@
 #!/usr/bin/env python
 
 import sys
-import os
 
 from random import random
 
@@ -32,7 +31,7 @@ def main():
     print "*******************************"
 
     if len(sys.argv) == 1:
-	    return
+        return
 
     path = sys.argv[1]
     objects_len = int(sys.argv[2])
@@ -45,4 +44,4 @@ def main():
     print "done"
 
 if __name__ == '__main__':
-	main()
+    main()

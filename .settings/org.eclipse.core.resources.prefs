@@ -1,4 +1,4 @@
-#Tue Jan 19 16:31:39 MSK 2010
+#Thu Jan 28 23:05:13 MSK 2010
 eclipse.preferences.version=1
 encoding//fca/__init__.py=utf-8
 encoding//fca/algorithms/__init__.py=utf-8
@@ -16,5 +16,7 @@ encoding//fca/readwrite/dot.py=utf-8
 encoding//fca/readwrite/tab_separated.py=utf-8
 encoding//fca/readwrite/xml_.py=utf-8
 encoding//fca/scale.py=utf-8
+encoding//utils/contextgenerator.py=utf-8
+encoding//utils/stabilitytest.py=utf-8
 encoding/<project>=UTF-8
 encoding/setup.py=utf-8

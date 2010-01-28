@@ -17,7 +17,7 @@ def main():
     print "* stabilitytest 2010-01-21 *"
     print "****************************"
     if len(sys.argv) == 1:
-	    return
+        return
     path = sys.argv[1]
     if not os.path.exists(path):
         print "File does not exist: \"%s\"" % path
@@ -71,4 +71,4 @@ def main():
 
 
 if __name__ == '__main__':
-	main()
+    main()
