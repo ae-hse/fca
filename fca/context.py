@@ -45,7 +45,7 @@ class Context(object):
 
     Usage of examples.
 
-    >>> c.get_object_intent(1)
+    >>> c.get_object_intent_by_index(1)
     set(['a', 'c'])
     >>> for ex in c.examples():
     ...     print ex
@@ -94,12 +94,26 @@ class Context(object):
             attrs_indexes = filter(lambda i: obj[i], range(len(obj)))
             yield set([self.attributes[i] for i in attrs_indexes])
 
-    def get_object_intent(self, i):
+    def get_object_intent_by_index(self, i):
         """Return a set of corresponding attributes for row with index i"""
         # TODO: !!! Very inefficient. Avoid using
         attrs_indexes = filter(lambda j: self._table[i][j],
                 range(len(self._table[i])))
         return set([self.attributes[i] for i in attrs_indexes])
+    
+    def get_object_intent(self, o):
+        index = self._objects.index(o)
+        return self.get_object_intent_by_index(index)
+    
+    def get_attribute_extent_by_index(self, j):
+        """Return a set of corresponding objects for column with index i"""
+        objs_indexes = filter(lambda i: self._table[i][j],
+                range(len(self._table)))
+        return set([self.objects[i] for i in objs_indexes])
+    
+    def get_attribute_extent(self, a):
+        index = self._attributes.index(a)
+        return self.get_attribute_extent_by_index(index)
     
     def add_column(self, col, attr_name):
         """Add new column to cross table with given attribute name"""
