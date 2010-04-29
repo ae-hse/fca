@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conceptsystem>
+	<objects>
+		<object id="o1">
+			Obj 2
+		</object>
+		<object id="o2">
+			Obj 3
+		</object>
+		<object id="o3">
+			Obj 1
+		</object>
+		<object id="o4">
+			Obj 4
+		</object>
+	</objects>
+	<attributes>
+		<attribute id="a1">
+			a
+		</attribute>
+		<attribute id="a2">
+			c
+		</attribute>
+		<attribute id="a3">
+			b
+		</attribute>
+		<attribute id="a4">
+			d
+		</attribute>
+	</attributes>
+	<concepts>
+		<concept>
+			<extent/>
+			<intent>
+				<attribute ref="a1"/>
+				<attribute ref="a2"/>
+				<attribute ref="a3"/>
+				<attribute ref="a4"/>
+			</intent>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o3"/>
+			</extent>
+			<intent>
+				<attribute ref="a1"/>
+				<attribute ref="a4"/>
+			</intent>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o1"/>
+			</extent>
+			<intent>
+				<attribute ref="a1"/>
+				<attribute ref="a2"/>
+			</intent>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o1"/>
+				<object ref="o3"/>
+			</extent>
+			<intent>
+				<attribute ref="a1"/>
+			</intent>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o2"/>
+				<object ref="o4"/>
+			</extent>
+			<intent>
+				<attribute ref="a2"/>
+				<attribute ref="a3"/>
+			</intent>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o1"/>
+				<object ref="o2"/>
+				<object ref="o4"/>
+			</extent>
+			<intent>
+				<attribute ref="a2"/>
+			</intent>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o1"/>
+				<object ref="o2"/>
+				<object ref="o3"/>
+				<object ref="o4"/>
+			</extent>
+			<intent/>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o4"/>
+			</extent>
+			<intent>
+				<attribute ref="a2"/>
+				<attribute ref="a3"/>
+				<attribute ref="a4"/>
+			</intent>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o3"/>
+				<object ref="o4"/>
+			</extent>
+			<intent>
+				<attribute ref="a4"/>
+			</intent>
+		</concept>
+	</concepts>
+</conceptsystem>

@@ -1,9 +1,79 @@
 # -*- coding: utf-8 -*-
 """Holds functions that read a concept system from .xml file"""
 
+from xml.dom.minidom import getDOMImplementation
 import xml.parsers.expat
 
 import fca
+
+def write_xml(path, cs):
+    """Write concept system to xml document
+    
+    Examples
+    ========
+    
+    >>> c = fca.read_cxt('tests/context.cxt')
+    >>> cs = fca.norris(c)
+    >>> write_xml("tests/test.xml", cs)
+    """
+    objects = list(cs.get_top_concept().extent)
+    attributes = list(cs.get_bottom_concept().intent)
+    
+    objects_ids = dict([(objects[i], "o{0}".format(i+1))  for i in xrange(len(objects))])
+    attributes_ids = dict([(attributes[i], "a{0}".format(i+1))  for i in xrange(len(attributes))])
+    
+    out = file(path, "wb")
+
+    impl = getDOMImplementation()
+
+    newdoc = impl.createDocument(None, "conceptsystem", None)
+    top_element = newdoc.documentElement
+    
+    element = newdoc.createElement("objects")
+    for obj in objects:
+        obj_element = newdoc.createElement("object")
+        obj_element.setAttribute("id", objects_ids[obj])
+        textnode = newdoc.createTextNode(obj)
+        obj_element.appendChild(textnode)
+        element.appendChild(obj_element)
+    top_element.appendChild(element)
+    
+    element = newdoc.createElement("attributes")
+    for attr in attributes:
+        attr_element = newdoc.createElement("attribute")
+        attr_element.setAttribute("id", attributes_ids[attr])
+        textnode = newdoc.createTextNode(attr)
+        attr_element.appendChild(textnode)
+        element.appendChild(attr_element)
+    top_element.appendChild(element)
+    
+    element = newdoc.createElement("concepts")
+    for concept in cs:
+        c_element = newdoc.createElement("concept")
+        
+        e_element = newdoc.createElement("extent")
+        for obj in concept.extent:
+            obj_element = newdoc.createElement("object")
+            obj_element.setAttribute("ref", objects_ids[obj])
+            e_element.appendChild(obj_element)
+            
+        c_element.appendChild(e_element)
+        
+        i_element = newdoc.createElement("intent")
+        for attr in concept.intent:
+            attr_element = newdoc.createElement("attribute")
+            attr_element.setAttribute("ref", attributes_ids[attr])
+            i_element.appendChild(attr_element)
+            
+        c_element.appendChild(i_element)
+        
+        element.appendChild(c_element)
+        
+    top_element.appendChild(element)
+    
+    newdoc.writexml(out, indent="\n", addindent="\t", encoding="UTF-8")
+    out.close()
+
 
 def read_xml(path):
     """Read concept system from valid xml file.
