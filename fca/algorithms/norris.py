@@ -10,7 +10,7 @@ def derivation(context, extent=0, intent=0):
     if intent==0 applied to extent
 
     TODO: May be move to context module
-    TODO: A lof of lines, rewrite shorter
+    TODO: A lot of lines, rewrite shorter
     TODO: !!! Seems to be useless in this module
 
     Examples

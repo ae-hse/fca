@@ -34,6 +34,7 @@ class Concept(object):
         """Initialize a concept with given extent and intent """
         self.extent = set(extent)
         self.intent = set(intent)
+        self.meta = {}
 
     def __str__(self):
         """Return a string representation of a concept"""
@@ -49,7 +50,7 @@ class Concept(object):
         else:
             # TODO: Sometimes |extent| > 0, but intent is M.
             i = "M"
-        return "(%s, %s)" % (e, i)
+        return "({0}, {1}) meta: {2}".format(e, i, self.meta)
 
 
 if __name__ == "__main__":
