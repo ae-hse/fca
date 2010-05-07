@@ -66,6 +66,12 @@ def write_xml(path, cs):
             i_element.appendChild(attr_element)
             
         c_element.appendChild(i_element)
+            
+        m_element = newdoc.createElement("meta")
+        for key in concept.meta.keys():
+            m_element.setAttribute(key.replace(" ", "_"), str(concept.meta[key]))
+            
+        c_element.appendChild(m_element)
         
         element.appendChild(c_element)
         
@@ -103,10 +109,11 @@ def read_xml(path):
     
     new_intent = []
     new_extent = []
+    new_meta = {}
     
     def start_element(name, attrs):
         global new_obj, new_attr
-        global new_extent, new_intent
+        global new_extent, new_intent, new_meta
         if name == "object":
             if "id" in attrs.keys():
                 new_obj = attrs["id"]
@@ -117,16 +124,24 @@ def read_xml(path):
                 new_attr = attrs["id"]
             elif "ref" in attrs.keys():
                 new_intent.append(d_attributes[attrs["ref"]])
+        elif name == "meta":
+            for key in attrs.keys():
+                new_meta[key.replace("_", " ")] = float(attrs[key])
         elif name == "concept":
             new_intent = []
             new_extent = []
+            new_meta = {}
         
     def end_element(name):
-        global cs, new_intent, new_extent
+        global cs, new_intent, new_extent, new_meta
         if name == "concept":
-            cs.append(fca.Concept(new_extent, new_intent))
+            new_concept = fca.Concept(new_extent, new_intent)
+            new_concept.meta = new_meta
+            cs.append(new_concept)
+            
             new_extent = []
             new_intent = []
+            new_meta = {}
     
     def char_data(data):
         if data[0] == "\n":

@@ -47,6 +47,9 @@ def filter_concepts(lattice, context, mode, part=1):
         indexes = cross.compute_cross_index(lattice, context)
     elif mode == "probability":
         indexes = probability.compute_probability(lattice, context)
+    else:
+        print "No such mode"
+        return
     if indexes:
         return _filter(lattice, indexes, part)
     
