@@ -11,18 +11,13 @@ class ConceptSystem(object):
 
     Examples
     ========
-
-    >>> cs = ConceptSystem()
+    
     >>> c = Concept([1, 2], ['a', 'b'])
-    >>> cs.append(c)
+    >>> cs = ConceptSystem([c])
     >>> c in cs
     True
     >>> Concept([1], ['c']) in cs
     False
-    >>> cs.append(3.1415926535897931)
-    Traceback (most recent call last):
-        ...
-    TypeError: concept must be an instance of the Concept class
     >>> print cs
     ([1, 2], ['a', 'b'])
 
@@ -72,6 +67,8 @@ class ConceptSystem(object):
         return self._concepts.index(concept)
 
     def append(self, concept):
+        """Deprecated"""
+        print "Deprecated"
         if isinstance(concept, Concept):
             self._concepts.append(concept)
         else:
@@ -80,6 +77,8 @@ class ConceptSystem(object):
         # TODO: optimize
 
     def remove(self, concept):
+        """Deprecated"""
+        print "Deprecated"
         if isinstance(concept, Concept):
             self._concepts.remove(concept)
 
@@ -113,25 +112,6 @@ class ConceptSystem(object):
 
     def children(self, concept):
         return set([c for c in self._concepts if concept in self.parents(c)])
-
-
-class ConceptLattice(ConceptSystem):
-
-    def top_concept(self):
-        # TODO: change
-        return [c for c in self._concepts if not self.filter(c)][0]
-
-    def bottom_concept(self):
-        # TODO: change
-        return [c for c in self._concepts if not self.ideal(c)][0]
-
-    def filter(self, concept):
-        # TODO: optimize
-        return [c for c in self._concepts if concept.intent > c.intent]
-
-    def ideal(self, concept):
-        # TODO: optimize
-        return [c for c in self._concepts if c.intent > concept.intent]
 
 
 if __name__ == "__main__":

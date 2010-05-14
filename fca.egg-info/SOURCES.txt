@@ -12,11 +12,13 @@ fca.egg-info/dependency_links.txt
 fca.egg-info/top_level.txt
 fca/algorithms/__init__.py
 fca/algorithms/covering_relation.py
-fca/algorithms/cross.py
 fca/algorithms/norris.py
-fca/algorithms/probability.py
 fca/algorithms/scaling.py
-fca/algorithms/stability.py
+fca/algorithms/filtering/__init__.py
+fca/algorithms/filtering/cross.py
+fca/algorithms/filtering/filter.py
+fca/algorithms/filtering/probability.py
+fca/algorithms/filtering/stability.py
 fca/readwrite/__init__.py
 fca/readwrite/cxt.py
 fca/readwrite/dot.py

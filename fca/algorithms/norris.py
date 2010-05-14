@@ -120,8 +120,8 @@ def norris(context):
     examples = []
     for ex in context.examples():
         examples.append(ex)
-
-    cs = ConceptSystem([Concept([], context.attributes)])
+    
+    cs = [Concept([], context.attributes)]
     for i in xrange(len(context)):
         for c in cs:
             if c.intent.issubset(examples[i]):
@@ -137,7 +137,7 @@ def norris(context):
                 if new:
                     cs.append(Concept(set([context.objects[i]]) | c.extent,
                         new_intent))
-    return cs
+    return ConceptSystem(cs)
 
 
 if __name__ == "__main__":

@@ -115,12 +115,21 @@ class Context(object):
         index = self._attributes.index(a)
         return self.get_attribute_extent_by_index(index)
     
-    def add_column(self, col, attr_name):
-        """Add new column to cross table with given attribute name"""
+    def add_attribute(self, col, attr_name):
+        """Add new attribute to context with given name"""
         for i in range(len(self._objects)):
             self._table[i].append(col[i])
         self._attributes.append(attr_name)
 
+    def add_column(self, col, attr_name):
+        """Deprecated. Use add_attribute."""
+        print "Deprecated. Use add_attribute."
+        self.add_attribute(col, attr_name)
+
+    def add_object(self, row, obj_name):
+        """Add new object to context with given name"""
+        self._table.append(row)
+        self._objects.append(obj_name)
 
     ############################
     # Emulating container type #
