@@ -10,13 +10,15 @@ from __future__ import division
 
 from copy import deepcopy
 
+from fca import ConceptSystem
+
 
 def compute_istability(lattice):
     """
     Examples
     ========
 
-    >>> from fca import norris, Context
+    >>> from fca import Context, ConceptLattice
     >>> ct = [[True, False, False, True],\
               [True, False, True, False],\
               [False, True, True, False],\
@@ -24,12 +26,12 @@ def compute_istability(lattice):
     >>> objs = [1, 2, 3, 4]
     >>> attrs = ['a', 'b', 'c', 'd']
     >>> c = Context(ct, objs, attrs)
-    >>> cs = norris(c)
-    >>> st = compute_istability(cs)
+    >>> cl = ConceptLattice(c)
+    >>> st = compute_estability(cl)
     >>> print st
 
     """
-    concepts = deepcopy(lattice)
+    concepts = ConceptSystem(lattice)
     count = {}
     subsets = {}
     stability = {}
@@ -57,7 +59,7 @@ def compute_estability(lattice):
     Examples
     ========
 
-    >>> from fca import norris, Context
+    >>> from fca import ConceptLattice, Context
     >>> ct = [[True, False, False, True],\
               [True, False, True, False],\
               [False, True, True, False],\
@@ -65,13 +67,13 @@ def compute_estability(lattice):
     >>> objs = [1, 2, 3, 4]
     >>> attrs = ['a', 'b', 'c', 'd']
     >>> c = Context(ct, objs, attrs)
-    >>> cs = norris(c)
-    >>> st = compute_estability(cs)
+    >>> cl = ConceptLattice(c)
+    >>> st = compute_estability(cl)
     >>> print st
 
     """
 
-    concepts = deepcopy(lattice)
+    concepts = ConceptSystem(lattice)
     count = {}
     subsets = {}
     stability = {}

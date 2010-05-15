@@ -5,7 +5,7 @@ Created on 12.02.2010
 """
 from math import exp, log
 
-def compute_probability(lattice, context):
+def compute_probability(lattice):
     
     def get_intent_probability(B, p_m, n):
         ans = 0
@@ -54,6 +54,7 @@ def compute_probability(lattice, context):
             ans += log(p_m[attr])
         return ans
 
+    context = lattice.context
     n = len(context)
     p_m = {}
     for attr in context.attributes:
@@ -74,7 +75,7 @@ def compute_probability(lattice, context):
 
 if __name__ == '__main__':
     # Test code
-    from fca import norris, Context
+    from fca import ConceptLattice, Context
     
     ct = [[True, False, False, True],\
           [True, False, True, False],\
@@ -83,6 +84,6 @@ if __name__ == '__main__':
     objs = [1, 2, 3, 4]
     attrs = ['a', 'b', 'c', 'd']
     c = Context(ct, objs, attrs)
-    cs = norris(c)
-    ci = compute_probability(cs, c)
+    cs = ConceptLattice(c)
+    ci = compute_probability(cs)
     print ci

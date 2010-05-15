@@ -3,7 +3,9 @@
 Holds class for many valued context
 """
 
-class ManyValuedContext(object):
+from fca import Context
+
+class ManyValuedContext(Context):
     """
     Many valued context.
 

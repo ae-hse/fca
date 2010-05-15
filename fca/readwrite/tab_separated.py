@@ -93,17 +93,23 @@ def read_mv_txt(path):
     >>> for o in c:
     ...     print o
     ...
-    ['5', '6', '7']
+    ['7', '6', '7']
     ['7', '2', '9']
-    ['7', '3', '4']
+    ['1', '3', '4']
     >>> print c.objects
-    ['g1', 'g2', 'g3']
+    ['obj1', 'obj2', 'obj3']
     >>> print c.attributes
     ['attr1', 'attr2', 'attr3']
 
     """
     input_file = open(path, "rb")
     rdr = csv.reader(input_file, delimiter="\t")
+    rec = rdr.next() # read objects names
+    
+    objects = []
+    for obj in rec:
+        objects.append(str(obj).strip())
+    
     rec = rdr.next() # read attributes names
 
     attributes = []
@@ -119,18 +125,31 @@ def read_mv_txt(path):
             line.append(num)
         table.append(line)
     input_file.close()
-    # i + 1 ? 
-    objects = ["".join(["g", str(i + 1)]) for i in range(len(table))]
 
     # TODO: It's hack
     # Strange things happen with csv in case some of "non standard" characters
     if len(attributes) != len(table[0]):
         input_file = open(path, "rb")
         attributes = input_file.readline().split("\t")[:-1]
+        objects = input_file.readline().split("\t")[:-1]
         input_file.close()
 
     return fca.ManyValuedContext(table, objects, attributes)
-    
+
+def write_mv_txt(context, path):
+    output_file = open(path, "w")
+
+    output_file.write("\t".join(context.objects))
+    output_file.write("\n")
+
+    output_file.write("\t".join(context.attributes))
+    output_file.write("\n\n")
+
+    for i in xrange(len(context.objects)):
+        output_file.write("\t".join([str(spam) for spam in context[i]]))
+        output_file.write("\n")
+
+    output_file.close()
 
 if __name__ == "__main__":
     import doctest

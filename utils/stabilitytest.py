@@ -40,7 +40,7 @@ def main():
             raise
         print "Context loaded. Objects: {0}. Attributes: {1}".format(len(context.objects),
                                                                      len(context.attributes))
-        cs = fca.norris(context)
+        cs = fca.norris(context)[0]
         print "{0} concepts".format(len(cs))
         print "Compute extensional stability"
         es = fca.compute_estability(cs)

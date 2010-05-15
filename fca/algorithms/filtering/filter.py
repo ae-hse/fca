@@ -1,61 +1,72 @@
 import fca
 
-import cross
+import separation
 import probability
 import stability
 
-def filter_concepts(lattice, context, mode, part=1):
-    """Return new lattice containing at least len(lattice)*part concepts
-     plus some concepts with almost equal to "worthiest" concepts index value
-     according to the filtering mode.
+def compute_index(lattice, function, name):
+    indexes = function(lattice)
+    print indexes
+    
+    for concept in indexes.items():
+        if concept[0].meta:
+            concept[0].meta[name] = concept[1]
+        else:
+            concept[0].meta = {name : concept[1]}
+
+def filter_concepts(lattice, function, mode, opt=1):
+    """Return new concept system, filtered by function according to the mode.
     
     Modes:
-    --- "intensional stability"
-    --- "extensional stability"
-    --- "cross"
-    --- "probability"
+    --- "part" - part of initial concept lattice
+    --- "abs" - absolute value of the concepts in resulting concept system
+    --- "value" - value of the index
     
     Additionaly add attribute, containing inforamtion about indexes, to the new lattice
     """
-    def _filter(lattice, indexes, part):
-        n = int(len(lattice) * part)
+    def _filter_value(lattice, indexes, value):
+        filtered_concepts = [item for item in indexes.items() if item[1]>=value]
+        return fca.ConceptSystem([c[0] for c in filtered_concepts])
+    
+    def _filter_abs(lattice, indexes, n):
         cmp_ = lambda x,y: cmp(x[1], y[1])
-        sorted_indexes = dict(sorted(indexes.items(), cmp_, reverse=True))
-        filtered_concepts = sorted_indexes.items()[:n]
-        
-        values = sorted_indexes.values()
-        eps = values[n-2]-values[n-1]
-        
-        other_concepts = sorted_indexes.items()[n:]
-        for concept in other_concepts:
-            if abs(concept[1] - values[n]) < eps:
-                filtered_concepts.append(concept)
-                
-        for concept in filtered_concepts:
-            if concept[0].meta:
-                concept[0].meta[mode] = concept[1]
-            else:
-                concept[0].meta = {mode : concept[1]}
+        sorted_indexes = sorted(indexes.items(), cmp_, reverse=True)
+        filtered_concepts = sorted_indexes[:n]
             
         return fca.ConceptSystem([c[0] for c in filtered_concepts])
     
-    if mode == "intensional stability":
-        indexes = stability.compute_istability(lattice)
-    elif mode == "extensional stability":
-        indexes = stability.compute_estability(lattice)
-    elif mode == "cross":
-        indexes = cross.compute_cross_index(lattice, context)
-    elif mode == "probability":
-        indexes = probability.compute_probability(lattice, context)
-    else:
-        print "No such mode"
-        return
+    def _filter_part(lattice, indexes, part):
+        n = int(len(lattice) * part)
+        cmp_ = lambda x,y: cmp(x[1], y[1])
+        sorted_indexes = sorted(indexes.items(), cmp_, reverse=True)
+        filtered_concepts = sorted_indexes[:n]
+        
+        values = sorted_indexes
+        eps = values[n-2][1]-values[n-1][1]
+        
+        other_concepts = sorted_indexes[n:]
+        for concept in other_concepts:
+            if abs(concept[1] - values[n][1]) < eps:
+                filtered_concepts.append(concept)
+            
+        return fca.ConceptSystem([c[0] for c in filtered_concepts])
+    
+    indexes = function(lattice)
     if indexes:
-        return _filter(lattice, indexes, part)
+        if mode == "part":
+            ret = _filter_part(lattice, indexes, opt)
+        elif mode == "abs":
+            ret = _filter_abs(lattice, indexes, opt)
+        elif mode == "value":
+            ret = _filter_value(lattice, indexes, opt)
+    return ret
     
 if __name__ == '__main__':
     # Test code
-    from fca import norris, Context
+    from fca import ConceptLattice, Context
+    from probability import compute_probability
+    from stability import (compute_estability, compute_istability)
+    from separation import compute_separation_index
     
     ct = [[True, False, False, True],\
           [True, False, True, False],\
@@ -64,9 +75,11 @@ if __name__ == '__main__':
     objs = [1, 2, 3, 4]
     attrs = ['a', 'b', 'c', 'd']
     c = Context(ct, objs, attrs)
-    cs = norris(c)
-    l = filter_concepts(cs, c, "intensional stability")
-    l = filter_concepts(l, c, "extensional stability")
-    l = filter_concepts(l, c, "cross")
-    l = filter_concepts(l, c, "probability")
-    print l
+    cl = ConceptLattice(c)
+#    compute_index(cl, compute_probability, "Probability")
+#    cs = filter_concepts(cl, compute_probability, "abs", 4)
+#    compute_index(cl, compute_separation_index, "Separation")
+#    cs = filter_concepts(cl, compute_probability, "value", 0.5)
+    compute_index(cl, compute_istability, "Intensional Stability")
+    cs = filter_concepts(cl, compute_istability, "part", 0.3)
+    print cs

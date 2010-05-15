@@ -67,8 +67,6 @@ class ConceptSystem(object):
         return self._concepts.index(concept)
 
     def append(self, concept):
-        """Deprecated"""
-        print "Deprecated"
         if isinstance(concept, Concept):
             self._concepts.append(concept)
         else:
@@ -77,8 +75,6 @@ class ConceptSystem(object):
         # TODO: optimize
 
     def remove(self, concept):
-        """Deprecated"""
-        print "Deprecated"
         if isinstance(concept, Concept):
             self._concepts.remove(concept)
 

@@ -137,7 +137,30 @@ def norris(context):
                 if new:
                     cs.append(Concept(set([context.objects[i]]) | c.extent,
                         new_intent))
-    return ConceptSystem(cs)
+    return (cs, compute_covering_relation(cs))
+
+
+def compute_covering_relation(cs):
+        """Computes covering relation for a given concept system.
+
+        Returns a dictionary containing sets of parents for each concept.
+
+        Examples
+        ========
+
+        """
+        parents = dict([(c, set()) for c in cs])
+
+        for i in xrange(len(cs)):
+            for j in xrange(len(cs)):
+                if cs[i].intent < cs[j].intent:
+                    parents[cs[j]].add(cs[i])
+                    for k in xrange(len(cs)):
+                        if cs[i].intent < cs[k].intent and\
+                           cs[k].intent < cs[j].intent:
+                                parents[cs[j]].remove(cs[i])
+                                break
+        return parents
 
 
 if __name__ == "__main__":

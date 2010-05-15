@@ -65,7 +65,7 @@ class Context(object):
         if len(cross_table) != len(objects):
             raise ValueError("Number of objects (=%i) and number of cross table"
                    " rows(=%i) must agree" % (len(objects), len(cross_table)))
-        elif len(cross_table[0]) != len(attributes):
+        elif (len(cross_table) != 0) and len(cross_table[0]) != len(attributes):
             raise ValueError("Number of attributes (=%i) and number of cross table"
                     " columns (=%i) must agree" % (len(attributes),
                         len(cross_table[0])))
@@ -130,6 +130,15 @@ class Context(object):
         """Add new object to context with given name"""
         self._table.append(row)
         self._objects.append(obj_name)
+        
+    def delete_object(self, obj_index):
+        del self._table[obj_index]
+        del self._objects[obj_index]
+    
+    def delete_attribute(self, attr_index):
+        for i in range(len(self._objects)):
+            del self._table[i][attr_index]
+        del self._attributes[attr_index]
 
     ############################
     # Emulating container type #

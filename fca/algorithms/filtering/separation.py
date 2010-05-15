@@ -5,7 +5,8 @@ Created on 12.02.2010
 """
 from __future__ import division
 
-def compute_cross_index(lattice, context):
+def compute_separation_index(lattice):
+    context = lattice.context
     cross_index = {}
     
     for c in lattice:
@@ -27,7 +28,7 @@ def compute_cross_index(lattice, context):
     return cross_index
 
 if __name__ == '__main__':
-    from fca import norris, Context
+    from fca import ConceptLattice, Context
     
     ct = [[True, False, False, True],\
           [True, False, True, False],\
@@ -36,6 +37,6 @@ if __name__ == '__main__':
     objs = [1, 2, 3, 4]
     attrs = ['a', 'b', 'c', 'd']
     c = Context(ct, objs, attrs)
-    cs = norris(c)
-    ci = compute_cross_index(cs, c)
+    cl = ConceptLattice(c)
+    ci = compute_separation_index(cl)
     print ci

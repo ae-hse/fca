@@ -1,3 +1,4 @@
+obj1	obj2	obj3
 attr1	attr2	attr3
 
 7	6	7
