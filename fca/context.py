@@ -54,7 +54,7 @@ class Context(object):
     set(['a', 'd'])
     """
 
-    def __init__(self, cross_table, objects, attributes):
+    def __init__(self, cross_table=[], objects=[], attributes=[]):
         """Create a context from cross table and list of objects, list
         of attributes
         

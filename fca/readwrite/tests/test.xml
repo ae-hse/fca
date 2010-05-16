@@ -30,6 +30,36 @@
 	</attributes>
 	<concepts>
 		<concept>
+			<extent/>
+			<intent>
+				<attribute ref="a1"/>
+				<attribute ref="a2"/>
+				<attribute ref="a3"/>
+				<attribute ref="a4"/>
+			</intent>
+			<meta/>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o3"/>
+			</extent>
+			<intent>
+				<attribute ref="a1"/>
+				<attribute ref="a4"/>
+			</intent>
+			<meta/>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o1"/>
+			</extent>
+			<intent>
+				<attribute ref="a1"/>
+				<attribute ref="a2"/>
+			</intent>
+			<meta/>
+		</concept>
+		<concept>
 			<extent>
 				<object ref="o1"/>
 				<object ref="o3"/>
@@ -37,7 +67,18 @@
 			<intent>
 				<attribute ref="a1"/>
 			</intent>
-			<meta cross="0.5" extensional_stability="0.5" probability="0.25611782074"/>
+			<meta/>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o2"/>
+				<object ref="o4"/>
+			</extent>
+			<intent>
+				<attribute ref="a2"/>
+				<attribute ref="a3"/>
+			</intent>
+			<meta/>
 		</concept>
 		<concept>
 			<extent>
@@ -48,48 +89,7 @@
 			<intent>
 				<attribute ref="a2"/>
 			</intent>
-			<meta cross="0.428571428571" extensional_stability="0.5" probability="0.638182640076"/>
-		</concept>
-		<concept>
-			<extent>
-				<object ref="o4"/>
-			</extent>
-			<intent>
-				<attribute ref="a2"/>
-				<attribute ref="a3"/>
-				<attribute ref="a4"/>
-			</intent>
-			<meta cross="0.428571428571" extensional_stability="0.375" probability="0.325484275818"/>
-		</concept>
-		<concept>
-			<extent/>
-			<intent>
-				<attribute ref="a1"/>
-				<attribute ref="a2"/>
-				<attribute ref="a3"/>
-				<attribute ref="a4"/>
-			</intent>
-			<meta cross="1.0" extensional_stability="0.3125" probability="1.0"/>
-		</concept>
-		<concept>
-			<extent>
-				<object ref="o1"/>
-			</extent>
-			<intent>
-				<attribute ref="a1"/>
-				<attribute ref="a2"/>
-			</intent>
-			<meta cross="0.4" extensional_stability="0.25" probability="0.395264625549"/>
-		</concept>
-		<concept>
-			<extent>
-				<object ref="o3"/>
-				<object ref="o4"/>
-			</extent>
-			<intent>
-				<attribute ref="a4"/>
-			</intent>
-			<meta cross="0.4" extensional_stability="0.5" probability="0.25611782074"/>
+			<meta/>
 		</concept>
 		<concept>
 			<extent>
@@ -99,28 +99,28 @@
 				<object ref="o4"/>
 			</extent>
 			<intent/>
-			<meta cross="1.0" extensional_stability="1.0" probability="0.563263893127"/>
+			<meta/>
 		</concept>
 		<concept>
 			<extent>
-				<object ref="o3"/>
-			</extent>
-			<intent>
-				<attribute ref="a1"/>
-				<attribute ref="a4"/>
-			</intent>
-			<meta cross="0.5" extensional_stability="0.25" probability="0.148163795471"/>
-		</concept>
-		<concept>
-			<extent>
-				<object ref="o2"/>
 				<object ref="o4"/>
 			</extent>
 			<intent>
 				<attribute ref="a2"/>
 				<attribute ref="a3"/>
+				<attribute ref="a4"/>
 			</intent>
-			<meta cross="0.666666666667" extensional_stability="0.5" probability="0.395264625549"/>
+			<meta/>
+		</concept>
+		<concept>
+			<extent>
+				<object ref="o3"/>
+				<object ref="o4"/>
+			</extent>
+			<intent>
+				<attribute ref="a4"/>
+			</intent>
+			<meta/>
 		</concept>
 	</concepts>
 </conceptsystem>

@@ -43,7 +43,7 @@ class ManyValuedContext(Context):
     [1, 2, 3, 1]
     """
 
-    def __init__(self, table, objects, attributes):
+    def __init__(self, table=[], objects=[], attributes=[]):
         """Create a many valued context from table and list of objects, list
         of attributes
         
@@ -54,7 +54,7 @@ class ManyValuedContext(Context):
         if len(table) != len(objects):
             raise ValueError("Number of objects (=%i) and number of cross table"
                    " rows(=%i) must agree" % (len(objects), len(table)))
-        elif len(table[0]) != len(attributes):
+        elif (len(table) != 0) and len(table[0]) != len(attributes):
             raise ValueError("Number of attributes (=%i) and number of cross table"
                     " columns (=%i) must agree" % (len(attributes),
                         len(table[0])))

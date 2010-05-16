@@ -12,8 +12,9 @@ def write_xml(path, cs):
     Examples
     ========
     
+    >>> from fca import ConceptLattice
     >>> c = fca.read_cxt('tests/context.cxt')
-    >>> cs = fca.norris(c)
+    >>> cs = ConceptLattice(c)
     >>> write_xml("tests/test.xml", cs)
     """
     objects = list(cs.get_top_concept().extent)
@@ -89,9 +90,9 @@ def read_xml(path):
     
     >>> cs = read_xml('tests/concepts.xml')
     >>> print cs
-    (["u'obj1'", "u'obj2'", "u'obj3'"], ["u'attr1'"])
-    (["u'obj2'", "u'obj3'"], ["u'attr1'", "u'attr2'"])
-    (["u'obj1'"], ["u'attr1'", "u'attr3'"])
+    (['obj1', 'obj2', 'obj3'], ['attr1'])
+    (['obj2', 'obj3'], ['attr1', 'attr2'])
+    (['obj1'], ['attr1', 'attr3'])
     ([], M)
     """
     global new_obj, new_attr, cs
@@ -149,12 +150,12 @@ def read_xml(path):
         data = data.strip()
         global new_obj, new_attr
         if new_obj:
-            d_objects[new_obj] = repr(data)
-            objects.append(repr(data))
+            d_objects[new_obj] = str(data)
+            objects.append(str(data))
             new_obj = None
         elif new_attr:
-            d_attributes[new_attr] = repr(data)
-            attributes.append(repr(data))
+            d_attributes[new_attr] = str(data)
+            attributes.append(str(data))
             new_attr = None
     
     p = xml.parsers.expat.ParserCreate()
