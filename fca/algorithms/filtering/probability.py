@@ -51,7 +51,10 @@ def compute_probability(lattice):
     def log_subset_probability(subset, p_m):
         ans = 0
         for attr in subset:
-            ans += log(p_m[attr])
+            try:
+                ans += log(p_m[attr])
+            except:
+                pass
         return ans
 
     context = lattice.context

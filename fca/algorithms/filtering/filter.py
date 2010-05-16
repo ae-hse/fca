@@ -6,7 +6,6 @@ import stability
 
 def compute_index(lattice, function, name):
     indexes = function(lattice)
-    print indexes
     
     for concept in indexes.items():
         if concept[0].meta:
@@ -31,7 +30,7 @@ def filter_concepts(lattice, function, mode, opt=1):
     def _filter_abs(lattice, indexes, n):
         cmp_ = lambda x,y: cmp(x[1], y[1])
         sorted_indexes = sorted(indexes.items(), cmp_, reverse=True)
-        filtered_concepts = sorted_indexes[:n]
+        filtered_concepts = sorted_indexes[:int(n)]
             
         return fca.ConceptSystem([c[0] for c in filtered_concepts])
     

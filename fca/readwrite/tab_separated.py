@@ -130,8 +130,8 @@ def read_mv_txt(path):
     # Strange things happen with csv in case some of "non standard" characters
     if (len(table) != 0) and len(attributes) != len(table[0]):
         input_file = open(path, "rb")
-        attributes = input_file.readline().split("\t")[:-1]
-        objects = input_file.readline().split("\t")[:-1]
+        objects = input_file.readline().strip().split("\t")
+        attributes = input_file.readline().strip().split("\t")
         input_file.close()
 
     return fca.ManyValuedContext(table, objects, attributes)

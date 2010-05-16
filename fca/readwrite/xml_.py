@@ -95,7 +95,9 @@ def read_xml(path):
     (['obj1'], ['attr1', 'attr3'])
     ([], M)
     """
-    global new_obj, new_attr, cs
+    global new_obj, new_attr, cs, buffer
+    
+    buffer = ""
     
     cs = fca.ConceptSystem()
     
@@ -113,21 +115,23 @@ def read_xml(path):
     new_meta = {}
     
     def start_element(name, attrs):
-        global new_obj, new_attr
+        global new_obj, new_attr, buffer
         global new_extent, new_intent, new_meta
         if name == "object":
             if "id" in attrs.keys():
+                buffer = ""
                 new_obj = attrs["id"]
             elif "ref" in attrs.keys():
                 new_extent.append(d_objects[attrs["ref"]])
         elif name == "attribute":
             if "id" in attrs.keys():
+                buffer = ""
                 new_attr = attrs["id"]
             elif "ref" in attrs.keys():
                 new_intent.append(d_attributes[attrs["ref"]])
         elif name == "meta":
             for key in attrs.keys():
-                new_meta[key.replace("_", " ")] = float(attrs[key])
+                new_meta[str(key).replace("_", " ")] = float(attrs[key])
         elif name == "concept":
             new_intent = []
             new_extent = []
@@ -135,7 +139,20 @@ def read_xml(path):
         
     def end_element(name):
         global cs, new_intent, new_extent, new_meta
-        if name == "concept":
+        global new_obj, new_attr, buffer
+        if name == "object":
+            if new_obj:
+                d_objects[new_obj] = buffer
+                objects.append(buffer)
+                new_obj = None
+                buffer = ""
+        elif name == "attribute":
+            if new_attr:
+                d_attributes[new_attr] = buffer
+                attributes.append(buffer)
+                new_attr = None
+                buffer = ""
+        elif name == "concept":
             new_concept = fca.Concept(new_extent, new_intent)
             new_concept.meta = new_meta
             cs.append(new_concept)
@@ -145,18 +162,11 @@ def read_xml(path):
             new_meta = {}
     
     def char_data(data):
+        global buffer
         if data[0] == "\n":
             return
-        data = data.strip()
-        global new_obj, new_attr
-        if new_obj:
-            d_objects[new_obj] = str(data)
-            objects.append(str(data))
-            new_obj = None
-        elif new_attr:
-            d_attributes[new_attr] = str(data)
-            attributes.append(str(data))
-            new_attr = None
+        data = str(data).strip()
+        buffer += data
     
     p = xml.parsers.expat.ParserCreate()
     
