@@ -53,7 +53,7 @@ def scale_mvcontext(mvcontext, scales):
                             value = str(mvcontext[obj][attr_index])
                         if eval(scale.objects[row], {"value" : value}):
                             derived_attr[obj] = scale[row][col]
-            new_attribute_name = "".join([mvcontext.attributes[attr_index],
+            new_attribute_name = ":".join([mvcontext.attributes[attr_index],
                                                   scale.attributes[col]])
             derived_context.add_column(derived_attr, new_attribute_name)                                    
     return derived_context
