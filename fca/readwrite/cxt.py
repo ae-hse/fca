@@ -98,6 +98,53 @@ def write_cxt(context, path):
         output_file.write("\n")
 
     output_file.close()
+    
+def uwrite_cxt(context, path):
+    import codecs
+    
+    output_file = codecs.open(path, "w", "utf-8")
+    output_file.write("B\n\n")
+
+    output_file.write(str(len(context.objects))+"\n")
+    output_file.write(str(len(context.attributes))+"\n\n")
+
+    for i in xrange(len(context.objects)):
+        output_file.write(context.objects[i])
+        output_file.write("\n")
+
+    for i in xrange(len(context.attributes)):
+        output_file.write(context.attributes[i])
+        output_file.write("\n")
+
+    cross = {True : "X", False : "."}
+    for i in xrange(len(context.objects)):
+        output_file.write("".join([cross[b] for b in context[i]]))
+        output_file.write("\n")
+
+    output_file.close()
+    
+def uread_cxt(path):
+    import codecs
+    
+    input_file = codecs.open(path, "r", "utf-8")
+    assert input_file.readline().strip() == "B",\
+        "File is not valid cxt"
+    input_file.readline() # Empty line
+    number_of_objects = int(input_file.readline().strip())
+    number_of_attributes = int(input_file.readline().strip())
+    input_file.readline() # Empty line
+
+    objects = [input_file.readline().strip() for i in xrange(number_of_objects)]
+    attributes = [input_file.readline().strip() for i in xrange(number_of_attributes)]
+
+    table = []
+    for i in xrange(number_of_objects):
+        line = map(lambda c: c=="X", input_file.readline().strip())
+        table.append(line)
+
+    input_file.close()
+
+    return fca.Context(table, objects, attributes)
 
 
 if __name__ == "__main__":

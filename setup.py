@@ -8,5 +8,5 @@ setup(name             = "fca",
       description      = "Python package for formal concept analysis",
       keywords         = ["FCA", "Concept mining", "Mathematics", "lattice theory"],
       license          = "LGPL",
-      platforms        = ["Linux", "Mac OSX", "Windows XP/2000/NT"],
+      platforms        = ["Linux", "Mac OS X", "Windows XP/2000/NT"],
       )

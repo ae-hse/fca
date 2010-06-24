@@ -36,12 +36,18 @@ def write_dot(cs, path):
         output_file.write("c%i [width=0.25]\n" % i)
         if len(own_objects[cs[i]])!=0:
             output_file.write("c%i -> c%i" % (i, i))
+            # TODO:
+            if len(own_objects[cs[i]]) >= 5:
+                own_objects[cs[i]] = [str(len(own_objects[cs[i]]))]
             output_file.write("[headlabel=\"%s\", " %\
                      "; ".join(own_objects[cs[i]]))
             output_file.write(
                 "labeldistance=1,labelangle=270,color=transparent]\n")
         if len(own_attributes[cs[i]])!=0:
             output_file.write("c%i -> c%i" % (i, i))
+            # TODO:
+            if len(own_attributes[cs[i]]) >= 5:
+                own_attributes[cs[i]] = [str(len(own_attributes[cs[i]]))]
             output_file.write("[taillabel=\"%s\", " %\
                      "; ".join(own_attributes[cs[i]]))
             output_file.write(
@@ -55,6 +61,49 @@ def write_dot(cs, path):
 
     output_file.close()
 
+def uwrite_dot(cs, path):
+    assert len(path)!=0, "Filename can't be empty"
+    
+    import codecs
+    
+    output_file = codecs.open(path, "w", "utf-8")
+    output_file.write("digraph L{")
+    output_file.write("\n")
+    output_file.write("node[shape=circle,style=filled,label=\"\"];")
+    output_file.write("\n")
+    output_file.write("edge[dir=\"none\",minlen=2];")
+    output_file.write("\n")
+
+    own_objects = find_own_objects(cs)
+    own_attributes = find_own_attributes(cs)
+    for i in xrange(len(cs)):
+        output_file.write("c%i [width=0.25]\n" % i)
+        if len(own_objects[cs[i]])!=0:
+            output_file.write("c%i -> c%i" % (i, i))
+            # TODO:
+            if len(own_objects[cs[i]]) >= 1:
+                own_objects[cs[i]] = [str(len(own_objects[cs[i]]))]
+            output_file.write("[headlabel=\"%s\", " %\
+                     "; ".join(own_objects[cs[i]]))
+            output_file.write(
+                "labeldistance=1,labelangle=270,color=transparent]\n")
+        if len(own_attributes[cs[i]])!=0:
+            output_file.write("c%i -> c%i" % (i, i))
+            # TODO:
+            if len(own_attributes[cs[i]]) >= 1:
+                own_attributes[cs[i]] = [str(len(own_attributes[cs[i]]))]
+            output_file.write("[taillabel=\"%s\", " %\
+                     "; ".join(own_attributes[cs[i]]))
+            output_file.write(
+                "labeldistance=2,labelangle=90,color=transparent]\n")
+
+    parents = fca.compute_covering_relation(cs)
+    for i in xrange(len(cs)):
+        for p in parents[cs[i]]:
+            output_file.write("c%i -> c%i\n" % (cs.index(p), i))
+    output_file.write("}")
+
+    output_file.close()
 
 def find_own_objects(cs):
     """Return set of own objects for current concept"""

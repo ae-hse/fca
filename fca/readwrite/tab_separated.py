@@ -128,7 +128,8 @@ def read_mv_txt(path):
 
     # TODO: It's hack
     # Strange things happen with csv in case some of "non standard" characters
-    if (len(table) != 0) and len(attributes) != len(table[0]):
+    if ((len(table) != 0) and len(attributes) != len(table[0]))\
+        or len(table) != len(objects):
         input_file = open(path, "rb")
         objects = input_file.readline().strip().split("\t")
         attributes = input_file.readline().strip().split("\t")

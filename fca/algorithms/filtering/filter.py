@@ -71,7 +71,7 @@ if __name__ == '__main__':
           [True, False, True, False],\
           [False, True, True, False],\
           [False, True, True, True]]
-    objs = [1, 2, 3, 4]
+    objs = ['1', '2', '3', '4']
     attrs = ['a', 'b', 'c', 'd']
     c = Context(ct, objs, attrs)
     cl = ConceptLattice(c)
@@ -79,6 +79,7 @@ if __name__ == '__main__':
 #    cs = filter_concepts(cl, compute_probability, "abs", 4)
 #    compute_index(cl, compute_separation_index, "Separation")
 #    cs = filter_concepts(cl, compute_probability, "value", 0.5)
-    compute_index(cl, compute_istability, "Intensional Stability")
-    cs = filter_concepts(cl, compute_istability, "part", 0.3)
+    # compute_index(cl, compute_istability, "Intensional Stability")
+    # print cl
+    cs = filter_concepts(cl, compute_istability, "abs", 2)
     print cs

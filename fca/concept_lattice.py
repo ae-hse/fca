@@ -11,20 +11,20 @@ class ConceptLattice(object):
               [True, False, True, False],\
               [False, True, True, False],\
               [False, True, True, True]]
-    >>> objs = [1, 2, 3, 4]
+    >>> objs = ['1', '2', '3', '4']
     >>> attrs = ['a', 'b', 'c', 'd']
     >>> c = Context(ct, objs, attrs)
     >>> cl = ConceptLattice(c)
     >>> print cl
     ([], M)
-    ([1], ['a', 'd'])
-    ([2], ['a', 'c'])
-    ([1, 2], ['a'])
-    ([3, 4], ['b', 'c'])
-    ([2, 3, 4], ['c'])
+    (['1'], ['a', 'd'])
+    (['2'], ['a', 'c'])
+    (['1', '2'], ['a'])
+    (['3', '4'], ['b', 'c'])
+    (['2', '3', '4'], ['c'])
     (G, [])
-    ([4], ['b', 'c', 'd'])
-    ([1, 4], ['d'])
+    (['4'], ['b', 'c', 'd'])
+    (['1', '4'], ['d'])
     >>> print cl.parents(cl[5]) == set((cl[6],))
     True
     >>> print cl.children(cl[6]) == set((cl[5], cl[3], cl[8]))
