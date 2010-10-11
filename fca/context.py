@@ -35,6 +35,14 @@ class Context(object):
     ...     break
     ...
     [True, False, False, True]
+    >>> transposed_c = c.transpose()
+    >>> for o in transposed_c:
+    ...     print o
+    ...
+    [True, True, False, False]
+    [False, False, True, True]
+    [False, True, True, True]
+    [True, False, False, True]
 
     Class emulates container type.
 
@@ -139,6 +147,19 @@ class Context(object):
         for i in range(len(self._objects)):
             del self._table[i][attr_index]
         del self._attributes[attr_index]
+        
+    def transpose(self):
+        """Return new context with transposed cross-table"""
+        new_objects = self._attributes[:]
+        new_attributes = self._objects[:]
+        new_cross_table = []
+        for j in xrange(len(self._attributes)):
+            line = []
+            for i in xrange(len(self._objects)):
+                line.append(self._table[i][j])
+            new_cross_table.append(line)
+        return Context(new_cross_table, new_objects, new_attributes)
+                
 
     ############################
     # Emulating container type #
