@@ -166,12 +166,7 @@ class Context(object):
         return Context(new_cross_table, new_objects, new_attributes)
                             
     def _extract_subtable(self, attribute_names):
-        if not set(attribute_names) <= set(self.attributes):
-            wrong_attributes = ""
-            for a in set(attribute_names) - set(self.attributes):
-                wrong_attributes += "\t%s\n" % a
-            raise ValueError("Wrong attribute names:\n%s" % wrong_attributes)
-        
+        _check_attribute_names(self, attribute_names)
         attribute_indices = [self.attributes.index(a) for a in attribute_names] 
         table = []
         for i in range(len(self)):
@@ -181,6 +176,41 @@ class Context(object):
             table.append(row)
         
         return table
+        
+    def _extract_subtable_by_attribute_values(self, values):
+        """Extract a subtable containing only rows with certain column values.
+        Return a list of object names and a subtable.
+        
+        Keyword arguments:
+        values -- an attribute-value dictionary
+        
+        """
+        self._check_attribute_names(values.keys())
+        indices = [i for i in range(len(self)) if self._has_values(i, values)]
+        return ([self.objects[i] for i in indices],
+                [self._table[i] for i in indices])
+                
+    def _has_values(self, i, values):
+        """Test if ith object has attribute values as indicated.
+        
+        Keyword arguments:
+        i -- an object index
+        values -- an attribute-value dictionary
+        
+        """
+        for a in values:
+            j = self.attributes.index(a)
+            v = values[a]
+            if self[i][j] != v:
+                return False
+        return True
+            
+    def _check_attribute_names(self, attribute_names):
+        if not set(attribute_names) <= set(self.attributes):
+            wrong_attributes = ""
+            for a in set(attribute_names) - set(self.attributes):
+                wrong_attributes += "\t%s\n" % a
+            raise ValueError("Wrong attribute names:\n%s" % wrong_attributes)    
 
     ############################
     # Emulating container type #

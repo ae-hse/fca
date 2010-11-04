@@ -78,6 +78,18 @@ class ManyValuedContext(Context):
         return ManyValuedContext(self._extract_subtable(attribute_names),
                                 self.objects,
                                 attribute_names)
+                                
+    def extract_subcontext_by_attribute_values(self, values):
+        """Extract a subcontext containing only objects with certain attribute
+        values.
+        
+        Keyword arguments:
+        values -- an attribute-value dictionary
+        
+        """
+        object_names, table = self._extract_subtable_by_attribute_values(values)
+        return ManyValuedContext(table, object_names, self.attributes)
+                            
 
     ############################
     # Emulating container type #
