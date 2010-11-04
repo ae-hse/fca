@@ -137,6 +137,7 @@ def read_mv_txt(path):
 
     return fca.ManyValuedContext(table, objects, attributes)
 
+
 def write_mv_txt(context, path):
     output_file = open(path, "w")
 
@@ -152,6 +153,10 @@ def write_mv_txt(context, path):
 
     output_file.close()
 
+
 if __name__ == "__main__":
     import doctest
     doctest.testmod()
+    
+    
+

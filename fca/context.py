@@ -122,6 +122,11 @@ class Context(object):
     def get_attribute_extent(self, a):
         index = self._attributes.index(a)
         return self.get_attribute_extent_by_index(index)
+        
+    def get_value(self, o, a):
+        io = self.objects.index(o)
+        ia = self.attributes.index(a)
+        return self[io][ia]
     
     def add_attribute(self, col, attr_name):
         """Add new attribute to context with given name"""
@@ -159,7 +164,23 @@ class Context(object):
                 line.append(self._table[i][j])
             new_cross_table.append(line)
         return Context(new_cross_table, new_objects, new_attributes)
-                
+                            
+    def _extract_subtable(self, attribute_names):
+        if not set(attribute_names) <= set(self.attributes):
+            wrong_attributes = ""
+            for a in set(attribute_names) - set(self.attributes):
+                wrong_attributes += "\t%s\n" % a
+            raise ValueError("Wrong attribute names:\n%s" % wrong_attributes)
+        
+        attribute_indices = [self.attributes.index(a) for a in attribute_names] 
+        table = []
+        for i in range(len(self)):
+            row = []
+            for j in attribute_indices:
+                row.append(self[i][j])
+            table.append(row)
+        
+        return table
 
     ############################
     # Emulating container type #

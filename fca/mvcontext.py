@@ -70,9 +70,14 @@ class ManyValuedContext(Context):
 
     def get_attributes(self):
         return self._attributes
-
+        
     attributes = property(get_attributes)
 
+    def extract_subcontext(self, attribute_names):
+        """Create a subcontext with only indicated attributes"""
+        return ManyValuedContext(self._extract_subtable(attribute_names),
+                                self.objects,
+                                attribute_names)
 
     ############################
     # Emulating container type #
