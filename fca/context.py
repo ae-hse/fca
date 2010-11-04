@@ -166,7 +166,7 @@ class Context(object):
         return Context(new_cross_table, new_objects, new_attributes)
                             
     def _extract_subtable(self, attribute_names):
-        _check_attribute_names(self, attribute_names)
+        self._check_attribute_names(attribute_names)
         attribute_indices = [self.attributes.index(a) for a in attribute_names] 
         table = []
         for i in range(len(self)):
