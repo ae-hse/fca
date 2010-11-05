@@ -165,6 +165,12 @@ class Context(object):
             new_cross_table.append(line)
         return Context(new_cross_table, new_objects, new_attributes)
                             
+    def extract_subcontext(self, attribute_names):
+        """Create a subcontext with only indicated attributes"""
+        return Context(self._extract_subtable(attribute_names),
+                       self.objects,
+                       attribute_names)
+                                
     def _extract_subtable(self, attribute_names):
         self._check_attribute_names(attribute_names)
         attribute_indices = [self.attributes.index(a) for a in attribute_names] 
@@ -177,6 +183,19 @@ class Context(object):
         
         return table
         
+    def _extract_subtable_by_condition(self, condition):
+        """Extract a subtable containing only rows that satisfy the condition.
+        Return a list of object names and a subtable.
+        
+        Keyword arguments:
+        condition(object_index) -- a function that takes an an object index and
+            returns a Boolean value
+        
+        """
+        indices = [i for i in range(len(self)) if condition(i)]
+        return ([self.objects[i] for i in indices],
+                [self._table[i] for i in indices])
+                
     def _extract_subtable_by_attribute_values(self, values):
         """Extract a subtable containing only rows with certain column values.
         Return a list of object names and a subtable.

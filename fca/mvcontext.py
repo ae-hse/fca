@@ -79,6 +79,18 @@ class ManyValuedContext(Context):
                                 self.objects,
                                 attribute_names)
                                 
+    def extract_subcontext_by_condition(self, condition):
+        """Extract a subcontext containing only objects that satisfy the
+        condition.
+        
+        Keyword arguments:
+        condition(object_index) -- a function that takes an an object index and
+            returns a Boolean value
+        
+        """
+        object_names, table = self._extract_subtable_by_condition(condition)
+        return ManyValuedContext(table, object_names, self.attributes)
+                                
     def extract_subcontext_by_attribute_values(self, values):
         """Extract a subcontext containing only objects with certain attribute
         values.
