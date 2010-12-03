@@ -164,6 +164,15 @@ class Context(object):
                 line.append(self._table[i][j])
             new_cross_table.append(line)
         return Context(new_cross_table, new_objects, new_attributes)
+        
+    def extract_subcontext_filtered_by_attributes(self, attributes_names):
+        """Create a subcontext with such objects that have given attributes"""
+        values = dict( [(attribute, True) for attribute in attributes_names] )
+        object_names, subtable = \
+                            self._extract_subtable_by_attribute_values(values)
+        return Context(subtable,
+                       object_names,
+                       self.attributes)
                             
     def extract_subcontext(self, attribute_names):
         """Create a subcontext with only indicated attributes"""
