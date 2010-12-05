@@ -17,8 +17,13 @@ def write_xml(path, cs):
     >>> cs = ConceptLattice(c)
     >>> write_xml("tests/test.xml", cs)
     """
-    objects = list(cs.get_top_concept().extent)
-    attributes = list(cs.get_bottom_concept().intent)
+    objects = set()
+    attributes = set()
+    for concept in cs:
+        objects = objects.union(concept.extent)
+        attributes = attributes.union(concept.intent)
+    objects = list(objects)
+    attributes = list(attributes)
     
     objects_ids = dict([(objects[i], u"o{0}".format(i+1))  for i in xrange(len(objects))])
     attributes_ids = dict([(attributes[i], u"a{0}".format(i+1))  for i in xrange(len(attributes))])
