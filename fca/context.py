@@ -165,11 +165,12 @@ class Context(object):
             new_cross_table.append(line)
         return Context(new_cross_table, new_objects, new_attributes)
         
-    def extract_subcontext_filtered_by_attributes(self, attributes_names):
+    def extract_subcontext_filtered_by_attributes(self, attributes_names,
+                                                    mode="and"):
         """Create a subcontext with such objects that have given attributes"""
         values = dict( [(attribute, True) for attribute in attributes_names] )
         object_names, subtable = \
-                            self._extract_subtable_by_attribute_values(values)
+                            self._extract_subtable_by_attribute_values(values, mode)
         return Context(subtable,
                        object_names,
                        self.attributes)
@@ -205,7 +206,8 @@ class Context(object):
         return ([self.objects[i] for i in indices],
                 [self._table[i] for i in indices])
                 
-    def _extract_subtable_by_attribute_values(self, values):
+    def _extract_subtable_by_attribute_values(self, values, 
+                                                    mode="and"):
         """Extract a subtable containing only rows with certain column values.
         Return a list of object names and a subtable.
         
@@ -214,7 +216,10 @@ class Context(object):
         
         """
         self._check_attribute_names(values.keys())
-        indices = [i for i in range(len(self)) if self._has_values(i, values)]
+        if mode == "and":
+            indices = [i for i in range(len(self)) if self._has_values(i, values)]
+        elif mode == "or":
+            indices = [i for i in range(len(self)) if self._has_at_least_one_value(i, values)]
         return ([self.objects[i] for i in indices],
                 [self._table[i] for i in indices])
                 
@@ -232,6 +237,21 @@ class Context(object):
             if self[i][j] != v:
                 return False
         return True
+        
+    def _has_at_least_one_value(self, i, values):
+        """Test if ith object has at least one attribute value as in values.
+                
+        Keyword arguments:
+        i -- an object index
+        values -- an attribute-value dictionary
+        
+        """
+        for a in values:
+            j = self.attributes.index(a)
+            v = values[a]
+            if self[i][j] == v:
+                return True
+        return False
             
     def _check_attribute_names(self, attribute_names):
         if not set(attribute_names) <= set(self.attributes):

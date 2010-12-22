@@ -77,6 +77,7 @@ class ConceptSystem(object):
     def remove(self, concept):
         if isinstance(concept, Concept):
             self._concepts.remove(concept)
+        self._parents = None
 
     def compute_covering_relation(self):
         """Computes covering relation for a given concept system.
