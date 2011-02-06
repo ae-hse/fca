@@ -1,8 +1,10 @@
-#Fri May 14 16:38:29 MSD 2010
+#Sun Feb 06 19:53:34 MSK 2011
 eclipse.preferences.version=1
 encoding//fca/__init__.py=utf-8
 encoding//fca/algorithms/__init__.py=utf-8
+encoding//fca/algorithms/closure_operators.py=utf-8
 encoding//fca/algorithms/covering_relation.py=utf-8
+encoding//fca/algorithms/dg_basis.py=utf-8
 encoding//fca/algorithms/filtering/stability.py=utf-8
 encoding//fca/algorithms/norris.py=utf-8
 encoding//fca/algorithms/scaling.py=utf-8
@@ -10,6 +12,7 @@ encoding//fca/algorithms/stability.py=utf-8
 encoding//fca/concept.py=utf-8
 encoding//fca/concept_system.py=utf-8
 encoding//fca/context.py=utf-8
+encoding//fca/implication.py=utf-8
 encoding//fca/mvcontext.py=utf-8
 encoding//fca/readwrite/__init__.py=utf-8
 encoding//fca/readwrite/cxt.py=utf-8
