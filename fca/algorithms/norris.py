@@ -93,7 +93,7 @@ def norris(context):
     Examples
     ========
 
-    >>> from fca import Context
+    >>> from fca import Context, ConceptLattice
     >>> ct = [[True, False, False, True],\
               [True, False, True, False],\
               [False, True, True, False],\
@@ -101,8 +101,8 @@ def norris(context):
     >>> objs = [1, 2, 3, 4]
     >>> attrs = ['a', 'b', 'c', 'd']
     >>> c = Context(ct, objs, attrs)
-    >>> cs = norris(c)
-    >>> print cs
+    >>> cl = ConceptLattice(c, builder=norris)
+    >>> print cl
     ([], M)
     ([1], ['a', 'd'])
     ([2], ['a', 'c'])
@@ -114,8 +114,8 @@ def norris(context):
     ([1, 4], ['d'])
 
     """
-    # To be more efficient precompute sets of attributes for each object in
-    # context
+    # To be more efficient we store intent (as Python set) of every 
+    # object to the list
     # TODO: Move to Context class?
     examples = []
     for ex in context.examples():
@@ -123,7 +123,9 @@ def norris(context):
     
     cs = [Concept([], context.attributes)]
     for i in xrange(len(context)):
-        for c in cs:
+        # TODO:
+        cs_for_loop = cs[:]
+        for c in cs_for_loop:
             if c.intent.issubset(examples[i]):
                 c.extent.add(context.objects[i])
             else:
@@ -137,6 +139,7 @@ def norris(context):
                 if new:
                     cs.append(Concept(set([context.objects[i]]) | c.extent,
                         new_intent))
+    print 'end'
     return (cs, compute_covering_relation(cs))
 
 
