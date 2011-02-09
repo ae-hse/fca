@@ -7,13 +7,12 @@ import closure_operators
 import fca.implication
 import copy
 
-def compute_dg_basis(cxt, close):
+def compute_dg_basis(cxt, close, imp_basis = []):
     """
-    Compute Duquenne-Guiness basis for a given *cxt* using 
+    Compute Duquenne-Guigues basis for a given *cxt* using 
     optimized Ganter algorithm    
-    Added implication and Gunter algorithm for constructing Duquenne-Guigues basis.
     """
-    imp_basis = []
+        
     a = set()
     p = set()
     ind = 0
@@ -75,6 +74,7 @@ if __name__ == "__main__":
     cxt = fca.Context(table, objects, attributes)
     
     imp_basis = compute_dg_basis(cxt, closure_operators.closure)
+    print(len(imp_basis))
     for imp in imp_basis:
         print(imp.get_premise())
         print(' -> ')
