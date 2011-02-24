@@ -2,6 +2,7 @@
 """
 Holds class for context
 """
+import fca.algorithms
 
 class Context(object):
     """
@@ -60,6 +61,22 @@ class Context(object):
     ...     break
     ...
     set(['a', 'd'])
+    
+    Implications basis
+    
+    >>> for imp in c.attribute_implications:
+    ...     print imp
+    ...
+    c, d => c, b, d
+    b => c, b
+    a, c, b => a, c, b, d
+    
+    >>> for imp in c.object_implications:
+    ...     print imp
+    ...
+    3 => 3, 4
+    2, 4 => 2, 3, 4
+    1, 3, 4 => 1, 2, 3, 4
     """
 
     def __init__(self, cross_table=[], objects=[], attributes=[]):
@@ -91,7 +108,26 @@ class Context(object):
         return self._attributes
 
     attributes = property(get_attributes)
-
+    
+    def get_attribute_implications(self, 
+                                   basis=fca.algorithms.compute_dg_basis):
+        if not self._attr_imp_basis:
+            self._attr_imp_basis = basis(self)
+        return self._attr_imp_basis
+    
+    _attr_imp_basis = None
+    attribute_implications = property(get_attribute_implications)
+    
+    def get_object_implications(self, 
+                                basis=fca.algorithms.compute_dg_basis):
+        cxt = self.transpose()
+        if not self._obj_imp_basis:
+            self._obj_imp_basis = basis(cxt)
+        return self._obj_imp_basis
+    
+    _obj_imp_basis = None
+    object_implications = property(get_object_implications)
+        
     def examples(self):
         """Generator. Generate set of corresponding attributes
         for each row (object) of context

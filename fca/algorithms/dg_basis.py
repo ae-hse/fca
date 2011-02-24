@@ -7,11 +7,13 @@ import closure_operators
 import fca.implication
 import copy
 
-def compute_dg_basis(cxt, close, imp_basis = []):
+def compute_dg_basis(cxt, close=closure_operators.closure, imp_basis = None):
     """
     Compute Duquenne-Guigues basis for a given *cxt* using 
     optimized Ganter algorithm    
     """
+    if not imp_basis:
+        imp_basis = []    
         
     a = set()
     p = set()
@@ -76,6 +78,4 @@ if __name__ == "__main__":
     imp_basis = compute_dg_basis(cxt, closure_operators.closure)
     print(len(imp_basis))
     for imp in imp_basis:
-        print(imp.get_premise())
-        print(' -> ')
-        print(imp.get_conclusion())
+        print imp
