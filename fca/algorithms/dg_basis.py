@@ -31,6 +31,8 @@ def generalized_compute_dg_basis(attributes,
     """
     if not imp_basis:
         imp_basis = []
+    else:
+        imp_basis = copy.deepcopy(imp_basis)
         
     a = set()
     p = set()

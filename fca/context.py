@@ -67,16 +67,16 @@ class Context(object):
     >>> for imp in c.attribute_implications:
     ...     print imp
     ...
-    c, d => c, b, d
-    b => c, b
-    a, c, b => a, c, b, d
+    c, d => b
+    b => c
+    a, c, b => d
     
     >>> for imp in c.object_implications:
     ...     print imp
     ...
-    3 => 3, 4
-    2, 4 => 2, 3, 4
-    1, 3, 4 => 1, 2, 3, 4
+    3 => 4
+    2, 4 => 3
+    1, 3, 4 => 2
     """
 
     def __init__(self, cross_table=[], objects=[], attributes=[]):
@@ -179,6 +179,25 @@ class Context(object):
         """Add new object to context with given name"""
         self._table.append(row)
         self._objects.append(obj_name)
+        
+    def add_object_with_intent(self, intent, obj_name):
+        self._objects.append(obj_name)
+        row = [(attr in intent) for attr in self._attributes]
+        self._table.append(row)
+        
+    def add_attribute_with_extent(self, extent, attr_name):
+        col = [(obj in extent) for obj in self._objects]
+        self.add_attribute(col, attr_name)
+        
+    def set_attribute_extent(self, extent, name):
+        attr_index = self._attributes.index(name)
+        for i in range(len(self._objects)):
+            self._table[i][attr_index] = (self._objects[i] in extent)
+            
+    def set_object_intent(self, intent, name):
+        obj_index = self._objects.index(name)
+        for i in range(len(self._attributes)):
+            self._table[obj_index][i] = (self._attributes[i] in intent)
         
     def delete_object(self, obj_index):
         del self._table[obj_index]
@@ -307,6 +326,14 @@ class Context(object):
         return self._table[key]
 
     ############################
+    
+    def __repr__(self):
+        output = ", ".join(self.attributes) + "\n"
+        output += ", ".join(self.objects) + "\n"
+        cross = {True : "X", False : "."}
+        for i in xrange(len(self.objects)):
+            output += ("".join([cross[b] for b in self[i]])) + "\n"
+        return output
 
 if __name__ == "__main__":
     import doctest
