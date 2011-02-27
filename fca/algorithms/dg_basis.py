@@ -7,38 +7,55 @@ import closure_operators
 import fca.implication
 import copy
 
-def compute_dg_basis(cxt, close=closure_operators.closure, imp_basis = None):
+def compute_dg_basis(cxt, close=closure_operators.closure, imp_basis=None):
     """
     Compute Duquenne-Guigues basis for a given *cxt* using 
-    optimized Ganter algorithm    
+    optimized Ganter algorithm
+    """
+    aclose = lambda attributes: closure_operators.aclosure(attributes, cxt)
+    return generalized_compute_dg_basis(cxt.attributes, 
+                                        aclose, 
+                                        close=closure_operators.closure,
+                                        imp_basis=imp_basis)
+
+def generalized_compute_dg_basis(attributes,
+                                 aclose,
+                                 close=closure_operators.closure,
+                                 imp_basis = None
+                                 ):
+    """
+    Compute Duquenne-Guigues basis using optimized Ganter algorithm.
+    *aclose* is a function that compute a closure of attributes in context
+    defined inside it. We need this to implement exploration algorithm with
+    partially given examples
     """
     if not imp_basis:
-        imp_basis = []    
+        imp_basis = []
         
     a = set()
     p = set()
     ind = 0
     success = True
     while success:
-        pClosed = set(closure_operators.aclosure(p, cxt))
+        pClosed = set(aclose(p))
         if p != pClosed:
             imp_basis.append(fca.implication.Implication(copy.deepcopy(p), copy.deepcopy(pClosed)))
         
-        for x in cxt.get_attributes()[:ind]:
+        for x in attributes[:ind]:
             if (((x in pClosed) and not (x in p)) 
                 or (not (x in pClosed) and (x in p))):
                 break
         else:
             a = pClosed
-            ind = len(cxt.get_attributes())
+            ind = len(attributes)
         
         success = False
         while True:
             ind = ind - 1
-            i = cxt.get_attributes()[ind]
+            i = attributes[ind]
             
             if not (i in a):
-                flag, tmp = close(a | set([i,]), cxt.get_attributes(), imp_basis, ind)
+                flag, tmp = close(a | set([i,]), attributes, imp_basis, ind)
                 if flag:
                     success = True
                     p = tmp                                            
