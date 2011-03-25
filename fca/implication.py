@@ -15,6 +15,18 @@ class Implication(object):
     a, b => c
     >>> print imp
     a, b => c
+    >>> imp.is_respected(set(('a', 'b',)))
+    False
+    >>> imp.is_respected(set(('a', 'b', 'd')))
+    False
+    >>> imp.is_respected(set(('a', 'b', 'c',)))
+    True
+    >>> imp.is_respected(set(('a', 'c',)))
+    True
+    >>> imp.is_respected(set(('b')))
+    True
+    >>> imp.is_respected(set(('c')))
+    True
     """
 
     def __init__(self, premise = set(), conclusion = set()):
@@ -51,6 +63,16 @@ class Implication(object):
             return 0
         else:
             return -1
+            
+    def is_respected(self, some_set):
+        """Checks whether *some_set* respects an implication or not"""
+        # if some_set contains every element from premise and not every
+        # element from conclusion then it doesn't respect an implication
+        if (self.premise & some_set) == self.premise and \
+           (self.conclusion & some_set) != self.conclusion:
+            return False
+        else:
+            return True
         
 if __name__ == "__main__":
     import doctest

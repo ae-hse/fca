@@ -110,29 +110,31 @@ class Context(object):
     attributes = property(get_attributes)
     
     def get_attribute_implications(self, 
-                                   basis=fca.algorithms.compute_dg_basis):
-        if not self._attr_imp_basis:
-            self._attr_imp_basis = basis(self)
+                                   basis=fca.algorithms.compute_dg_basis,
+                                   confirmed=None):
+        if not self._attr_imp_basis or (confirmed != self._confirmed):
+            self._attr_imp_basis = basis(self, imp_basis=confirmed)
+            self._confirmed = confirmed
         return self._attr_imp_basis
     
     _attr_imp_basis = None
+    _confirmed = None
     attribute_implications = property(get_attribute_implications)
     
     def get_object_implications(self, 
-                                basis=fca.algorithms.compute_dg_basis):
+                                basis=fca.algorithms.compute_dg_basis,
+                                confirmed=None):
         cxt = self.transpose()
         if not self._obj_imp_basis:
-            self._obj_imp_basis = basis(cxt)
+            self._obj_imp_basis = basis(cxt, imp_basis=confirmed)
         return self._obj_imp_basis
     
     _obj_imp_basis = None
     object_implications = property(get_object_implications)
         
-    def examples(self):
+    def intents(self):
         """Generator. Generate set of corresponding attributes
         for each row (object) of context
-        
-        TODO: Is it proper name?
         """
         for obj in self._table:
             attrs_indexes = filter(lambda i: obj[i], range(len(obj)))
@@ -181,6 +183,7 @@ class Context(object):
         self._objects.append(obj_name)
         
     def add_object_with_intent(self, intent, obj_name):
+        self._attr_imp_basis = None
         self._objects.append(obj_name)
         row = [(attr in intent) for attr in self._attributes]
         self._table.append(row)
