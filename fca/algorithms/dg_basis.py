@@ -2,10 +2,11 @@
 """
 Holds a function that computes Duquenne-Guigues basis for a given context 
 """
+import copy
 
 import closure_operators
-import fca.implication
-import copy
+from fca.implication import Implication
+import fca
 
 def compute_dg_basis(cxt, close=closure_operators.closure, imp_basis=None):
     """
@@ -33,6 +34,7 @@ def generalized_compute_dg_basis(attributes,
         imp_basis = []
     else:
         imp_basis = copy.deepcopy(imp_basis)
+    relative_basis = []
         
     a = set()
     p = set()
@@ -41,7 +43,8 @@ def generalized_compute_dg_basis(attributes,
     while success:
         pClosed = set(aclose(p))
         if p != pClosed:
-            imp_basis.append(fca.implication.Implication(copy.deepcopy(p), copy.deepcopy(pClosed)))
+            relative_basis.append(Implication(copy.deepcopy(p), 
+                                  copy.deepcopy(pClosed)))
         
         for x in attributes[:ind]:
             if (((x in pClosed) and not (x in p)) 
@@ -57,7 +60,7 @@ def generalized_compute_dg_basis(attributes,
             i = attributes[ind]
             
             if not (i in a):
-                flag, tmp = close(a | set([i,]), attributes, imp_basis, ind)
+                flag, tmp = close(a | set([i,]), attributes, relative_basis + imp_basis, ind)
                 if flag:
                     success = True
                     p = tmp                                            
@@ -67,7 +70,7 @@ def generalized_compute_dg_basis(attributes,
             if success or ind == 0:
                 break
         
-    return imp_basis
+    return relative_basis
 
 if __name__ == "__main__":    
     objects = ['Air Canada', 'Air New Zeland', 'All Nippon Airways',

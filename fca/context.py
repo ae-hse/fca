@@ -112,10 +112,11 @@ class Context(object):
     def get_attribute_implications(self, 
                                    basis=fca.algorithms.compute_dg_basis,
                                    confirmed=None):
-        if not self._attr_imp_basis or (confirmed != self._confirmed):
-            self._attr_imp_basis = basis(self, imp_basis=confirmed)
-            self._confirmed = confirmed
-        return self._attr_imp_basis
+        return basis(self, imp_basis=confirmed)
+        # if not self._attr_imp_basis or (confirmed != self._confirmed):
+        #             self._attr_imp_basis = basis(self, imp_basis=confirmed)
+        #             self._confirmed = confirmed
+        #         return self._attr_imp_basis
     
     _attr_imp_basis = None
     _confirmed = None
