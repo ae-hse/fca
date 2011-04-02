@@ -133,13 +133,16 @@ class Context(object):
     _obj_imp_basis = None
     object_implications = property(get_object_implications)
         
-    def intents(self):
+    def examples(self):
         """Generator. Generate set of corresponding attributes
         for each row (object) of context
         """
         for obj in self._table:
             attrs_indexes = filter(lambda i: obj[i], range(len(obj)))
             yield set([self.attributes[i] for i in attrs_indexes])
+            
+    def intents(self):
+        return self.examples()
 
     def get_object_intent_by_index(self, i):
         """Return a set of corresponding attributes for row with index i"""
