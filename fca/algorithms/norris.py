@@ -139,7 +139,6 @@ def norris(context):
                 if new:
                     cs.append(Concept(set([context.objects[i]]) | c.extent,
                         new_intent))
-    print 'end'
     return (cs, compute_covering_relation(cs))
 
 

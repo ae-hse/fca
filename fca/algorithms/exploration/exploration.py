@@ -88,3 +88,6 @@ class AttributeExploration(object):
             raise NotCounterexample()
         else:
             self.db.add_example(name, intent)
+            
+    def get_opened_implications(self):
+        self.db.get_opened_implications()
