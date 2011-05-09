@@ -16,10 +16,14 @@ fca/algorithms/__init__.py
 fca/algorithms/closure_operators.py
 fca/algorithms/covering_relation.py
 fca/algorithms/dg_basis.py
+fca/algorithms/dg_basistest.py
 fca/algorithms/exploration.py
 fca/algorithms/explorationtest.py
 fca/algorithms/norris.py
 fca/algorithms/scaling.py
+fca/algorithms/exploration/__init__.py
+fca/algorithms/exploration/exploration.py
+fca/algorithms/exploration/explorationtest.py
 fca/algorithms/filtering/__init__.py
 fca/algorithms/filtering/extentsize.py
 fca/algorithms/filtering/filter.py

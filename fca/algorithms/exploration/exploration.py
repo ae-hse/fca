@@ -12,6 +12,9 @@ class NotCounterexample(ExplorationException):
 class IllegalContextModification(ExplorationException):
     pass
     
+class NotUniqueAttributeName(ExplorationException):
+    pass
+    
 def context_modifier(F):
     """
     Decorator for methods where context is somehow modified.
@@ -47,7 +50,9 @@ class ExplorationDB(object):
     def __init__(self, context, implications):
         super(ExplorationDB, self).__init__()
         self._cxt = deepcopy(context)
+        # background knowledge
         self._implications = deepcopy(implications)
+        # relative basis
         self._cxt_implications = context.get_attribute_implications(
                                                 confirmed=self._implications)
     
@@ -55,9 +60,15 @@ class ExplorationDB(object):
     def confirm_implication(self, imp):
         """docstring for confirm_implication"""
         self._implications.append(imp)
+        
+    @base_modifier
+    def unconfirm_implication(self, imp):
+        self._implications.remove(imp)
     
     @context_modifier
     def add_example(self, name, intent):
+        if name in self._cxt.objects:
+            raise NotUniqueAttributeName()
         self._cxt.add_object_with_intent(intent, name)
             
     def get_open_implications(self):
@@ -65,7 +76,15 @@ class ExplorationDB(object):
         
     def get_base(self):
         return deepcopy(self._implications)
-                
+        
+    def get_object_names(self):
+        return self._cxt.objects
+        
+    def get_attribute_names(self):
+        return self._cxt.attributes
+    
+    objects = property(get_object_names)
+    attributes = property(get_attribute_names)
     open_implications = property(get_open_implications)
     base = property(get_base)
         
@@ -89,5 +108,8 @@ class AttributeExploration(object):
         else:
             self.db.add_example(name, intent)
             
-    def get_opened_implications(self):
-        self.db.get_opened_implications()
+    def unconfirm_implication(self, imp):
+        self.db.unconfirm_implication(imp)
+            
+    def get_open_implications(self):
+        return self.db.open_implications

@@ -63,7 +63,7 @@ def generalized_compute_dg_basis(attributes,
                 flag, tmp = close(a | set([i,]), attributes, relative_basis + imp_basis, ind)
                 if flag:
                     success = True
-                    p = tmp                                            
+                    p = tmp
             else:
                 a.remove(i)
                 
