@@ -12,6 +12,9 @@ class NotCounterexample(ExplorationException):
 class IllegalContextModification(ExplorationException):
     pass
     
+class NotUniqueObjectName(ExplorationException):
+    pass
+    
 class NotUniqueAttributeName(ExplorationException):
     pass
     
@@ -68,8 +71,36 @@ class ExplorationDB(object):
     @context_modifier
     def add_example(self, name, intent):
         if name in self._cxt.objects:
-            raise NotUniqueAttributeName()
+            raise NotUniqueObjectName()
         self._cxt.add_object_with_intent(intent, name)
+        
+    @context_modifier
+    def delete_example(self, name):
+        self._cxt.delete_object_by_name(name)
+    
+    @context_modifier
+    def edit_example(self, name, old_name, intent):
+        if name in self._cxt.objects:
+            raise NotUniqueObjectName()
+        self._cxt.set_object_intent(intent, old_name)
+        self._cxt.rename_object(old_name, name)
+        
+    @context_modifier
+    def add_attribute(self, name, extent):
+        if name in self._cxt.attributes:
+            raise NotUniqueAttributeName()
+        self._cxt.add_attribute_with_extent(extent, name)
+        
+    @context_modifier
+    def delete_attribute(self, name):
+        self._cxt.delete_attribute_by_name(name)
+        
+    @context_modifier
+    def edit_attribute(self, name, old_name, extent):
+        if name in self._cxt.attributes:
+            raise NotUniqueAttributeName()
+        self._cxt.set_attribute_extent(extent, old_name)
+        self._cxt.rename_attribute(old_name, name)
             
     def get_open_implications(self):
         return deepcopy(self._cxt_implications)

@@ -209,11 +209,23 @@ class Context(object):
     def delete_object(self, obj_index):
         del self._table[obj_index]
         del self._objects[obj_index]
+        
+    def delete_object_by_name(self, obj_name):
+        self.delete_object(self.objects.index(obj_name))
     
     def delete_attribute(self, attr_index):
         for i in range(len(self._objects)):
             del self._table[i][attr_index]
         del self._attributes[attr_index]
+        
+    def delete_attribute_by_name(self, attr_name):
+        self.delete_attribute(self.attributes.index(obj_name))
+        
+    def rename_object(self, old_name, name):
+        self._objects[self._objects.index(old_name)] = name
+        
+    def rename_attribute(self, old_name, name):
+        self._attributes[self._attributes.index(old_name)] = name
         
     def transpose(self):
         """Return new context with transposed cross-table"""
