@@ -55,7 +55,7 @@ def generalized_compute_dg_basis(attributes,
             ind = len(attributes)
         
         success = False
-        while True:
+        while True and attributes:
             ind = ind - 1
             i = attributes[ind]
             

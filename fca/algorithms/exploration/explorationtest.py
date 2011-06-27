@@ -6,10 +6,35 @@ from exploration import (AttributeExploration, ExplorationDB,
                         NotCounterexample, IllegalContextModification)
 import fca
 
-class DummyPerfectExpert(object):
+from fca import Implication
+from fca.algorithms.closure_operators import simple_closure as closure
+
+
+class GenericExpert(object):
+    
+    def __init__(self, basis):
+        self.basis = basis
+        
+    def is_valid(self, imp):
+        return imp.conclusion <= closure(imp.premise, self.basis)
+            
+    def explore(self, exploration):
+        while exploration.get_open_implications():
+            imp = exploration.get_open_implications()[0]
+            if self.is_valid(imp):
+                exploration.confirm_implication(imp)
+            else:
+                exploration.reject_implication(imp)
         
     def provide_counterexample(self, imp):
-        return ('test', imp.premise)
+        return (str(imp.premise), closure(imp.premise, self.basis))
+
+
+class DummyPerfectExpert(GenericExpert):
+        
+    def __init__(self):
+        GenericExpert.__init__(self, list())
+
         
 class DummyFoolishExpert(object):
 
@@ -91,6 +116,36 @@ class AddExampleTest(ExplorationTest):
             'test', intent
         )
         self.assertEqual(len(self.db._cxt.objects), 4)
+        
+
+equilateral = 'equilateral'
+isosceles = 'isosceles'
+acute = 'acute-angled'
+right = 'right-angled'
+
+
+class TrianglesTest(unittest.TestCase):
+
+    def setUp(self):
+        table = [[False, True, False, False],
+                 [False, False, True, False],
+                 [False, False, False, True]]
+        objs = ['isosceles', 'acute-angled', 'right-angled']
+        attrs = ['equilateral', 'isosceles', 'acute-angled', 'right-angled']
+        cxt = fca.Context(table, objs, attrs)
+        self.db = ExplorationDB(cxt, list())
+        
+    def test_all(self):
+        basis = [
+                Implication(set([acute, right]), set([equilateral, isosceles])),
+                Implication(set([equilateral]), set([isosceles, acute]))
+                ]
+        expert = GenericExpert(basis)
+        exploration = AttributeExploration(self.db, expert)
+        expert.explore(exploration)
+        self.assertEqual(len(self.db._cxt.objects), 6)
+        self.assertEqual(len(self.db.base), len(basis))
+        
         
 if __name__ == '__main__':
     unittest.main()
