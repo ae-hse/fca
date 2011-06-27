@@ -40,6 +40,7 @@ class DummyFoolishExpert(object):
 
     def provide_counterexample(self, imp):
         return ('test', imp.premise | imp.conclusion)
+        
 
 class ExplorationTest(unittest.TestCase):
     def setUp(self):
@@ -51,6 +52,7 @@ class ExplorationTest(unittest.TestCase):
         attrs = ['a', 'b', 'c', 'd']
         cxt = fca.Context(table, objs, attrs)
         self.db = ExplorationDB(cxt, list())
+        
         
 class InitializationTest(ExplorationTest):
     
@@ -65,6 +67,7 @@ class InitializationTest(ExplorationTest):
         exploration = AttributeExploration(self.db, expert)
         self.assertEqual(len(self.db.open_implications), 3,
                          "Wrong number of attribute implications")
+                         
         
 class ConfirmingImplicationsTest(ExplorationTest):
     
@@ -74,6 +77,7 @@ class ConfirmingImplicationsTest(ExplorationTest):
         exploration.confirm_implication(self.db.open_implications[0])
         self.assertEqual(len(self.db.base), 1)
         self.assertEqual(len(self.db.open_implications), 2)
+        
         
 class RejectingImplicationTest(ExplorationTest):
     
@@ -92,6 +96,7 @@ class RejectingImplicationTest(ExplorationTest):
             self.db.open_implications[0]    
         )
         self.assertEqual(len(self.db._cxt.objects), 4)
+        
         
 class AddExampleTest(ExplorationTest):
     
@@ -130,8 +135,8 @@ class TrianglesTest(unittest.TestCase):
         table = [[False, True, False, False],
                  [False, False, True, False],
                  [False, False, False, True]]
-        objs = ['isosceles', 'acute-angled', 'right-angled']
-        attrs = ['equilateral', 'isosceles', 'acute-angled', 'right-angled']
+        objs = [isosceles, acute, right]
+        attrs = [equilateral, isosceles, acute, right]
         cxt = fca.Context(table, objs, attrs)
         self.db = ExplorationDB(cxt, list())
         
