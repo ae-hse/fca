@@ -2,6 +2,7 @@
 # encoding: utf-8
 from copy import deepcopy
 from fca import Context
+from fca.partial_context import PartialContext
 
 class ExplorationException(Exception):
     pass
@@ -34,7 +35,8 @@ def context_modifier(F):
                     db._cxt = unmodified_cxt
                     raise IllegalContextModification()
         db._cxt_implications = db._cxt.get_attribute_implications(
-                                            confirmed=db._implications)
+                                            confirmed=db._implications,
+                                            cond=db._cond)
     return wrapper
     
 def base_modifier(F):
@@ -45,19 +47,23 @@ def base_modifier(F):
     def wrapper(db, *args):
         F(db, *args)
         db._cxt_implications = db._cxt.get_attribute_implications(
-                                                confirmed=db._implications)
+                                                confirmed=db._implications,
+                                                cond=db._cond)
     return wrapper
     
 class ExplorationDB(object):
     """docstring for ExplorationDB"""
-    def __init__(self, context, implications):
+    def __init__(self, context, implications, cond=lambda x: True):
         super(ExplorationDB, self).__init__()
         self._cxt = deepcopy(context)
         # background knowledge
         self._implications = deepcopy(implications)
+        # condition on pseudo-intents
+        self._cond = cond
         # relative basis
         self._cxt_implications = context.get_attribute_implications(
-                                                confirmed=self._implications)
+                                                confirmed=self._implications,
+                                                cond=cond)
     
     @base_modifier
     def confirm_implication(self, imp):
@@ -113,6 +119,11 @@ class ExplorationDB(object):
         
     def get_attribute_names(self):
         return self._cxt.attributes
+        
+    def complete(self):
+        # TODO: refactor
+        if type(self._cxt) == PartialContext:
+            self._cxt.complete(self._implications)
     
     objects = property(get_object_names)
     attributes = property(get_attribute_names)
@@ -129,15 +140,25 @@ class AttributeExploration(object):
         
     def confirm_implication(self, imp):
         """docstring for confirm_implication"""
-        self.db.confirm_implication(imp)
+        self.confirm_implications([imp])
         
+    def confirm_implications(self, imps):
+        """docstring for confirm_implication"""
+        for i in imps:
+            self.db.confirm_implication(i)
+        self.db.complete()
+
     def reject_implication(self, imp):
         """docstring for reject_implication"""
-        name, intent = self.expert.provide_counterexample(imp)
-        if imp.is_respected(intent):
+        examples, intents = self.expert.provide_counterexample(imp)
+        # TODO: refactor
+        if type(intents) == set:
+            examples, intents = [examples], [intents]
+        if imp.is_respected(intents[0]):
             raise NotCounterexample()
-        else:
-            self.db.add_example(name, intent)
+        for i in range(len(examples)):
+            self.db.add_example(examples[i], intents[i])
+        self.db.complete()
             
     def unconfirm_implication(self, imp):
         self.db.unconfirm_implication(imp)

@@ -52,7 +52,7 @@ class AirlinesTest(BasisTest):
             Implication(set([ 'Europe', 'Asia Pasific', 'Africa', 'United States', 'Carribean', 'Latin America', ]),set([ 'Canada', 'Europe', 'Asia Pasific', 'Mexico', 'Africa', 'United States', 'Middle East', 'Carribean', 'Latin America', ])),
         ]
         
-        imp_basis = compute_dg_basis(self.cxt, closure_operators.closure)
+        imp_basis = compute_dg_basis(self.cxt)
         self.assertEqual(len(imp_basis), len(self.attribute_implications))
         for imp in self.attribute_implications:
 	        self.assertTrue(imp in imp_basis)
@@ -69,11 +69,9 @@ class RelativeBasisTest(unittest.TestCase):
         self.basis = [Implication(set(['c', 'd']), set(['b']))]
     
     def test_relative_basis(self):
-        simple_basis = compute_dg_basis(self.cxt, closure_operators.closure)
+        simple_basis = compute_dg_basis(self.cxt)
         self.assertEqual(len(simple_basis), 3)
-        relative_basis = compute_dg_basis(self.cxt, 
-                                          closure_operators.closure,
-                                          imp_basis=self.basis)
+        relative_basis = compute_dg_basis(self.cxt, imp_basis=self.basis)
         self.assertEqual(len(set(relative_basis) & set(self.basis)), 0)
         self.assertEqual(len(relative_basis), 2)
         self.assertEqual(len(self.basis), 1)
