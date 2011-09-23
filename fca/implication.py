@@ -36,6 +36,9 @@ class Implication(object):
         self._premise = premise
         self._conclusion = conclusion
         
+    def __deepcopy__(self, memo):
+        return Implication(self._premise.copy(), self._conclusion.copy())
+
     def get_premise(self):
         """
         Return premise of implication
@@ -68,11 +71,13 @@ class Implication(object):
         """Checks whether *some_set* respects an implication or not"""
         # if some_set contains every element from premise and not every
         # element from conclusion then it doesn't respect an implication
-        if (self.premise & some_set) == self.premise and \
-           (self.conclusion & some_set) != self.conclusion:
-            return False
+        # TODO: refactor
+        if type(some_set) == set:
+            return self.conclusion <= some_set or not self.premise <= some_set
         else:
-            return True
+            # Assume a partial example
+            return (self.conclusion <= some_set[1] or
+                    not self.premise <= some_set[0])
         
 if __name__ == "__main__":
     import doctest

@@ -8,68 +8,74 @@ import closure_operators
 from fca.implication import Implication
 import fca
 
-def compute_dg_basis(cxt, close=closure_operators.closure, imp_basis=None):
+def compute_dg_basis(cxt,
+                     close=closure_operators.simple_closure,
+                     imp_basis=[],
+                     cond=lambda x: True):
     """
     Compute Duquenne-Guigues basis for a given *cxt* using 
     optimized Ganter algorithm
     """
     aclose = lambda attributes: closure_operators.aclosure(attributes, cxt)
     return generalized_compute_dg_basis(cxt.attributes, 
-                                        aclose, 
-                                        close=closure_operators.closure,
-                                        imp_basis=imp_basis)
+                                        aclose,
+                                        close=close,
+                                        imp_basis=imp_basis,
+                                        cond=cond)
+
+
+def compute_partial_dg_basis(pcxt,
+                             close=closure_operators.simple_closure,
+                             imp_basis=[],
+                             cond=lambda x: True):
+    """
+    Compute Duquenne-Guigues basis for a given partial context *pcxt* using
+    optimized Ganter algorithm
+    """
+    return generalized_compute_dg_basis(pcxt.attributes,
+                                        pcxt.xq_aclosure,
+                                        close=close,
+                                        imp_basis=imp_basis,
+                                        cond=cond)
+
 
 def generalized_compute_dg_basis(attributes,
                                  aclose,
-                                 close=closure_operators.closure,
-                                 imp_basis = None
-                                 ):
+                                 close=closure_operators.simple_closure,
+                                 imp_basis=[],
+                                 cond=lambda x: True):
+    """Compute the Duquenne-Guigues basis using optimized Ganter's algorithm.
+    
+    *aclose* is a closure operator on the set of attributes.
+    We need this to implement the exploration
+    algorithm with partially given examples.
+    
     """
-    Compute Duquenne-Guigues basis using optimized Ganter algorithm.
-    *aclose* is a function that compute a closure of attributes in context
-    defined inside it. We need this to implement exploration algorithm with
-    partially given examples
-    """
-    if not imp_basis:
-        imp_basis = []
-    else:
-        imp_basis = copy.deepcopy(imp_basis)
     relative_basis = []
-        
+    
     a = set()
-    p = set()
-    ind = 0
-    success = True
-    while success:
-        pClosed = set(aclose(p))
-        if p != pClosed:
-            relative_basis.append(Implication(copy.deepcopy(p), 
-                                  copy.deepcopy(pClosed)))
-        
-        for x in attributes[:ind]:
-            if (((x in pClosed) and not (x in p)) 
-                or (not (x in pClosed) and (x in p))):
-                break
+    i = len(attributes)
+    
+    while len(a) < len(attributes):
+        a_closed = set(aclose(a))
+        if a != a_closed and cond(a):
+            relative_basis.append(Implication(a.copy(), a_closed.copy()))
+        if (a_closed - a) & set(attributes[: i]):
+            a -= set(attributes[i :])
         else:
-            a = pClosed
-            ind = len(attributes)
-        
-        success = False
-        while True and attributes:
-            ind = ind - 1
-            i = attributes[ind]
-            
-            if not (i in a):
-                flag, tmp = close(a | set([i,]), attributes, relative_basis + imp_basis, ind)
-                if flag:
-                    success = True
-                    p = tmp
+            a = a_closed
+            i = len(attributes)
+        for j in range(i - 1, -1, -1):
+            m = attributes[j]
+            if m in a:
+                a.remove(m)
             else:
-                a.remove(i)
-                
-            if success or ind == 0:
-                break
-        
+                b = close(a | set([m]), relative_basis + imp_basis)
+                if not (b - a) & set(attributes[: j]):
+                    a = b
+                    i = j
+                    break
+
     return relative_basis
 
 if __name__ == "__main__":    

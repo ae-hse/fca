@@ -2,7 +2,10 @@
 """
 Holds class for context
 """
+import copy
+
 import fca.algorithms
+
 
 class Context(object):
     """
@@ -98,6 +101,11 @@ class Context(object):
         self._table = cross_table
         self._objects = objects
         self._attributes = attributes
+        
+    def __deepcopy__(self, memo):
+        return Context(copy.deepcopy(self._table, memo),
+                       self._objects[:],
+                       self._attributes[:])
 
     def get_objects(self):
         return self._objects
@@ -111,8 +119,9 @@ class Context(object):
     
     def get_attribute_implications(self, 
                                    basis=fca.algorithms.compute_dg_basis,
-                                   confirmed=None):
-        return basis(self, imp_basis=confirmed)
+                                   confirmed=[],
+                                   cond=lambda x: True):
+        return basis(self, imp_basis=confirmed, cond=cond)
         # if not self._attr_imp_basis or (confirmed != self._confirmed):
         #             self._attr_imp_basis = basis(self, imp_basis=confirmed)
         #             self._confirmed = confirmed

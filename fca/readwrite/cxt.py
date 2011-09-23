@@ -85,11 +85,11 @@ def write_cxt(context, path):
     output_file.write(str(len(context.attributes))+"\n\n")
 
     for i in xrange(len(context.objects)):
-        output_file.write(context.objects[i])
+        output_file.write(str(context.objects[i]))
         output_file.write("\n")
 
     for i in xrange(len(context.attributes)):
-        output_file.write(context.attributes[i])
+        output_file.write(str(context.attributes[i]))
         output_file.write("\n")
 
     cross = {True : "X", False : "."}
