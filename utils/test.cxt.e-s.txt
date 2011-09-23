@@ -1,0 +1,2447 @@
+(obj20 obj21 obj22 obj23 obj24 obj25 obj26 obj27 obj28 obj29 obj46 obj47 obj44 obj45 obj42 obj43 obj40 obj41 obj48 obj49 obj1 obj0 obj3 obj2 obj5 obj4 obj7 obj6 obj9 obj8 obj37 obj36 obj35 obj34 obj33 obj32 obj31 obj30 obj39 obj38 obj19 obj18 obj11 obj10 obj13 obj12 obj15 obj14 obj17 obj16 , ) 1.0
+( , attr25 attr24 attr27 attr26 attr21 attr20 attr23 attr22 attr29 attr28 attr35 attr32 attr33 attr30 attr31 attr36 attr10 attr11 attr12 attr13 attr14 attr15 attr16 attr17 attr18 attr19 attr37 attr38 attr39 attr6 attr7 attr4 attr5 attr2 attr3 attr0 attr1 attr8 attr9 attr34) 0.999999175984
+(obj15 , attr36 attr37 attr12 attr26 attr14 attr15 attr16 attr22 attr19 attr29 attr34 attr39 attr6 attr5 attr2 attr21 attr9 attr32) 0.982109069824
+(obj42 , attr11 attr12 attr13 attr14 attr15 attr30 attr17 attr19 attr27 attr6 attr4 attr2 attr33 attr31 attr20 attr9) 0.975540161133
+(obj25 , attr10 attr26 attr14 attr15 attr23 attr22 attr18 attr39 attr4 attr35 attr2 attr3 attr0 attr32 attr30 attr31) 0.97331237793
+(obj35 , attr11 attr27 attr13 attr21 attr15 attr30 attr18 attr34 attr39 attr6 attr7 attr5 attr3 attr35 attr20) 0.971069335938
+(obj45 , attr11 attr34 attr26 attr20 attr23 attr17 attr19 attr37 attr22 attr28 attr38 attr39 attr6 attr4 attr8) 0.971038818359
+(obj31 , attr25 attr12 attr14 attr23 attr17 attr38 attr39 attr4 attr5 attr3 attr0 attr1 attr32 attr30 attr16 attr22) 0.970825195312
+(obj16 , attr36 attr24 attr34 attr14 attr15 attr23 attr17 attr37 attr28 attr7 attr4 attr3 attr0 attr16 attr22 attr31) 0.968505859375
+(obj6 , attr24 attr34 attr26 attr14 attr32 attr17 attr19 attr37 attr38 attr6 attr7 attr35 attr0 attr21 attr9) 0.961944580078
+(obj18 , attr36 attr24 attr13 attr33 attr35 attr19 attr29 attr28 attr6 attr5 attr2 attr3 attr1 attr26 attr9) 0.960357666016
+(obj26 , attr10 attr36 attr12 attr33 attr17 attr19 attr37 attr22 attr27 attr7 attr5 attr0 attr1 attr8) 0.95361328125
+(obj48 , attr10 attr24 attr26 attr16 attr23 attr37 attr18 attr36 attr38 attr4 attr5 attr2 attr35 attr9) 0.951416015625
+(obj5 , attr25 attr36 attr34 attr16 attr37 attr17 attr28 attr6 attr4 attr5 attr2 attr3 attr0 attr1 attr8) 0.948059082031
+(obj8 , attr25 attr24 attr27 attr35 attr33 attr23 attr17 attr18 attr29 attr38 attr3 attr0 attr1 attr8) 0.942565917969
+(obj20 , attr11 attr14 attr15 attr23 attr22 attr19 attr37 attr29 attr28 attr38 attr5 attr1 attr24 attr9) 0.93798828125
+(obj24 , attr10 attr11 attr34 attr26 attr21 attr15 attr16 attr24 attr18 attr36 attr7 attr5 attr3 attr32) 0.937805175781
+(obj21 , attr10 attr11 attr32 attr15 attr22 attr17 attr36 attr20 attr3 attr0 attr24 attr8 attr9) 0.930419921875
+(obj22 , attr10 attr25 attr12 attr23 attr31 attr18 attr19 attr37 attr38 attr39 attr6 attr5 attr9) 0.930053710938
+(obj43 , attr12 attr26 attr15 attr30 attr19 attr29 attr28 attr6 attr7 attr5 attr2 attr0 attr35 attr20) 0.926574707031
+(obj49 , attr25 attr36 attr15 attr23 attr37 attr19 attr29 attr28 attr4 attr5 attr3 attr0 attr30 attr20) 0.926513671875
+(obj40 , attr27 attr26 attr14 attr23 attr30 attr22 attr18 attr31 attr34 attr16 attr6 attr3 attr0 attr9) 0.926025390625
+(obj32 , attr24 attr27 attr32 attr30 attr17 attr18 attr19 attr28 attr38 attr39 attr0 attr1 attr8) 0.918334960938
+(obj23 , attr10 attr12 attr13 attr16 attr19 attr29 attr34 attr28 attr6 attr5 attr1 attr35 attr8) 0.913818359375
+(obj46 , attr25 attr11 attr12 attr13 attr14 attr15 attr30 attr24 attr31 attr28 attr39 attr6 attr5) 0.913452148438
+(obj27 , attr36 attr24 attr13 attr32 attr20 attr30 attr31 attr29 attr28 attr38 attr6 attr3 attr0) 0.913208007812
+(obj34 , attr36 attr12 attr21 attr15 attr22 attr18 attr19 attr29 attr27 attr7 attr3 attr1 attr34) 0.897583007812
+(obj12 , attr11 attr27 attr26 attr31 attr29 attr39 attr6 attr7 attr2 attr1 attr8) 0.8935546875
+(obj41 , attr36 attr34 attr21 attr15 attr17 attr19 attr22 attr12 attr38 attr2 attr27 attr31 attr20) 0.887084960938
+(obj2 , attr37 attr12 attr21 attr31 attr19 attr22 attr27 attr28 attr6 attr7 attr4 attr1) 0.876220703125
+(obj14 , attr25 attr12 attr13 attr32 attr20 attr30 attr17 attr6 attr26 attr2 attr0 attr33) 0.865234375
+(obj11 , attr36 attr11 attr27 attr13 attr33 attr18 attr29 attr34 attr38 attr6 attr0) 0.8603515625
+(obj36 , attr10 attr11 attr12 attr13 attr14 attr37 attr6 attr3 attr32 attr25 attr9) 0.85595703125
+(obj19 , attr11 attr12 attr14 attr16 attr30 attr17 attr19 attr22 attr27 attr21 attr24 attr9) 0.853515625
+(obj38 , attr25 attr34 attr21 attr33 attr23 attr31 attr38 attr14 attr8 attr9) 0.84375
+(obj9 , attr10 attr36 attr13 attr14 attr19 attr6 attr4 attr35 attr0 attr8 attr9) 0.83740234375
+(obj47 obj15 , attr36 attr37 attr12 attr14 attr15 attr19 attr34 attr5 attr2 attr32 attr9) 0.83154296875
+(obj37 , attr10 attr24 attr27 attr32 attr15 attr16 attr18 attr33 attr30 attr20) 0.8251953125
+(obj1 , attr25 attr24 attr27 attr26 attr32 attr22 attr19 attr36 attr28 attr6 attr0) 0.82275390625
+(obj29 , attr34 attr14 attr16 attr30 attr29 attr38 attr6 attr5 attr3 attr0 attr32 attr8) 0.8203125
+(obj30 , attr25 attr34 attr35 attr23 attr22 attr18 attr29 attr38 attr4 attr2 attr0) 0.80029296875
+(obj28 , attr36 attr14 attr15 attr31 attr6 attr2 attr0 attr1 attr21 attr8) 0.77734375
+(obj10 , attr37 attr21 attr16 attr30 attr29 attr39 attr6 attr23 attr1 attr9) 0.763671875
+(obj0 , attr25 attr36 attr34 attr14 attr20 attr30 attr31 attr19 attr38 attr4) 0.74609375
+(obj25 obj40 , attr26 attr14 attr23 attr30 attr22 attr18 attr31 attr3 attr0) 0.736328125
+(obj7 , attr10 attr25 attr34 attr15 attr17 attr7 attr1 attr9) 0.7109375
+(obj42 obj14 , attr12 attr13 attr20 attr30 attr17 attr6 attr2 attr33) 0.7109375
+(obj47 , attr36 attr37 attr12 attr14 attr15 attr19 attr34 attr28 attr5 attr2 attr32 attr27 attr9) 0.709228515625
+(obj25 obj31 , attr14 attr23 attr30 attr22 attr39 attr4 attr3 attr0 attr32) 0.70703125
+(obj5 obj16 , attr36 attr37 attr34 attr16 attr17 attr28 attr4 attr3 attr0) 0.701171875
+(obj15 obj6 , attr37 attr34 attr26 attr32 attr14 attr19 attr6 attr21 attr9) 0.681640625
+(obj24 obj15 , attr36 attr34 attr26 attr21 attr15 attr16 attr5 attr32) 0.671875
+(obj42 obj41 , attr12 attr15 attr17 attr19 attr31 attr27 attr2 attr20) 0.66796875
+(obj8 obj32 , attr24 attr27 attr17 attr18 attr38 attr0 attr1 attr8) 0.6640625
+(obj35 obj43 , attr6 attr7 attr5 attr35 attr15 attr30 attr20) 0.65625
+(obj19 obj42 , attr11 attr12 attr14 attr30 attr17 attr19 attr27 attr9) 0.65234375
+(obj16 obj6 , attr24 attr34 attr14 attr0 attr7 attr37 attr17) 0.6484375
+(obj35 obj24 , attr11 attr34 attr21 attr15 attr18 attr7 attr5 attr3) 0.640625
+(obj13 , attr10 attr13 attr32 attr31 attr6 attr7 attr8 attr9) 0.63671875
+(obj8 obj39 , attr25 attr27 attr33 attr18 attr3 attr0 attr1 attr8) 0.6328125
+(obj10 obj15 , attr6 attr37 attr21 attr16 attr9 attr29 attr39) 0.6328125
+(obj43 obj49 , attr15 attr30 attr19 attr29 attr28 attr5 attr0 attr20) 0.62890625
+(obj20 obj45 , attr11 attr23 attr37 attr19 attr22 attr28 attr38) 0.625
+(obj22 obj48 , attr10 attr37 attr5 attr23 attr18 attr38 attr9) 0.6171875
+(obj29 obj31 , attr14 attr30 attr16 attr38 attr5 attr3 attr0 attr32) 0.6171875
+(obj39 , attr25 attr27 attr33 attr18 attr4 attr5 attr3 attr0 attr1 attr8) 0.6142578125
+(obj24 obj48 , attr10 attr24 attr5 attr26 attr16 attr18 attr36) 0.609375
+(obj25 obj48 , attr10 attr4 attr26 attr2 attr23 attr18 attr35) 0.609375
+(obj46 obj42 , attr11 attr12 attr13 attr14 attr15 attr30 attr31 attr6) 0.609375
+(obj15 obj25 , attr26 attr14 attr15 attr22 attr2 attr32 attr39) 0.6015625
+(obj32 obj31 , attr32 attr0 attr30 attr17 attr1 attr38 attr39) 0.6015625
+(obj18 obj8 , attr24 attr35 attr33 attr1 attr29 attr3) 0.59375
+(obj17 , attr24 attr4 attr5 attr21 attr20 attr7 attr38) 0.5859375
+(obj18 obj23 , attr5 attr13 attr19 attr29 attr28 attr6 attr35 attr1) 0.57421875
+(obj15 obj31 , attr12 attr5 attr14 attr16 attr22 attr32 attr39) 0.5703125
+(obj21 obj24 , attr10 attr11 attr32 attr15 attr24 attr36 attr3) 0.5703125
+(obj5 obj31 , attr25 attr16 attr17 attr4 attr5 attr3 attr0 attr1) 0.56640625
+(obj35 obj34 obj24 , attr7 attr34 attr21 attr15 attr18 attr3) 0.5625
+(obj19 obj15 , attr12 attr21 attr16 attr22 attr14 attr19 attr9) 0.5546875
+(obj49 obj16 , attr36 attr37 attr15 attr23 attr28 attr4 attr3 attr0) 0.5546875
+(obj20 obj15 , attr37 attr14 attr15 attr22 attr19 attr29 attr5 attr9) 0.5546875
+(obj4 , attr36 attr34 attr15 attr30 attr17 attr38 attr2 attr8) 0.5546875
+(obj2 obj16 , attr37 attr4 attr7 attr22 attr31 attr28) 0.546875
+(obj24 obj16 , attr36 attr24 attr34 attr15 attr16 attr7 attr3) 0.546875
+(obj46 obj35 , attr6 attr11 attr5 attr13 attr15 attr30 attr39) 0.546875
+(obj5 obj26 , attr36 attr37 attr5 attr0 attr17 attr1 attr8) 0.5390625
+(obj5 obj49 , attr25 attr36 attr37 attr28 attr4 attr5 attr3 attr0) 0.5390625
+(obj8 obj30 , attr25 attr35 attr0 attr23 attr18 attr29 attr38) 0.5390625
+(obj25 obj30 , attr4 attr35 attr2 attr0 attr23 attr22 attr18) 0.53125
+(obj22 obj31 , attr25 attr12 attr5 attr23 attr38 attr39) 0.53125
+(obj18 obj48 , attr36 attr24 attr5 attr26 attr2 attr35 attr9) 0.53125
+(obj25 obj48 obj30 , attr18 attr4 attr35 attr2 attr23) 0.53125
+(obj35 obj25 , attr35 attr15 attr30 attr18 attr3 attr39) 0.53125
+(obj45 obj32 , attr8 attr17 attr19 attr28 attr38 attr39) 0.53125
+(obj18 obj5 , attr36 attr6 attr5 attr2 attr3 attr1 attr28) 0.5234375
+(obj23 obj5 , attr6 attr34 attr5 attr16 attr1 attr28 attr8) 0.5234375
+(obj24 obj6 , attr24 attr34 attr26 attr21 attr7 attr32) 0.515625
+(obj45 obj42 , attr6 attr11 attr4 attr20 attr17 attr19) 0.515625
+(obj44 , attr11 attr34 attr20 attr16 attr37 attr31 attr3) 0.515625
+(obj18 obj27 , attr36 attr24 attr13 attr3 attr6 attr29 attr28) 0.515625
+(obj20 obj16 , attr37 attr14 attr15 attr23 attr22 attr24 attr28) 0.515625
+(obj20 obj18 , attr24 attr5 attr1 attr19 attr29 attr28 attr9) 0.515625
+(obj15 obj43 , attr12 attr26 attr15 attr19 attr29 attr6 attr5 attr2) 0.51171875
+(obj45 obj5 , attr6 attr37 attr34 attr4 attr17 attr28 attr8) 0.5078125
+(obj45 obj6 , attr6 attr37 attr34 attr26 attr17 attr19 attr38) 0.5078125
+(obj0 obj22 obj2 obj33 obj25 obj27 obj28 obj38 obj46 obj44 obj42 obj40 obj41 obj13 obj12 obj16 , attr31) 0.5
+(obj43 obj14 , attr6 attr12 attr26 attr2 attr20 attr30 attr0) 0.5
+(obj20 obj22 obj23 obj5 obj31 obj26 obj47 obj29 obj35 obj39 obj46 obj18 obj43 obj48 obj24 obj15 obj17 obj49 , attr5) 0.5
+(obj35 obj23 obj25 obj6 obj9 obj8 obj30 obj18 obj43 obj48 , attr35) 0.5
+(obj2 obj5 obj6 obj20 obj36 obj22 obj26 obj47 obj44 obj45 obj10 obj49 obj15 obj48 obj16 , attr37) 0.5
+(obj37 obj26 obj8 obj39 obj38 obj18 obj42 obj11 obj14 , attr33) 0.5
+(obj21 obj35 obj34 obj5 obj25 obj31 obj27 obj36 obj8 obj33 obj39 obj18 obj44 obj40 obj29 obj24 obj49 obj16 , attr3) 0.5
+(obj20 obj3 obj25 obj31 obj30 obj8 obj22 obj38 obj45 obj40 obj10 obj49 obj48 obj16 , attr23) 0.5
+(obj1 obj6 obj24 obj25 obj18 obj45 obj43 obj40 obj12 obj15 obj14 obj48 , attr26) 0.5
+(obj1 obj20 obj24 obj32 obj6 obj8 obj27 obj19 obj18 obj21 obj48 obj37 obj46 obj17 obj16 , attr24) 0.5
+(obj1 obj0 obj22 obj2 obj32 obj26 obj6 obj9 obj20 obj19 obj18 obj23 obj34 obj43 obj41 obj42 obj49 obj15 obj47 obj45 , attr19) 0.5
+(obj37 obj0 obj35 obj27 obj21 obj44 obj45 obj42 obj43 obj41 obj14 obj17 obj49 , attr20) 0.5
+(obj1 obj0 obj34 obj5 obj4 obj26 obj21 obj9 obj27 obj49 obj18 obj41 obj11 obj24 obj28 obj15 obj47 obj48 obj16 , attr36) 0.5
+(obj45 obj15 , attr6 attr37 attr34 attr26 attr22 attr19 attr39) 0.5
+(obj1 obj20 obj3 obj2 obj5 obj32 obj27 obj46 obj18 obj23 obj43 obj45 obj49 obj47 obj16 , attr28) 0.5
+(obj21 obj5 obj4 obj7 obj6 obj8 obj31 obj32 obj19 obj45 obj42 obj41 obj26 obj14 obj16 , attr17) 0.5
+(obj21 obj23 obj5 obj4 obj26 obj9 obj8 obj39 obj38 obj28 obj45 obj29 obj13 obj12 obj32 , attr8) 0.5
+(obj20 obj3 obj23 obj33 obj27 obj8 obj30 obj18 obj34 obj43 obj29 obj11 obj10 obj12 obj15 obj49 , attr29) 0.5
+(obj22 obj23 obj27 obj28 obj29 obj46 obj45 obj42 obj43 obj40 obj1 obj2 obj5 obj6 obj9 obj36 obj35 obj18 obj11 obj10 obj13 obj12 obj15 obj14 , attr6) 0.5
+(obj0 obj35 obj23 obj5 obj4 obj7 obj6 obj29 obj30 obj45 obj38 obj47 obj44 obj34 obj40 obj41 obj11 obj24 obj15 obj16 , attr34) 0.5
+(obj36 obj22 obj2 obj31 obj26 obj19 obj47 obj23 obj34 obj43 obj41 obj42 obj15 obj14 obj46 , attr12) 0.5
+(obj37 obj23 obj5 obj31 obj29 obj19 obj44 obj24 obj40 obj10 obj15 obj48 obj16 , attr16) 0.5
+(obj20 obj21 obj35 obj34 obj24 obj4 obj7 obj28 obj25 obj46 obj47 obj37 obj42 obj43 obj41 obj33 obj49 obj15 obj16 , attr15) 0.5
+(obj37 obj22 obj34 obj24 obj25 obj30 obj8 obj35 obj39 obj40 obj11 obj48 obj32 , attr18) 0.5
+(obj33 , attr25 attr13 attr15 attr31 attr29 attr38 attr3) 0.5
+(obj36 obj35 obj23 obj33 obj27 obj9 obj46 obj18 obj42 obj11 obj13 obj14 , attr13) 0.5
+(obj5 obj4 obj30 obj28 obj18 obj47 obj42 obj43 obj41 obj12 obj15 obj14 obj48 obj25 , attr2) 0.5
+(obj1 obj20 obj3 obj2 obj25 obj26 obj21 obj30 obj31 obj19 obj34 obj40 obj41 obj45 obj15 obj16 , attr22) 0.5
+(obj20 obj21 obj35 obj24 obj36 obj19 obj44 obj45 obj42 obj11 obj12 obj46 , attr11) 0.5
+(obj1 obj6 obj32 obj37 obj21 obj24 obj25 obj31 obj27 obj29 obj47 obj36 obj13 obj15 obj14 , attr32) 0.5
+(obj22 obj25 obj31 obj35 obj46 obj45 obj10 obj12 obj15 obj32 , attr39) 0.5
+(obj23 obj26 , attr10 attr12 attr5 attr1 attr19 attr8) 0.5
+(obj1 obj0 obj3 obj5 obj31 obj7 obj30 obj8 obj22 obj39 obj38 obj46 obj36 obj33 obj14 obj49 , attr25) 0.5
+(obj0 obj3 obj2 obj5 obj25 obj31 obj30 obj9 obj39 obj45 obj42 obj48 obj49 obj17 obj16 , attr4) 0.5
+(obj20 obj0 obj3 obj25 obj31 obj6 obj9 obj29 obj38 obj19 obj28 obj47 obj42 obj40 obj36 obj15 obj46 obj16 , attr14) 0.5
+(obj21 obj25 obj26 obj27 obj28 obj29 obj43 obj40 obj49 obj1 obj3 obj5 obj6 obj9 obj8 obj32 obj31 obj30 obj39 obj11 obj14 obj16 , attr0) 0.5
+(obj20 obj3 obj2 obj5 obj26 obj7 obj28 obj8 obj31 obj39 obj18 obj23 obj34 obj10 obj12 obj32 , attr1) 0.5
+(obj35 obj2 obj24 obj26 obj7 obj6 obj34 obj43 obj13 obj12 obj17 obj16 , attr7) 0.5
+(obj1 obj37 obj35 obj2 obj32 obj26 obj8 obj39 obj19 obj47 obj34 obj42 obj40 obj41 obj11 obj12 , attr27) 0.5
+(obj20 obj0 obj22 obj33 obj4 obj31 obj6 obj8 obj27 obj30 obj38 obj41 obj45 obj48 obj29 obj11 obj17 obj32 , attr38) 0.5
+(obj34 obj15 obj41 , attr36 attr12 attr21 attr15 attr22 attr19 attr34) 0.5
+(obj35 obj2 obj24 obj6 obj28 obj38 obj19 obj34 obj41 obj10 obj15 obj17 , attr21) 0.5
+(obj7 obj36 obj9 obj37 obj21 obj22 obj23 obj24 obj25 obj26 obj13 obj48 , attr10) 0.5
+(obj20 obj21 obj22 obj7 obj6 obj9 obj38 obj19 obj18 obj42 obj40 obj36 obj10 obj13 obj15 obj47 obj48 , attr9) 0.5
+(obj37 obj0 obj35 obj25 obj31 obj27 obj29 obj32 obj19 obj42 obj43 obj40 obj10 obj46 obj49 obj14 obj4 , attr30) 0.5
+(obj35 obj42 , attr6 attr11 attr27 attr13 attr15 attr30 attr20) 0.5
+(obj18 obj15 , attr36 attr26 attr19 attr29 attr6 attr5 attr2 attr9) 0.49609375
+(obj15 obj40 , attr6 attr34 attr26 attr14 attr16 attr22 attr9) 0.4921875
+(obj49 obj27 , attr36 attr0 attr20 attr30 attr29 attr28 attr3) 0.4921875
+(obj18 obj43 , attr5 attr26 attr19 attr29 attr28 attr6 attr35 attr2) 0.484375
+(obj29 obj15 , attr6 attr34 attr5 attr14 attr16 attr32 attr29) 0.484375
+(obj2 obj34 obj26 , attr7 attr12 attr22 attr19 attr1 attr27) 0.484375
+(obj40 obj16 , attr34 attr14 attr16 attr23 attr31 attr22 attr3 attr0) 0.48046875
+(obj8 obj31 , attr25 attr3 attr23 attr17 attr1 attr0 attr38) 0.4765625
+(obj15 obj16 , attr36 attr37 attr34 attr14 attr15 attr16 attr22) 0.4765625
+(obj25 obj16 , attr14 attr15 attr23 attr31 attr22 attr4 attr3 attr0) 0.4765625
+(obj3 , attr25 attr14 attr23 attr22 attr29 attr28 attr4 attr0 attr1) 0.4765625
+(obj31 obj16 , attr14 attr16 attr23 attr22 attr17 attr4 attr3 attr0) 0.46875
+(obj20 obj31 , attr5 attr14 attr23 attr22 attr1 attr38) 0.46875
+(obj36 obj22 , attr10 attr37 attr12 attr6 attr25 attr9) 0.46875
+(obj46 obj22 , attr25 attr6 attr12 attr5 attr31 attr39) 0.46875
+(obj22 obj25 , attr10 attr18 attr31 attr23 attr39) 0.46875
+(obj45 obj12 , attr6 attr11 attr26 attr8 attr39) 0.46875
+(obj0 obj49 , attr25 attr36 attr4 attr20 attr30 attr19) 0.46875
+(obj49 obj5 obj16 , attr36 attr37 attr4 attr3 attr0 attr28) 0.46875
+(obj11 obj35 , attr6 attr11 attr27 attr13 attr18 attr34) 0.46875
+(obj48 obj6 , attr24 attr35 attr37 attr26 attr38 attr9) 0.46875
+(obj45 obj16 , attr37 attr34 attr4 attr23 attr22 attr17 attr28) 0.4609375
+(obj21 obj16 , attr36 attr24 attr15 attr0 attr22 attr17 attr3) 0.4609375
+(obj14 obj31 , attr25 attr12 attr32 attr0 attr30 attr17) 0.453125
+(obj18 obj23 obj43 , attr6 attr5 attr35 attr19 attr29 attr28) 0.453125
+(obj43 obj25 , attr35 attr2 attr15 attr30 attr26 attr0) 0.453125
+(obj2 obj42 , attr6 attr12 attr4 attr31 attr19 attr27) 0.453125
+(obj9 obj42 , attr6 attr4 attr13 attr14 attr19 attr9) 0.453125
+(obj9 obj23 , attr10 attr6 attr13 attr35 attr19 attr8) 0.453125
+(obj24 obj25 , attr10 attr26 attr32 attr15 attr18 attr3) 0.453125
+(obj29 obj27 , attr6 attr0 attr32 attr3 attr30 attr29 attr38) 0.453125
+(obj48 obj16 , attr36 attr24 attr4 attr16 attr23 attr37) 0.453125
+(obj45 obj49 , attr37 attr4 attr20 attr23 attr19 attr28) 0.453125
+(obj23 obj15 , attr6 attr12 attr5 attr16 attr19 attr29 attr34) 0.453125
+(obj11 obj8 , attr27 attr33 attr0 attr18 attr29 attr38) 0.4375
+(obj3 obj31 , attr25 attr4 attr14 attr0 attr23 attr22 attr1) 0.4375
+(obj24 obj15 obj6 , attr32 attr34 attr26 attr21) 0.4375
+(obj46 obj27 , attr6 attr24 attr13 attr30 attr31 attr28) 0.4375
+(obj35 obj12 , attr6 attr11 attr27 attr39 attr7) 0.4375
+(obj0 obj42 , attr4 attr14 attr20 attr30 attr31 attr19) 0.4375
+(obj22 obj15 , attr6 attr37 attr12 attr5 attr19 attr9 attr39) 0.4375
+(obj18 obj42 , attr6 attr13 attr2 attr33 attr19 attr9) 0.4375
+(obj47 obj15 obj6 , attr37 attr34 attr14 attr19 attr32 attr9) 0.4375
+(obj31 obj26 , attr12 attr5 attr0 attr22 attr1 attr17) 0.4375
+(obj8 obj38 , attr25 attr23 attr8 attr38 attr33) 0.4375
+(obj31 obj49 , attr25 attr4 attr5 attr23 attr30 attr0 attr3) 0.4296875
+(obj15 obj5 , attr36 attr37 attr34 attr5 attr2 attr16 attr6) 0.4296875
+(obj15 obj48 , attr36 attr37 attr5 attr26 attr2 attr16 attr9) 0.4296875
+(obj18 obj15 obj43 , attr6 attr5 attr26 attr2 attr19 attr29) 0.421875
+(obj35 obj15 , attr6 attr34 attr5 attr21 attr15 attr39) 0.421875
+(obj29 obj5 , attr6 attr34 attr5 attr3 attr16 attr0 attr8) 0.421875
+(obj21 obj26 , attr10 attr36 attr0 attr17 attr22 attr8) 0.421875
+(obj20 obj49 , attr37 attr5 attr15 attr23 attr19 attr29 attr28) 0.4140625
+(obj34 obj15 , attr36 attr12 attr21 attr15 attr22 attr19 attr29 attr34) 0.41015625
+(obj10 obj31 , attr39 attr16 attr30 attr23 attr1) 0.40625
+(obj5 obj31 obj16 , attr4 attr16 attr3 attr0 attr17) 0.40625
+(obj42 obj40 , attr6 attr27 attr14 attr30 attr31 attr9) 0.40625
+(obj19 obj40 , attr27 attr14 attr30 attr16 attr22 attr9) 0.40625
+(obj21 obj25 , attr10 attr32 attr15 attr0 attr22 attr3) 0.40625
+(obj49 obj43 obj27 , attr0 attr29 attr20 attr30 attr28) 0.40625
+(obj20 obj3 , attr14 attr23 attr22 attr1 attr29 attr28) 0.40625
+(obj33 obj27 , attr13 attr29 attr3 attr38 attr31) 0.40625
+(obj21 obj45 , attr11 attr22 attr20 attr8 attr17) 0.40625
+(obj45 obj5 obj16 , attr37 attr34 attr17 attr4 attr28) 0.40625
+(obj11 obj27 , attr36 attr6 attr13 attr0 attr29 attr38) 0.40625
+(obj9 obj48 , attr10 attr36 attr4 attr35 attr9) 0.40625
+(obj46 obj35 obj42 , attr6 attr11 attr13 attr15 attr30) 0.40625
+(obj45 obj41 , attr34 attr20 attr22 attr19 attr17 attr38) 0.390625
+(obj46 obj20 , attr11 attr5 attr14 attr15 attr24 attr28) 0.390625
+(obj43 obj6 , attr6 attr7 attr26 attr0 attr35 attr19) 0.390625
+(obj19 obj6 , attr24 attr14 attr21 attr17 attr19 attr9) 0.390625
+(obj27 obj16 , attr36 attr24 attr3 attr0 attr31 attr28) 0.390625
+(obj28 obj15 , attr36 attr6 attr14 attr15 attr21 attr2) 0.390625
+(obj35 obj40 , attr6 attr27 attr3 attr30 attr18 attr34) 0.390625
+(obj32 obj27 , attr24 attr32 attr0 attr30 attr28 attr38) 0.390625
+(obj37 obj24 , attr10 attr24 attr32 attr15 attr16 attr18) 0.390625
+(obj26 obj16 , attr36 attr37 attr0 attr7 attr22 attr17) 0.390625
+(obj45 obj31 , attr4 attr23 attr22 attr17 attr38 attr39) 0.390625
+(obj4 obj41 , attr36 attr34 attr2 attr15 attr17 attr38) 0.390625
+(obj14 obj27 , attr6 attr13 attr32 attr20 attr30 attr0) 0.390625
+(obj47 obj42 obj15 , attr2 attr12 attr14 attr15 attr19 attr9) 0.390625
+(obj37 obj42 obj14 , attr33 attr30 attr20) 0.375
+(obj9 obj18 , attr36 attr6 attr13 attr35 attr19 attr9) 0.375
+(obj18 obj14 , attr6 attr13 attr26 attr2 attr33) 0.375
+(obj11 obj18 obj42 obj14 , attr6 attr13 attr33) 0.375
+(obj22 obj38 , attr25 attr31 attr23 attr38 attr9) 0.375
+(obj42 obj43 obj14 , attr6 attr12 attr2 attr20 attr30) 0.375
+(obj42 obj38 , attr31 attr14 attr33 attr9) 0.375
+(obj28 obj38 , attr21 attr14 attr8 attr31) 0.375
+(obj19 obj2 obj15 obj34 obj41 , attr19 attr12 attr21 attr22) 0.375
+(obj5 obj39 obj31 obj49 , attr25 attr4 attr5 attr3 attr0) 0.375
+(obj35 obj6 , attr6 attr7 attr34 attr35 attr21) 0.375
+(obj9 obj25 , attr10 attr4 attr35 attr14 attr0) 0.375
+(obj12 obj42 , attr6 attr11 attr27 attr2 attr31) 0.375
+(obj42 obj25 , attr4 attr14 attr15 attr30 attr31 attr2) 0.375
+(obj36 obj24 obj21 , attr10 attr11 attr32 attr3) 0.375
+(obj36 obj31 , attr25 attr14 attr12 attr32 attr3) 0.375
+(obj37 obj26 , attr10 attr27 attr33) 0.375
+(obj0 obj41 , attr36 attr34 attr20 attr31 attr19 attr38) 0.375
+(obj35 obj43 obj25 , attr35 attr15 attr30) 0.375
+(obj14 obj42 obj43 obj41 , attr12 attr2 attr20) 0.375
+(obj46 obj31 , attr25 attr12 attr5 attr14 attr30 attr39) 0.375
+(obj41 obj16 , attr36 attr34 attr15 attr17 attr22 attr31) 0.375
+(obj35 obj45 , attr6 attr11 attr34 attr20 attr39) 0.375
+(obj19 obj47 obj42 obj40 , attr27 attr14 attr9) 0.375
+(obj18 obj42 obj14 , attr6 attr13 attr2 attr33) 0.375
+(obj9 obj6 , attr6 attr35 attr14 attr0 attr19 attr9) 0.375
+(obj35 obj34 , attr7 attr27 attr21 attr15 attr18 attr34 attr3) 0.3671875
+(obj19 obj31 , attr12 attr14 attr30 attr16 attr22 attr17) 0.359375
+(obj1 obj15 , attr36 attr6 attr26 attr32 attr22 attr19) 0.359375
+(obj42 obj43 , attr6 attr12 attr2 attr15 attr30 attr19 attr20) 0.359375
+(obj21 obj27 , attr36 attr24 attr32 attr20 attr0 attr3) 0.359375
+(obj25 obj40 obj16 , attr14 attr3 attr23 attr22 attr31 attr0) 0.359375
+(obj29 obj40 , attr6 attr34 attr14 attr30 attr16 attr0 attr3) 0.359375
+(obj20 obj47 obj15 , attr37 attr5 attr14 attr15 attr19 attr9) 0.359375
+(obj22 obj45 , attr6 attr37 attr23 attr19 attr38 attr39) 0.359375
+(obj2 obj26 , attr37 attr12 attr7 attr22 attr19 attr1 attr27) 0.3515625
+(obj15 obj41 , attr36 attr12 attr21 attr15 attr22 attr19 attr34 attr2) 0.34765625
+(obj2 obj12 , attr6 attr7 attr27 attr31 attr1) 0.34375
+(obj46 obj19 , attr11 attr12 attr14 attr30 attr24) 0.34375
+(obj2 obj15 , attr6 attr37 attr12 attr21 attr22 attr19) 0.34375
+(obj12 obj43 , attr6 attr7 attr26 attr29 attr2) 0.34375
+(obj15 obj40 obj6 , attr6 attr34 attr26 attr14 attr9) 0.34375
+(obj22 obj40 , attr18 attr6 attr31 attr23 attr9) 0.34375
+(obj24 obj40 , attr18 attr34 attr26 attr3 attr16) 0.34375
+(obj28 obj5 , attr36 attr6 attr2 attr0 attr1 attr8) 0.34375
+(obj46 obj36 , attr25 attr11 attr12 attr13 attr14 attr6) 0.34375
+(obj46 obj36 obj42 , attr6 attr11 attr12 attr13 attr14) 0.34375
+(obj18 obj26 , attr36 attr19 attr5 attr33 attr1) 0.34375
+(obj48 obj40 , attr18 attr26 attr23 attr16 attr9) 0.34375
+(obj45 obj48 , attr37 attr4 attr26 attr23 attr38) 0.34375
+(obj20 obj10 , attr37 attr1 attr29 attr23 attr9) 0.34375
+(obj43 obj26 , attr19 attr12 attr5 attr0 attr7) 0.34375
+(obj25 obj6 , attr35 attr14 attr26 attr32 attr0) 0.34375
+(obj11 obj42 , attr6 attr11 attr27 attr13 attr33) 0.34375
+(obj29 obj23 obj5 , attr6 attr34 attr5 attr16 attr8) 0.34375
+(obj37 obj21 , attr10 attr24 attr32 attr15 attr20) 0.34375
+(obj5 obj30 , attr25 attr34 attr2 attr4 attr0) 0.34375
+(obj2 obj34 , attr7 attr12 attr21 attr22 attr19 attr1 attr27) 0.34375
+(obj34 obj26 , attr36 attr7 attr12 attr22 attr19 attr1 attr27) 0.34375
+(obj1 obj32 , attr24 attr27 attr32 attr0 attr19 attr28) 0.34375
+(obj21 obj42 , attr11 attr17 attr20 attr15 attr9) 0.34375
+(obj37 obj42 , attr27 attr33 attr20 attr30 attr15) 0.34375
+(obj39 obj26 , attr27 attr5 attr33 attr0 attr1 attr8) 0.328125
+(obj1 obj18 , attr36 attr24 attr26 attr6 attr19 attr28) 0.328125
+(obj20 obj6 , attr24 attr14 attr37 attr19 attr38 attr9) 0.328125
+(obj48 obj30 , attr4 attr35 attr2 attr23 attr18 attr38) 0.328125
+(obj40 obj31 obj16 , attr14 attr23 attr16 attr22 attr0 attr3) 0.328125
+(obj2 obj41 , attr12 attr21 attr22 attr19 attr31 attr27) 0.328125
+(obj34 obj24 , attr36 attr7 attr34 attr21 attr15 attr18 attr3) 0.328125
+(obj23 obj43 , attr6 attr12 attr35 attr19 attr29 attr28 attr5) 0.3203125
+(obj36 obj21 , attr10 attr11 attr32 attr3 attr9) 0.3125
+(obj18 obj48 obj6 , attr24 attr26 attr35 attr9) 0.3125
+(obj23 obj48 , attr10 attr5 attr16 attr35) 0.3125
+(obj37 obj24 obj48 , attr10 attr24 attr18 attr16) 0.3125
+(obj8 obj39 obj26 , attr27 attr0 attr33 attr8 attr1) 0.3125
+(obj8 obj32 obj39 , attr18 attr27 attr0 attr8 attr1) 0.3125
+(obj18 obj6 , attr6 attr24 attr26 attr35 attr19 attr9) 0.3125
+(obj11 obj18 , attr36 attr6 attr13 attr29 attr33) 0.3125
+(obj18 obj12 , attr6 attr29 attr26 attr2 attr1) 0.3125
+(obj18 obj12 obj15 obj43 , attr6 attr29 attr26 attr2) 0.3125
+(obj5 obj39 , attr25 attr4 attr5 attr3 attr0 attr1 attr8) 0.3125
+(obj26 obj7 , attr10 attr7 attr17 attr1) 0.3125
+(obj15 obj25 obj31 , attr14 attr22 attr32 attr39) 0.3125
+(obj46 obj32 , attr24 attr28 attr30 attr39) 0.3125
+(obj10 obj49 , attr37 attr29 attr30 attr23) 0.3125
+(obj49 obj25 obj16 , attr4 attr23 attr15 attr0 attr3) 0.3125
+(obj34 obj43 , attr19 attr12 attr29 attr15 attr7) 0.3125
+(obj19 obj24 , attr11 attr21 attr16 attr24) 0.3125
+(obj29 obj6 , attr6 attr34 attr32 attr0 attr14 attr38) 0.3125
+(obj32 obj31 obj25 , attr32 attr30 attr0 attr39) 0.3125
+(obj11 obj34 , attr36 attr18 attr27 attr29 attr34) 0.3125
+(obj47 obj24 obj15 , attr36 attr34 attr5 attr32 attr15) 0.3125
+(obj20 obj19 , attr11 attr14 attr22 attr19 attr24 attr9) 0.3125
+(obj0 obj41 obj27 , attr36 attr20 attr38 attr31) 0.3125
+(obj37 obj25 , attr10 attr18 attr32 attr15 attr30) 0.3125
+(obj44 obj40 obj16 , attr34 attr3 attr16 attr31) 0.3125
+(obj45 obj15 obj6 , attr6 attr37 attr34 attr26 attr19) 0.3125
+(obj46 obj22 obj31 , attr25 attr12 attr5 attr39) 0.3125
+(obj45 obj25 obj31 , attr4 attr22 attr23 attr39) 0.3125
+(obj5 obj14 , attr25 attr6 attr2 attr0 attr17) 0.3125
+(obj21 obj6 , attr24 attr17 attr32 attr0 attr9) 0.3125
+(obj36 obj47 obj15 obj6 , attr37 attr14 attr32 attr9) 0.3125
+(obj47 obj34 obj15 obj41 , attr36 attr19 attr12 attr15 attr34) 0.3125
+(obj32 obj6 , attr24 attr32 attr0 attr17 attr19 attr38) 0.3125
+(obj15 obj5 obj48 , attr36 attr37 attr5 attr2 attr16) 0.3125
+(obj17 obj6 , attr24 attr21 attr38 attr7) 0.3125
+(obj8 obj6 , attr24 attr35 attr38 attr0 attr17) 0.3125
+(obj35 obj41 , attr34 attr21 attr27 attr20 attr15) 0.3125
+(obj20 obj21 obj19 , attr11 attr22 attr24 attr9) 0.3125
+(obj9 obj13 obj23 , attr10 attr6 attr13 attr8) 0.3125
+(obj35 obj34 obj24 obj16 , attr7 attr34 attr15 attr3) 0.3125
+(obj32 obj26 , attr27 attr0 attr17 attr19 attr1 attr8) 0.296875
+(obj20 obj47 , attr37 attr5 attr14 attr15 attr19 attr28 attr9) 0.296875
+(obj47 obj26 , attr36 attr37 attr12 attr5 attr19 attr27) 0.296875
+(obj34 obj41 , attr36 attr12 attr21 attr15 attr22 attr19 attr34 attr27) 0.296875
+(obj0 obj31 , attr25 attr4 attr14 attr30 attr38) 0.28125
+(obj45 obj40 , attr6 attr34 attr26 attr23 attr22) 0.28125
+(obj46 obj15 , attr6 attr12 attr5 attr14 attr15 attr39) 0.28125
+(obj46 obj16 , attr24 attr31 attr14 attr15 attr28) 0.28125
+(obj0 obj38 , attr25 attr34 attr14 attr38 attr31) 0.28125
+(obj2 obj43 , attr6 attr19 attr12 attr28 attr7) 0.28125
+(obj48 obj31 , attr4 attr5 attr23 attr16 attr38) 0.28125
+(obj1 obj40 , attr6 attr27 attr26 attr0 attr22) 0.28125
+(obj10 obj40 , attr6 attr16 attr30 attr23 attr9) 0.28125
+(obj42 obj43 obj41 , attr19 attr12 attr2 attr15 attr20) 0.28125
+(obj18 obj24 , attr36 attr24 attr26 attr5 attr3) 0.28125
+(obj8 obj5 obj39 , attr25 attr0 attr3 attr8 attr1) 0.28125
+(obj45 obj2 , attr6 attr37 attr4 attr22 attr19 attr28) 0.28125
+(obj46 obj49 , attr25 attr5 attr15 attr30 attr28) 0.28125
+(obj46 obj43 , attr6 attr12 attr5 attr15 attr30 attr28) 0.28125
+(obj18 obj49 , attr36 attr5 attr3 attr19 attr29 attr28) 0.28125
+(obj20 obj8 , attr24 attr29 attr23 attr38 attr1) 0.28125
+(obj18 obj15 obj48 , attr36 attr26 attr5 attr2 attr9) 0.28125
+(obj20 obj48 , attr24 attr5 attr23 attr37 attr38 attr9) 0.28125
+(obj20 obj22 obj48 , attr37 attr5 attr23 attr38 attr9) 0.28125
+(obj18 obj35 , attr6 attr13 attr5 attr3 attr35) 0.28125
+(obj37 obj32 , attr18 attr24 attr27 attr32 attr30) 0.28125
+(obj29 obj8 , attr38 attr29 attr0 attr8 attr3) 0.28125
+(obj42 obj16 , attr4 attr17 attr14 attr15 attr31) 0.28125
+(obj47 obj15 obj16 , attr36 attr37 attr34 attr14 attr15) 0.28125
+(obj42 obj26 , attr19 attr12 attr17 attr27 attr33) 0.28125
+(obj37 obj35 , attr18 attr27 attr15 attr30 attr20) 0.28125
+(obj9 obj21 , attr10 attr36 attr0 attr8 attr9) 0.28125
+(obj45 obj26 , attr19 attr17 attr22 attr8 attr37) 0.28125
+(obj22 obj49 , attr25 attr19 attr5 attr23 attr37) 0.28125
+(obj1 obj14 , attr25 attr6 attr26 attr32 attr0) 0.28125
+(obj34 obj23 , attr19 attr12 attr29 attr34 attr1) 0.28125
+(obj47 obj42 , attr2 attr12 attr14 attr15 attr19 attr27 attr9) 0.28125
+(obj19 obj47 obj42 , attr19 attr12 attr14 attr27 attr9) 0.28125
+(obj5 obj48 , attr36 attr37 attr4 attr5 attr2 attr16) 0.28125
+(obj0 obj16 , attr36 attr34 attr14 attr4 attr31) 0.28125
+(obj28 obj41 , attr36 attr2 attr21 attr15 attr31) 0.28125
+(obj42 obj31 , attr12 attr14 attr4 attr30 attr17) 0.28125
+(obj25 obj40 obj31 , attr14 attr30 attr23 attr22 attr0 attr3) 0.28125
+(obj5 obj39 obj31 , attr25 attr4 attr5 attr3 attr0 attr1) 0.265625
+(obj40 obj6 , attr6 attr34 attr26 attr14 attr0 attr9) 0.265625
+(obj3 obj49 , attr25 attr4 attr0 attr23 attr29 attr28) 0.265625
+(obj1 obj27 , attr36 attr24 attr32 attr0 attr6 attr28) 0.265625
+(obj34 obj16 , attr36 attr7 attr34 attr15 attr22 attr3) 0.265625
+(obj31 obj30 , attr25 attr4 attr0 attr23 attr22 attr38) 0.265625
+(obj47 obj15 obj41 , attr36 attr12 attr2 attr15 attr19 attr34) 0.265625
+(obj47 obj34 obj41 , attr36 attr12 attr15 attr19 attr27 attr34) 0.265625
+(obj1 obj6 , attr6 attr24 attr26 attr32 attr0 attr19) 0.265625
+(obj41 obj15 obj25 obj30 , attr2 attr22) 0.25
+(obj18 obj43 obj25 obj48 obj30 , attr35 attr2) 0.25
+(obj20 obj3 obj25 obj31 obj30 obj45 obj40 obj16 , attr23 attr22) 0.25
+(obj3 obj2 obj5 obj39 obj31 , attr4 attr1) 0.25
+(obj42 obj39 , attr27 attr4 attr33) 0.25
+(obj20 obj10 obj3 obj31 obj8 , attr23 attr1) 0.25
+(obj10 obj12 obj32 obj31 , attr39 attr1) 0.25
+(obj46 obj0 obj14 obj31 obj49 , attr25 attr30) 0.25
+(obj10 obj15 obj31 , attr16 attr39) 0.25
+(obj36 obj15 obj14 obj31 obj47 , attr12 attr32) 0.25
+(obj10 obj48 obj40 obj31 obj16 , attr16 attr23) 0.25
+(obj36 obj44 obj49 obj5 obj16 , attr37 attr3) 0.25
+(obj19 obj15 obj31 , attr12 attr14 attr16 attr22) 0.25
+(obj19 obj31 obj16 , attr17 attr14 attr16 attr22) 0.25
+(obj19 obj16 obj42 obj31 obj6 , attr14 attr17) 0.25
+(obj20 obj3 obj31 , attr22 attr14 attr23 attr1) 0.25
+(obj20 obj22 obj23 obj26 obj47 obj18 obj43 obj15 obj49 , attr19 attr5) 0.25
+(obj22 obj5 obj31 obj39 obj46 obj49 , attr25 attr5) 0.25
+(obj46 obj36 obj22 obj14 obj31 , attr25 attr12) 0.25
+(obj46 obj22 obj15 obj31 , attr12 attr5 attr39) 0.25
+(obj10 obj23 obj5 obj31 , attr16 attr1) 0.25
+(obj19 obj23 obj15 obj31 , attr12 attr16) 0.25
+(obj23 obj5 obj24 obj31 obj29 obj15 obj48 , attr5 attr16) 0.25
+(obj46 obj35 obj45 obj12 , attr6 attr11 attr39) 0.25
+(obj35 obj45 obj15 , attr6 attr34 attr39) 0.25
+(obj8 obj45 obj38 , attr23 attr8 attr38) 0.25
+(obj9 obj45 obj5 obj39 , attr4 attr8) 0.25
+(obj10 obj22 obj45 obj40 , attr6 attr23) 0.25
+(obj28 obj12 obj5 obj4 , attr2 attr8) 0.25
+(obj0 obj45 obj41 , attr19 attr34 attr20 attr38) 0.25
+(obj21 obj45 obj41 , attr17 attr20 attr22) 0.25
+(obj24 obj7 , attr10 attr7 attr34 attr15) 0.25
+(obj20 obj19 obj45 obj42 , attr11 attr19) 0.25
+(obj35 obj2 obj6 obj43 obj13 obj12 , attr6 attr7) 0.25
+(obj19 obj21 obj45 obj42 , attr11 attr17) 0.25
+(obj45 obj43 obj14 , attr6 attr26 attr20) 0.25
+(obj35 obj45 obj42 obj43 obj27 obj14 , attr6 attr20) 0.25
+(obj44 obj45 , attr11 attr34 attr20 attr37) 0.25
+(obj20 obj36 obj42 obj19 obj21 , attr11 attr9) 0.25
+(obj12 obj24 obj43 obj6 , attr7 attr26) 0.25
+(obj46 obj1 obj3 obj5 obj49 , attr25 attr28) 0.25
+(obj42 obj47 obj15 obj43 obj41 , attr19 attr12 attr2 attr15) 0.25
+(obj46 obj1 obj8 , attr25 attr24) 0.25
+(obj46 obj20 obj16 , attr24 attr14 attr15 attr28) 0.25
+(obj46 obj20 obj3 obj47 obj16 , attr14 attr28) 0.25
+(obj18 obj47 obj42 obj43 obj41 obj15 , attr19 attr2) 0.25
+(obj2 obj5 obj45 obj16 obj48 obj49 , attr37 attr4) 0.25
+(obj28 obj34 , attr36 attr21 attr15 attr1) 0.25
+(obj48 obj17 obj16 , attr24 attr4) 0.25
+(obj9 obj18 obj48 , attr36 attr35 attr9) 0.25
+(obj11 obj8 obj34 obj30 , attr18 attr29) 0.25
+(obj34 obj25 obj40 obj30 , attr18 attr22) 0.25
+(obj20 obj48 obj6 , attr24 attr37 attr38 attr9) 0.25
+(obj20 obj16 obj48 obj6 , attr24 attr37) 0.25
+(obj22 obj34 obj32 , attr18 attr19) 0.25
+(obj20 obj18 obj22 obj47 obj15 obj48 , attr5 attr9) 0.25
+(obj35 obj13 , attr6 attr7 attr13) 0.25
+(obj9 obj25 obj48 , attr10 attr4 attr35) 0.25
+(obj22 obj25 obj48 , attr10 attr18 attr23) 0.25
+(obj19 obj35 obj2 obj34 obj41 , attr27 attr21) 0.25
+(obj41 obj4 obj48 obj30 , attr2 attr38) 0.25
+(obj11 obj35 obj23 , attr6 attr34 attr13) 0.25
+(obj8 obj25 obj48 obj30 , attr18 attr35 attr23) 0.25
+(obj9 obj25 obj48 obj30 , attr4 attr35) 0.25
+(obj11 obj35 obj24 , attr18 attr11 attr34) 0.25
+(obj35 obj12 obj24 , attr11 attr7) 0.25
+(obj19 obj35 obj24 , attr11 attr21) 0.25
+(obj20 obj46 obj35 obj24 , attr11 attr5 attr15) 0.25
+(obj20 obj21 obj35 obj24 obj46 obj42 , attr11 attr15) 0.25
+(obj47 obj35 obj23 obj5 obj24 obj29 obj15 , attr34 attr5) 0.25
+(obj39 obj25 obj48 obj30 , attr18 attr4) 0.25
+(obj18 obj39 obj26 , attr5 attr33 attr1) 0.25
+(obj47 obj35 obj39 obj26 , attr27 attr5) 0.25
+(obj11 obj8 obj38 , attr33 attr38) 0.25
+(obj8 obj40 , attr18 attr27 attr23 attr3 attr0) 0.25
+(obj15 obj43 obj14 , attr6 attr12 attr26 attr2) 0.25
+(obj1 obj45 obj2 obj15 obj40 , attr6 attr22) 0.25
+(obj8 obj14 obj39 obj38 , attr25 attr33) 0.25
+(obj43 obj16 , attr7 attr15 attr0 attr28) 0.25
+(obj19 obj1 obj2 obj34 obj40 obj26 obj41 , attr27 attr22) 0.25
+(obj2 obj43 obj16 , attr7 attr28) 0.25
+(obj19 obj10 obj15 obj48 obj40 , attr16 attr9) 0.25
+(obj21 obj40 , attr22 attr3 attr0 attr9) 0.25
+(obj1 obj18 obj45 obj43 , attr6 attr19 attr26 attr28) 0.25
+(obj24 obj45 obj15 obj40 obj6 , attr34 attr26) 0.25
+(obj41 obj38 obj17 obj6 , attr21 attr38) 0.25
+(obj2 obj17 obj16 , attr7 attr4) 0.25
+(obj16 obj24 obj17 obj6 , attr24 attr7) 0.25
+(obj16 obj2 obj26 obj6 , attr37 attr7) 0.25
+(obj20 obj3 obj2 obj5 obj32 obj18 obj23 , attr28 attr1) 0.25
+(obj1 obj18 obj6 , attr6 attr24 attr26 attr19) 0.25
+(obj34 obj5 obj31 obj8 obj39 obj18 , attr3 attr1) 0.25
+(obj18 obj48 obj8 obj6 , attr24 attr35) 0.25
+(obj11 obj18 obj8 , attr29 attr33) 0.25
+(obj11 obj18 obj9 obj27 , attr36 attr6 attr13) 0.25
+(obj28 obj18 obj12 obj5 , attr6 attr2 attr1) 0.25
+(obj9 obj18 obj13 obj42 obj36 , attr6 attr13 attr9) 0.25
+(obj5 obj4 obj47 obj28 obj18 obj41 obj15 obj48 , attr36 attr2) 0.25
+(obj1 obj6 obj18 obj45 obj43 obj15 , attr6 attr19 attr26) 0.25
+(obj18 obj27 obj5 obj49 obj16 , attr36 attr28 attr3) 0.25
+(obj1 obj5 obj27 obj18 obj49 obj47 obj16 , attr36 attr28) 0.25
+(obj3 obj25 obj31 obj30 obj8 obj40 obj49 obj16 , attr23 attr0) 0.25
+(obj21 obj24 obj27 obj8 obj18 obj16 , attr24 attr3) 0.25
+(obj20 obj24 obj46 obj18 obj17 obj48 , attr24 attr5) 0.25
+(obj8 obj21 obj5 obj31 obj16 , attr3 attr0 attr17) 0.25
+(obj19 obj21 obj42 obj7 obj6 , attr17 attr9) 0.25
+(obj19 obj1 obj37 obj32 obj8 , attr24 attr27) 0.25
+(obj19 obj10 obj38 obj15 obj6 , attr21 attr9) 0.25
+(obj19 obj11 obj35 obj12 obj42 , attr11 attr27) 0.25
+(obj42 obj5 obj25 obj48 obj30 , attr4 attr2) 0.25
+(obj10 obj23 obj15 obj29 , attr6 attr29 attr16) 0.25
+(obj23 obj5 obj29 obj40 obj10 obj15 , attr6 attr16) 0.25
+(obj23 obj5 obj16 , attr34 attr28 attr16) 0.25
+(obj23 obj5 obj29 obj44 obj40 obj24 obj15 obj16 , attr34 attr16) 0.25
+(obj11 obj35 obj42 , attr6 attr11 attr27 attr13) 0.25
+(obj20 obj3 obj40 obj25 obj31 obj38 obj16 , attr14 attr23) 0.25
+(obj35 obj28 obj46 obj42 obj43 obj15 , attr6 attr15) 0.25
+(obj46 obj42 obj35 obj33 , attr13 attr15) 0.25
+(obj19 obj23 obj15 , attr19 attr12 attr16) 0.25
+(obj1 obj21 obj5 obj26 obj27 obj9 obj28 obj11 obj49 obj16 , attr36 attr0) 0.25
+(obj9 obj21 obj13 obj23 obj26 , attr10 attr8) 0.25
+(obj9 obj36 obj22 obj23 obj13 , attr10 attr6) 0.25
+(obj2 obj42 obj39 , attr27 attr4) 0.25
+(obj19 obj42 obj40 , attr27 attr14 attr30 attr9) 0.25
+(obj19 obj10 obj42 obj40 , attr30 attr9) 0.25
+(obj22 obj38 obj25 obj40 obj16 , attr23 attr31) 0.25
+(obj41 obj42 obj16 , attr17 attr15 attr31) 0.25
+(obj13 obj24 obj6 , attr7 attr32) 0.25
+(obj13 obj24 obj26 obj7 , attr10 attr7) 0.25
+(obj0 obj44 obj41 obj42 obj27 , attr20 attr31) 0.25
+(obj20 obj34 obj47 obj42 obj43 obj41 obj15 obj49 , attr19 attr15) 0.25
+(obj1 obj24 obj25 obj6 obj15 obj14 , attr26 attr32) 0.25
+(obj13 obj12 obj2 obj16 , attr7 attr31) 0.25
+(obj16 obj24 obj6 , attr24 attr34 attr7) 0.25
+(obj35 obj34 obj24 obj7 obj6 obj16 , attr7 attr34) 0.25
+(obj1 obj18 obj24 obj48 obj6 , attr24 attr26) 0.25
+(obj1 obj18 obj24 obj15 obj48 , attr36 attr26) 0.25
+(obj20 obj2 obj26 obj45 obj15 obj16 , attr37 attr22) 0.25
+(obj21 obj35 obj34 obj33 obj25 obj24 obj49 obj16 , attr15 attr3) 0.25
+(obj37 obj0 obj35 obj27 obj42 obj43 obj14 obj49 , attr20 attr30) 0.25
+(obj1 obj8 obj39 , attr25 attr27 attr0) 0.25
+(obj28 obj0 obj27 obj41 obj16 , attr36 attr31) 0.25
+(obj46 obj2 obj27 obj16 , attr28 attr31) 0.25
+(obj0 obj41 obj45 obj17 obj27 , attr20 attr38) 0.25
+(obj20 obj3 obj23 obj27 obj18 obj43 obj49 , attr29 attr28) 0.25
+(obj1 obj18 obj27 obj46 obj6 , attr6 attr24) 0.25
+(obj19 obj37 obj46 obj32 obj27 , attr24 attr30) 0.25
+(obj20 obj18 obj27 obj8 , attr24 attr29) 0.25
+(obj35 obj2 obj24 obj6 obj34 obj17 , attr7 attr21) 0.25
+(obj0 obj45 , attr19 attr34 attr4 attr38 attr20) 0.25
+(obj0 obj22 obj33 obj27 obj38 obj41 , attr38 attr31) 0.25
+(obj0 obj25 obj27 obj46 obj42 obj40 , attr30 attr31) 0.25
+(obj13 obj25 obj27 , attr32 attr31) 0.25
+(obj21 obj24 obj25 obj31 obj27 obj29 obj36 , attr32 attr3) 0.25
+(obj28 obj6 , attr6 attr14 attr21 attr0) 0.25
+(obj35 obj2 obj6 obj28 obj10 obj15 , attr6 attr21) 0.25
+(obj28 obj12 , attr6 attr31 attr2 attr8 attr1) 0.25
+(obj28 obj2 obj12 , attr6 attr31 attr1) 0.25
+(obj36 obj6 obj28 obj29 obj46 obj9 obj42 obj40 obj15 , attr6 attr14) 0.25
+(obj43 obj25 obj40 obj14 , attr26 attr30 attr0) 0.25
+(obj41 obj2 obj25 obj40 obj16 , attr22 attr31) 0.25
+(obj45 obj14 obj6 , attr6 attr26 attr17) 0.25
+(obj46 obj25 , attr31 attr14 attr15 attr30 attr39) 0.25
+(obj3 obj25 obj31 obj6 obj9 obj29 obj28 obj40 obj16 , attr14 attr0) 0.25
+(obj46 obj18 obj27 , attr6 attr24 attr13 attr28) 0.25
+(obj46 obj18 obj23 obj27 , attr6 attr13 attr28) 0.25
+(obj34 obj26 obj31 obj19 obj2 obj41 obj15 , attr12 attr22) 0.25
+(obj20 obj15 obj31 obj26 , attr5 attr22) 0.25
+(obj1 obj0 obj5 obj49 , attr25 attr36) 0.25
+(obj2 obj34 obj23 obj31 obj26 , attr12 attr1) 0.25
+(obj22 obj23 obj26 obj31 obj46 obj47 obj43 obj15 , attr12 attr5) 0.25
+(obj20 obj22 obj45 obj49 , attr37 attr23 attr19) 0.25
+(obj46 obj33 , attr25 attr13 attr15 attr31) 0.25
+(obj46 obj0 obj22 obj33 obj38 , attr25 attr31) 0.25
+(obj1 obj2 obj5 obj27 obj46 obj18 obj23 obj43 obj45 , attr6 attr28) 0.25
+(obj16 obj26 obj6 , attr7 attr37 attr0 attr17) 0.25
+(obj46 obj18 obj35 obj23 , attr6 attr5 attr13) 0.25
+(obj46 obj35 obj42 obj14 obj27 , attr6 attr13 attr30) 0.25
+(obj5 obj26 obj31 obj29 obj39 obj43 obj49 , attr5 attr0) 0.25
+(obj29 obj27 obj32 obj31 obj6 , attr32 attr38 attr0) 0.25
+(obj46 obj19 obj42 obj36 , attr11 attr12 attr14) 0.25
+(obj46 obj20 obj42 obj19 obj36 , attr11 attr14) 0.25
+(obj0 obj3 obj5 obj31 obj30 obj39 obj49 , attr25 attr4) 0.25
+(obj46 obj22 obj2 obj42 obj41 , attr12 attr31) 0.25
+(obj1 obj47 obj2 obj32 , attr19 attr27 attr28) 0.25
+(obj46 obj19 obj35 obj42 , attr11 attr30) 0.25
+(obj46 obj9 obj42 obj36 , attr6 attr13 attr14) 0.25
+(obj1 obj47 obj15 obj32 obj6 , attr19 attr32) 0.25
+(obj46 obj47 obj34 obj42 obj43 obj41 obj15 , attr12 attr15) 0.25
+(obj5 obj4 , attr36 attr34 attr2 attr8 attr17) 0.25
+(obj46 obj35 obj15 obj25 , attr15 attr39) 0.25
+(obj35 obj2 obj34 obj26 obj12 , attr7 attr27) 0.25
+(obj35 obj27 , attr6 attr13 attr20 attr30 attr3) 0.25
+(obj0 obj34 obj5 obj4 obj47 obj41 obj11 obj24 obj15 obj16 , attr36 attr34) 0.25
+(obj1 obj0 obj34 obj26 obj47 obj9 obj18 obj41 obj15 obj49 , attr36 attr19) 0.25
+(obj0 obj2 obj9 obj45 obj42 obj49 , attr19 attr4) 0.25
+(obj35 obj34 obj24 obj28 obj41 obj15 , attr21 attr15) 0.25
+(obj0 obj5 obj9 obj16 obj48 obj49 , attr36 attr4) 0.25
+(obj9 obj42 obj2 obj5 obj45 , attr6 attr4) 0.25
+(obj3 obj5 obj25 obj31 obj30 obj9 obj39 obj49 obj16 , attr4 attr0) 0.25
+(obj21 obj5 obj4 obj26 obj9 obj28 , attr36 attr8) 0.25
+(obj20 obj0 obj6 obj9 obj19 obj47 obj42 obj15 , attr19 attr14) 0.25
+(obj46 obj35 obj15 obj22 obj31 , attr5 attr39) 0.25
+(obj35 obj25 obj31 , attr3 attr30 attr39) 0.25
+(obj21 obj5 obj32 obj26 obj9 obj8 obj39 obj28 obj29 , attr0 attr8) 0.25
+(obj25 obj30 obj9 obj8 obj6 obj43 , attr35 attr0) 0.25
+(obj36 obj18 obj35 obj33 obj27 , attr13 attr3) 0.25
+(obj10 obj2 obj15 obj6 , attr6 attr37 attr21) 0.25
+(obj20 obj10 obj7 obj18 , attr1 attr9) 0.25
+(obj36 obj22 obj6 obj9 obj18 obj42 obj40 obj10 obj13 obj15 , attr6 attr9) 0.25
+(obj36 obj3 obj31 obj0 obj38 obj46 , attr25 attr14) 0.25
+(obj36 obj13 , attr10 attr6 attr13 attr32 attr9) 0.25
+(obj1 obj32 obj26 obj8 obj39 obj40 obj11 , attr27 attr0) 0.25
+(obj3 obj30 obj8 obj27 obj43 obj29 obj11 obj49 , attr29 attr0) 0.25
+(obj32 obj31 obj27 obj8 obj30 obj29 obj11 obj6 , attr38 attr0) 0.25
+(obj23 obj27 obj29 obj18 obj43 obj11 obj10 obj12 obj15 , attr6 attr29) 0.25
+(obj1 obj12 obj40 , attr6 attr27 attr26) 0.25
+(obj19 obj36 obj42 obj40 obj6 obj9 obj20 obj15 obj47 obj38 , attr14 attr9) 0.25
+(obj1 obj6 obj18 obj45 obj43 obj40 obj12 obj15 obj14 , attr6 attr26) 0.25
+(obj36 obj21 obj40 obj18 , attr3 attr9) 0.25
+(obj23 obj5 obj32 obj26 obj28 obj8 obj39 obj12 , attr8 attr1) 0.25
+(obj23 obj5 obj9 obj29 obj28 obj45 obj13 obj12 , attr6 attr8) 0.25
+(obj2 obj5 obj28 obj18 obj23 obj10 obj12 , attr6 attr1) 0.25
+(obj18 obj15 obj48 obj40 obj6 , attr26 attr9) 0.25
+(obj22 obj48 obj40 , attr18 attr23 attr9) 0.25
+(obj24 obj15 obj48 obj40 , attr26 attr16) 0.25
+(obj1 obj5 obj6 obj9 obj29 obj27 obj28 obj43 obj40 obj11 obj14 , attr6 attr0) 0.25
+(obj48 obj24 obj25 obj40 , attr18 attr26) 0.25
+(obj9 obj42 obj48 , attr4 attr9) 0.25
+(obj36 obj22 obj2 obj5 obj6 obj45 obj10 obj15 , attr6 attr37) 0.25
+(obj18 obj35 obj23 obj43 obj48 , attr5 attr35) 0.25
+(obj45 obj48 obj6 , attr37 attr26 attr38) 0.25
+(obj45 obj15 obj48 obj6 , attr37 attr26) 0.25
+(obj20 obj22 obj45 obj48 obj6 , attr37 attr38) 0.25
+(obj45 obj25 obj48 , attr4 attr26 attr23) 0.25
+(obj3 obj45 obj25 obj31 obj30 obj49 obj48 obj16 , attr4 attr23) 0.25
+(obj48 obj45 obj25 obj40 , attr26 attr23) 0.25
+(obj47 obj5 obj15 obj48 , attr36 attr37 attr5 attr2) 0.25
+(obj47 obj15 obj48 obj18 , attr36 attr5 attr2 attr9) 0.25
+(obj47 obj42 obj15 obj48 obj18 , attr2 attr9) 0.25
+(obj5 obj4 obj7 obj6 obj45 obj41 obj16 , attr34 attr17) 0.25
+(obj20 obj10 obj15 obj49 , attr37 attr29) 0.25
+(obj5 obj7 , attr25 attr34 attr17 attr1) 0.25
+(obj32 obj31 obj19 obj42 obj14 obj4 , attr30 attr17) 0.25
+(obj10 obj49 obj25 obj40 obj31 , attr30 attr23) 0.25
+(obj0 obj38 obj5 obj7 obj30 , attr25 attr34) 0.25
+(obj12 obj25 obj40 , attr26 attr31) 0.25
+(obj1 obj20 obj2 obj26 obj19 obj34 obj41 obj45 obj15 , attr19 attr22) 0.25
+(obj1 obj25 obj6 obj43 obj40 obj14 , attr26 attr0) 0.25
+(obj2 obj6 obj19 obj34 obj41 obj15 , attr19 attr21) 0.25
+(obj1 obj45 obj15 obj25 obj40 , attr26 attr22) 0.25
+(obj15 obj25 obj40 obj6 , attr26 attr14) 0.25
+(obj31 obj25 obj40 obj16 , attr23 attr14 attr3 attr0 attr22) 0.25
+(obj19 obj16 , attr24 attr17 attr14 attr16 attr22) 0.25
+(obj19 obj1 obj21 obj20 obj16 , attr24 attr22) 0.25
+(obj19 obj5 obj31 obj16 , attr16 attr17) 0.25
+(obj21 obj32 obj6 obj8 obj19 obj16 , attr24 attr17) 0.25
+(obj19 obj15 obj40 obj31 obj16 , attr14 attr16 attr22) 0.25
+(obj19 obj24 obj17 obj6 , attr24 attr21) 0.25
+(obj43 obj49 obj25 obj40 obj27 obj29 obj14 obj31 obj32 , attr30 attr0) 0.25
+(obj1 obj20 obj32 obj6 obj19 obj18 , attr24 attr19) 0.25
+(obj20 obj22 obj6 obj9 obj19 obj18 obj42 obj15 obj47 , attr19 attr9) 0.25
+(obj28 obj10 obj2 obj34 , attr21 attr1) 0.25
+(obj20 obj33 obj4 obj41 , attr15 attr38) 0.25
+(obj20 obj10 obj2 obj5 obj26 , attr37 attr1) 0.25
+(obj20 obj36 obj22 obj6 obj47 obj10 obj15 obj48 , attr37 attr9) 0.25
+(obj35 obj34 obj5 obj29 obj44 obj40 obj24 obj16 , attr34 attr3) 0.25
+(obj20 obj33 obj27 obj29 obj30 obj8 obj11 , attr29 attr38) 0.25
+(obj20 obj12 , attr11 attr29 attr1) 0.25
+(obj20 obj11 obj12 , attr11 attr29) 0.25
+(obj20 obj22 obj5 obj26 obj47 obj15 obj48 obj49 , attr37 attr5) 0.25
+(obj20 obj22 obj2 obj26 obj6 obj47 obj45 obj15 obj49 , attr37 attr19) 0.25
+(obj20 obj21 obj7 obj47 obj42 obj15 , attr15 attr9) 0.25
+(obj9 obj18 obj48 obj6 , attr35 attr9) 0.25
+(obj49 obj48 obj16 , attr36 attr37 attr4 attr23) 0.25
+(obj20 obj2 obj5 obj47 obj45 obj49 obj16 , attr37 attr28) 0.25
+(obj20 obj8 obj48 obj16 , attr24 attr23) 0.25
+(obj20 obj22 obj45 obj10 obj49 obj48 obj16 , attr37 attr23) 0.25
+(obj20 obj36 obj6 obj47 obj15 obj16 , attr37 attr14) 0.25
+(obj37 obj19 obj40 , attr27 attr16 attr30) 0.25
+(obj11 obj35 obj40 , attr6 attr18 attr27 attr34) 0.25
+(obj46 obj31 obj19 obj42 obj43 obj14 , attr12 attr30) 0.25
+(obj20 obj46 obj47 obj43 obj16 obj49 , attr15 attr28) 0.25
+(obj20 obj23 obj5 obj47 obj46 obj18 obj43 obj49 , attr5 attr28) 0.25
+(obj34 obj31 , attr12 attr22 attr3 attr1) 0.25
+(obj21 obj34 obj25 obj31 obj40 obj16 , attr3 attr22) 0.25
+(obj35 obj34 obj24 obj43 obj7 obj16 , attr7 attr15) 0.25
+(obj18 obj24 obj43 obj48 obj15 , attr26 attr5) 0.25
+(obj25 obj14 obj43 , attr26 attr2 attr30 attr0) 0.25
+(obj24 obj15 obj43 obj25 , attr26 attr15) 0.25
+(obj8 obj34 obj32 obj39 , attr18 attr27 attr1) 0.25
+(obj16 obj43 obj26 obj6 , attr7 attr0) 0.25
+(obj21 obj14 obj49 obj43 obj27 , attr20 attr0) 0.25
+(obj37 obj35 obj34 obj32 obj8 obj39 obj40 obj11 , attr18 attr27) 0.25
+(obj37 obj21 obj14 obj27 , attr32 attr20) 0.25
+(obj14 obj43 obj26 obj31 , attr12 attr0) 0.25
+(obj34 obj43 obj12 , attr7 attr29) 0.25
+(obj34 obj15 obj43 obj23 , attr19 attr12 attr29) 0.25
+(obj2 obj34 obj43 obj26 , attr7 attr12 attr19) 0.25
+(obj35 obj43 obj6 , attr6 attr7 attr35) 0.25
+(obj20 obj1 obj2 obj32 obj47 obj18 obj23 obj43 obj45 obj49 , attr19 attr28) 0.25
+(obj35 obj43 obj17 , attr7 attr5 attr20) 0.25
+(obj24 obj26 obj47 obj18 obj5 obj15 obj48 obj49 , attr36 attr5) 0.25
+(obj19 obj10 obj24 obj15 , attr21 attr16) 0.25
+(obj19 obj37 obj24 obj48 obj16 , attr24 attr16) 0.25
+(obj20 obj35 obj24 obj46 obj47 obj43 obj15 obj49 , attr5 attr15) 0.25
+(obj20 obj21 obj15 obj19 obj40 , attr22 attr9) 0.25
+(obj1 obj21 obj24 obj32 obj27 obj6 obj37 , attr24 attr32) 0.25
+(obj37 obj21 obj24 obj25 obj7 , attr10 attr15) 0.25
+(obj9 obj21 obj24 obj48 obj26 , attr10 attr36) 0.25
+(obj11 obj21 obj24 , attr36 attr11) 0.25
+(obj37 obj21 obj24 obj25 obj36 obj13 , attr10 attr32) 0.25
+(obj1 obj21 obj24 obj27 obj47 obj15 , attr36 attr32) 0.25
+(obj20 obj21 obj24 obj46 obj37 obj16 , attr24 attr15) 0.25
+(obj12 obj15 , attr6 attr29 attr26 attr2 attr39) 0.25
+(obj20 obj21 obj24 obj19 obj46 , attr11 attr24) 0.25
+(obj23 obj24 obj7 , attr10 attr34) 0.25
+(obj8 obj35 , attr18 attr27 attr35 attr3) 0.25
+(obj22 obj23 obj24 obj48 obj26 , attr10 attr5) 0.25
+(obj0 obj38 obj44 obj40 obj41 obj16 , attr34 attr31) 0.25
+(obj9 obj25 obj6 , attr35 attr14 attr0) 0.25
+(obj32 obj30 obj8 obj39 obj40 obj11 obj25 , attr18 attr0) 0.25
+(obj12 obj25 , attr26 attr2 attr31 attr39) 0.25
+(obj25 obj14 , attr32 attr26 attr2 attr30 attr0) 0.25
+(obj43 obj14 obj42 obj25 obj4 , attr2 attr30) 0.25
+(obj5 obj25 obj30 obj28 obj43 obj14 , attr2 attr0) 0.25
+(obj25 obj18 obj43 obj12 obj15 obj14 obj48 , attr26 attr2) 0.25
+(obj25 obj28 obj47 obj42 obj43 obj41 obj15 obj4 , attr2 attr15) 0.25
+(obj12 obj15 obj25 , attr26 attr2 attr39) 0.25
+(obj2 obj12 obj42 obj40 obj41 , attr27 attr31) 0.25
+(obj3 obj2 obj25 obj31 obj30 obj45 obj16 , attr4 attr22) 0.25
+(obj5 obj25 obj31 obj39 obj16 obj49 , attr4 attr3 attr0) 0.25
+(obj25 obj31 obj8 obj40 obj16 obj49 , attr23 attr3 attr0) 0.25
+(obj21 obj5 obj25 obj31 obj27 obj8 obj39 obj40 obj29 obj49 obj16 , attr3 attr0) 0.25
+(obj18 obj25 , attr26 attr2 attr3 attr35) 0.25
+(obj18 obj5 obj25 , attr2 attr3) 0.25
+(obj24 obj5 obj15 obj48 obj16 , attr36 attr16) 0.25
+(obj18 obj43 obj25 obj48 obj6 , attr26 attr35) 0.25
+(obj18 obj35 obj25 obj8 , attr35 attr3) 0.25
+(obj19 obj40 obj25 obj31 , attr14 attr30 attr22) 0.25
+(obj0 obj25 obj31 obj29 obj19 obj42 obj40 obj46 , attr14 attr30) 0.25
+(obj28 obj19 obj38 obj15 obj6 , attr14 attr21) 0.25
+(obj28 obj20 obj3 obj31 , attr14 attr1) 0.25
+(obj28 obj20 obj34 obj7 , attr15 attr1) 0.25
+(obj28 obj21 obj4 , attr36 attr15 attr8) 0.25
+(obj28 obj24 obj34 obj15 obj41 , attr36 attr21 attr15) 0.25
+(obj10 obj35 obj15 , attr6 attr21 attr39) 0.25
+(obj28 obj12 obj42 obj25 obj41 , attr2 attr31) 0.25
+(obj28 obj42 obj15 obj25 obj47 , attr14 attr2 attr15) 0.25
+(obj0 obj25 obj28 obj38 obj46 obj42 obj40 obj16 , attr14 attr31) 0.25
+(obj20 obj25 obj28 obj46 obj47 obj42 obj15 obj16 , attr14 attr15) 0.25
+(obj21 obj25 obj28 obj43 obj16 obj49 , attr15 attr0) 0.25
+(obj28 obj18 obj34 obj5 obj26 , attr36 attr1) 0.25
+(obj28 obj27 obj25 obj40 obj16 , attr0 attr31) 0.25
+(obj19 obj35 , attr11 attr27 attr21 attr30) 0.25
+(obj32 obj29 obj38 obj45 obj8 obj4 , attr38 attr8) 0.25
+(obj24 obj25 obj48 , attr10 attr18 attr26) 0.25
+(obj20 obj29 obj3 obj15 , attr14 attr29) 0.25
+(obj19 obj10 obj35 , attr21 attr30) 0.25
+(obj37 obj31 obj29 obj19 obj40 obj10 , attr16 attr30) 0.25
+(obj31 obj29 obj19 obj40 obj15 obj16 , attr14 attr16) 0.25
+(obj20 obj0 obj31 obj6 obj29 obj38 , attr14 attr38) 0.25
+(obj35 obj22 , attr18 attr6 attr5 attr39) 0.25
+(obj29 obj21 obj5 obj39 obj8 , attr0 attr3 attr8) 0.25
+(obj29 obj13 obj32 obj21 , attr32 attr8) 0.25
+(obj11 obj35 obj22 obj40 , attr18 attr6) 0.25
+(obj29 obj12 obj23 obj8 , attr29 attr8) 0.25
+(obj29 obj23 obj15 , attr6 attr34 attr5 attr29 attr16) 0.25
+(obj35 obj23 , attr6 attr34 attr13 attr35 attr5) 0.25
+(obj1 obj36 obj22 obj5 obj46 obj14 , attr25 attr6) 0.25
+(obj8 obj30 obj48 obj6 , attr35 attr38) 0.25
+(obj42 obj15 , attr6 attr12 attr14 attr15 attr19 attr2 attr9) 0.25
+(obj9 obj18 obj35 obj23 , attr6 attr13 attr35) 0.25
+(obj35 obj23 obj6 obj9 obj18 obj43 , attr6 attr35) 0.25
+(obj0 obj45 obj42 obj17 obj49 , attr4 attr20) 0.25
+(obj5 obj48 obj31 obj16 , attr4 attr16) 0.25
+(obj1 obj2 obj32 obj26 obj19 obj47 obj34 obj42 obj41 , attr19 attr27) 0.25
+(obj29 obj48 obj31 , attr5 attr16 attr38) 0.25
+(obj22 obj2 obj44 obj16 , attr37 attr31) 0.25
+(obj20 obj18 obj32 obj8 , attr24 attr1) 0.25
+(obj21 obj32 obj8 , attr24 attr0 attr8 attr17) 0.25
+(obj22 obj32 , attr18 attr19 attr38 attr39) 0.25
+(obj22 obj45 obj15 obj32 , attr19 attr39) 0.25
+(obj37 obj8 obj24 obj32 obj48 , attr18 attr24) 0.25
+(obj11 obj34 obj24 obj48 , attr36 attr18) 0.25
+(obj32 obj25 , attr18 attr32 attr30 attr0 attr39) 0.25
+(obj35 obj32 obj31 obj46 obj10 obj25 , attr30 attr39) 0.25
+(obj19 obj42 obj6 , attr19 attr17 attr14 attr9) 0.25
+(obj22 obj32 obj35 obj25 , attr18 attr39) 0.25
+(obj37 obj24 obj32 obj25 , attr18 attr32) 0.25
+(obj0 obj49 obj4 obj27 , attr36 attr30) 0.25
+(obj9 obj45 obj23 obj32 obj26 , attr19 attr8) 0.25
+(obj36 obj22 obj48 obj26 , attr10 attr37) 0.25
+(obj29 obj32 , attr38 attr30 attr32 attr0 attr8) 0.25
+(obj29 obj32 obj4 , attr30 attr38 attr8) 0.25
+(obj35 obj48 obj24 obj22 obj39 , attr18 attr5) 0.25
+(obj10 obj32 obj31 , attr39 attr30 attr1) 0.25
+(obj20 obj8 obj32 obj31 , attr38 attr1) 0.25
+(obj22 obj45 obj32 obj31 , attr38 attr39) 0.25
+(obj37 obj21 obj24 obj48 , attr10 attr24) 0.25
+(obj15 obj32 obj31 obj25 , attr32 attr39) 0.25
+(obj20 obj0 obj22 obj32 obj6 obj45 obj41 , attr19 attr38) 0.25
+(obj46 obj33 obj7 obj49 , attr25 attr15) 0.25
+(obj46 obj36 obj33 obj14 , attr25 attr13) 0.25
+(obj20 obj34 obj33 obj43 obj15 obj49 , attr29 attr15) 0.25
+(obj11 obj18 obj23 obj33 obj27 , attr13 attr29) 0.25
+(obj37 obj35 obj25 obj46 obj42 obj43 obj49 obj4 , attr15 attr30) 0.25
+(obj11 obj33 obj27 , attr13 attr29 attr38) 0.25
+(obj12 obj33 obj27 , attr29 attr31) 0.25
+(obj46 obj49 obj43 obj32 obj27 , attr28 attr30) 0.25
+(obj46 obj45 , attr6 attr11 attr28 attr39) 0.25
+(obj46 obj20 obj45 , attr11 attr28) 0.25
+(obj36 obj22 obj19 obj47 obj42 obj15 , attr12 attr9) 0.25
+(obj46 obj45 obj32 , attr28 attr39) 0.25
+(obj20 obj22 obj31 obj29 obj17 obj48 , attr5 attr38) 0.25
+(obj47 obj2 , attr37 attr12 attr27 attr28 attr19) 0.25
+(obj20 obj49 obj25 obj16 , attr15 attr23) 0.25
+(obj47 obj5 obj15 , attr36 attr37 attr34 attr5 attr2) 0.25
+(obj47 obj16 , attr36 attr37 attr34 attr14 attr15 attr28) 0.25
+(obj13 obj6 , attr6 attr7 attr32 attr9) 0.25
+(obj1 obj36 obj27 obj29 obj6 obj13 obj15 obj14 , attr6 attr32) 0.25
+(obj20 obj47 obj18 , attr19 attr5 attr28 attr9) 0.25
+(obj47 obj15 obj21 , attr36 attr32 attr15 attr9) 0.25
+(obj47 obj15 obj25 , attr14 attr2 attr15 attr32) 0.25
+(obj47 obj15 obj25 obj14 , attr32 attr2) 0.25
+(obj9 obj36 obj25 , attr10 attr14) 0.25
+(obj47 obj2 obj26 , attr37 attr12 attr27 attr19) 0.25
+(obj49 obj16 obj5 obj26 obj6 , attr37 attr0) 0.25
+(obj47 obj24 obj15 obj31 obj29 , attr5 attr32) 0.25
+(obj1 obj47 obj32 , attr19 attr27 attr32 attr28) 0.25
+(obj1 obj47 obj32 obj27 , attr32 attr28) 0.25
+(obj42 obj14 obj26 , attr12 attr33 attr17) 0.25
+(obj20 obj3 obj23 obj8 obj18 obj34 obj10 obj12 , attr29 attr1) 0.25
+(obj11 obj12 , attr6 attr11 attr27 attr29) 0.25
+(obj11 obj8 obj12 obj34 , attr27 attr29) 0.25
+(obj9 obj36 obj13 obj23 , attr10 attr6 attr13) 0.25
+(obj13 obj7 obj6 , attr7 attr9) 0.25
+(obj36 obj24 obj25 obj21 , attr10 attr32 attr3) 0.25
+(obj36 obj22 obj23 obj26 , attr10 attr12) 0.25
+(obj36 obj35 obj23 obj27 obj9 obj46 obj18 obj42 obj11 obj13 obj14 , attr6 attr13) 0.25
+(obj36 obj22 obj2 obj26 obj47 obj15 , attr37 attr12) 0.25
+(obj10 obj27 obj49 obj43 obj29 , attr29 attr30) 0.25
+(obj0 obj14 obj49 , attr25 attr20 attr30) 0.25
+(obj21 obj49 obj27 , attr36 attr20 attr0 attr3) 0.25
+(obj36 obj22 obj2 obj46 obj23 obj42 obj43 obj15 obj14 , attr6 attr12) 0.25
+(obj42 obj41 obj5 obj14 obj4 , attr2 attr17) 0.25
+(obj1 obj36 obj14 obj31 , attr25 attr32) 0.25
+(obj36 obj31 obj19 obj47 obj42 obj15 obj46 , attr12 attr14) 0.25
+(obj9 obj8 obj23 , attr35 attr8) 0.25
+(obj35 obj27 obj29 obj46 obj42 obj43 obj40 obj10 obj14 , attr6 attr30) 0.25
+(obj36 obj35 obj46 obj45 obj42 obj11 obj12 , attr6 attr11) 0.25
+(obj11 obj8 obj14 obj26 obj39 , attr33 attr0) 0.25
+(obj0 obj42 obj25 obj31 obj49 , attr4 attr30) 0.25
+(obj37 obj11 obj39 obj8 , attr18 attr27 attr33) 0.25
+(obj36 obj13 obj14 obj27 , attr6 attr13 attr32) 0.25
+(obj36 obj25 obj31 obj29 obj40 obj16 , attr14 attr3) 0.25
+(obj37 obj23 obj24 obj48 , attr10 attr16) 0.25
+(obj37 obj24 obj25 , attr10 attr18 attr32 attr15) 0.25
+(obj37 obj26 obj8 obj39 obj42 obj11 , attr27 attr33) 0.25
+(obj37 obj32 obj31 obj27 obj29 obj14 obj25 , attr32 attr30) 0.25
+(obj37 obj29 obj24 obj15 obj31 , attr32 attr16) 0.25
+(obj49 obj42 obj25 obj16 , attr4 attr15) 0.25
+(obj37 obj35 obj34 obj24 obj25 , attr18 attr15) 0.25
+(obj37 obj21 obj35 obj42 obj43 obj41 obj49 , attr20 attr15) 0.25
+(obj14 obj6 , attr6 attr26 attr32 attr0 attr17) 0.25
+(obj20 obj18 obj15 obj10 , attr29 attr9) 0.25
+(obj20 obj1 obj32 obj27 obj46 obj18 obj16 , attr24 attr28) 0.25
+(obj20 obj19 obj16 obj46 obj6 , attr24 attr14) 0.25
+(obj18 obj39 obj26 obj8 , attr33 attr1) 0.25
+(obj42 obj14 obj41 , attr12 attr2 attr20 attr17) 0.25
+(obj47 obj42 obj43 obj41 obj15 obj14 , attr12 attr2) 0.25
+(obj21 obj7 , attr10 attr17 attr15 attr9) 0.25
+(obj21 obj4 obj7 obj42 obj41 obj16 , attr15 attr17) 0.25
+(obj36 obj34 obj31 , attr12 attr3) 0.25
+(obj19 obj41 obj6 , attr19 attr21 attr17) 0.25
+(obj21 obj45 obj42 obj14 obj41 , attr20 attr17) 0.25
+(obj9 obj21 obj40 obj6 , attr0 attr9) 0.25
+(obj11 obj21 , attr36 attr11 attr0) 0.25
+(obj21 obj12 obj45 , attr11 attr8) 0.25
+(obj32 obj21 obj14 obj31 obj6 , attr32 attr0 attr17) 0.25
+(obj11 obj36 obj35 obj42 obj46 , attr6 attr11 attr13) 0.25
+(obj1 obj21 obj25 obj31 obj27 obj29 obj6 obj14 obj32 , attr32 attr0) 0.25
+(obj36 obj21 obj6 obj47 obj13 obj15 , attr32 attr9) 0.25
+(obj20 obj22 obj48 obj31 obj49 , attr5 attr23) 0.25
+(obj1 obj21 obj3 obj25 obj26 obj30 obj31 obj40 obj16 , attr0 attr22) 0.25
+(obj22 obj31 obj41 , attr12 attr38) 0.25
+(obj20 obj45 obj41 obj31 obj30 , attr38 attr22) 0.25
+(obj36 obj35 obj24 obj44 obj21 , attr11 attr3) 0.25
+(obj11 obj8 obj32 obj41 , attr27 attr38) 0.25
+(obj1 obj21 obj24 obj27 obj18 obj48 obj16 , attr36 attr24) 0.25
+(obj11 obj9 obj14 obj27 , attr6 attr13 attr0) 0.25
+(obj21 obj34 obj5 obj27 obj18 obj24 obj49 obj16 , attr36 attr3) 0.25
+(obj20 obj21 obj6 obj19 obj18 obj48 , attr24 attr9) 0.25
+(obj0 obj35 obj45 obj44 obj41 , attr34 attr20) 0.25
+(obj35 obj17 obj41 , attr21 attr20) 0.25
+(obj35 obj34 obj47 obj40 obj41 obj11 , attr27 attr34) 0.25
+(obj37 obj35 obj42 obj41 , attr27 attr15 attr20) 0.25
+(obj5 obj28 obj18 obj42 obj43 obj12 obj15 obj14 , attr6 attr2) 0.25
+(obj37 obj14 , attr32 attr33 attr30 attr20) 0.25
+(obj37 obj18 obj8 , attr24 attr33) 0.25
+(obj3 obj49 obj30 , attr25 attr4 attr29 attr0 attr23) 0.25
+(obj18 obj34 obj49 , attr36 attr19 attr29 attr3) 0.25
+(obj20 obj23 obj5 obj26 obj31 obj39 obj18 , attr5 attr1) 0.25
+(obj37 obj24 obj15 obj16 , attr15 attr16) 0.25
+(obj37 obj21 obj24 , attr10 attr24 attr32 attr15) 0.25
+(obj45 obj5 obj23 , attr6 attr34 attr28 attr8) 0.25
+(obj35 obj31 obj29 obj46 obj43 obj49 , attr5 attr30) 0.25
+(obj9 obj21 obj26 , attr10 attr36 attr0 attr8) 0.25
+(obj9 obj21 obj25 obj26 , attr10 attr0) 0.25
+(obj1 obj21 obj15 obj25 obj31 , attr32 attr22) 0.25
+(obj22 obj25 obj30 obj8 obj40 obj48 , attr18 attr23) 0.25
+(obj10 obj22 obj45 obj25 obj31 , attr23 attr39) 0.25
+(obj46 obj22 obj12 obj25 , attr31 attr39) 0.25
+(obj13 obj22 obj25 , attr10 attr31) 0.25
+(obj36 obj22 obj5 obj49 , attr25 attr37) 0.25
+(obj0 obj45 obj42 obj43 obj41 obj49 , attr19 attr20) 0.25
+(obj9 obj23 obj25 obj48 , attr10 attr35) 0.25
+(obj35 obj34 obj24 obj25 obj8 obj39 obj40 , attr18 attr3) 0.25
+(obj18 obj24 obj25 obj40 , attr26 attr3) 0.25
+(obj19 obj44 obj24 , attr11 attr16) 0.25
+(obj37 obj21 obj24 obj25 obj47 obj15 , attr32 attr15) 0.25
+(obj45 obj24 obj12 , attr11 attr26) 0.25
+(obj37 obj22 obj24 obj25 obj48 , attr10 attr18) 0.25
+(obj11 obj44 obj45 obj24 obj35 , attr11 attr34) 0.25
+(obj20 obj36 obj44 obj45 , attr11 attr37) 0.25
+(obj45 obj25 , attr22 attr4 attr26 attr23 attr39) 0.25
+(obj37 obj44 , attr20 attr16) 0.25
+(obj46 obj44 obj12 obj42 , attr11 attr31) 0.25
+(obj21 obj44 obj45 obj42 obj35 , attr11 attr20) 0.25
+(obj3 obj5 obj26 obj31 obj28 obj8 obj39 obj32 , attr0 attr1) 0.25
+(obj5 obj32 obj26 obj8 obj31 obj7 , attr17 attr1) 0.25
+(obj9 obj26 , attr10 attr36 attr0 attr8 attr19) 0.25
+(obj1 obj32 obj26 obj6 obj9 obj43 obj49 , attr19 attr0) 0.25
+(obj45 obj2 obj5 , attr6 attr37 attr4 attr28) 0.25
+(obj8 obj12 obj32 obj26 obj39 , attr27 attr8 attr1) 0.25
+(obj13 obj12 obj26 , attr7 attr8) 0.25
+(obj5 obj31 obj26 , attr17 attr5 attr0 attr1) 0.25
+(obj35 obj34 obj24 obj4 obj7 obj47 obj41 obj15 obj16 , attr34 attr15) 0.25
+(obj46 obj27 obj16 , attr24 attr28 attr31) 0.25
+(obj7 obj6 obj38 obj47 obj40 obj15 , attr34 attr9) 0.25
+(obj16 obj26 obj7 obj6 , attr7 attr17) 0.25
+(obj22 obj25 obj40 , attr18 attr23 attr31) 0.25
+(obj5 obj26 obj47 obj49 obj15 obj48 obj16 , attr36 attr37) 0.25
+(obj16 obj45 obj5 obj26 obj6 , attr37 attr17) 0.25
+(obj1 obj5 obj27 obj9 obj18 obj11 obj28 obj15 , attr36 attr6) 0.25
+(obj45 obj27 , attr6 attr20 attr38 attr28) 0.25
+(obj24 obj26 , attr10 attr36 attr5 attr7) 0.25
+(obj35 obj23 obj5 obj6 obj29 obj45 obj40 obj11 obj15 , attr6 attr34) 0.25
+(obj46 obj15 obj25 obj31 , attr14 attr39) 0.25
+(obj20 obj23 obj29 obj18 obj43 obj15 obj49 , attr5 attr29) 0.25
+(obj29 obj47 obj24 obj15 obj6 , attr34 attr32) 0.25
+(obj37 obj24 obj48 obj40 , attr18 attr16) 0.25
+(obj35 obj24 obj31 obj29 obj39 obj18 obj5 obj49 , attr5 attr3) 0.25
+(obj36 obj25 obj31 obj6 obj29 obj47 obj15 , attr32 attr14) 0.25
+(obj29 obj23 obj5 obj39 obj26 , attr5 attr8) 0.25
+(obj45 obj31 obj16 , attr4 attr22 attr23 attr17) 0.25
+(obj0 obj32 obj31 obj27 obj29 obj4 , attr30 attr38) 0.25
+(obj29 obj15 obj27 , attr6 attr32 attr29) 0.25
+(obj36 obj35 obj5 obj27 obj29 obj18 obj40 , attr6 attr3) 0.25
+(obj34 obj33 obj27 obj29 obj18 obj8 obj49 , attr29 attr3) 0.25
+(obj29 obj5 obj40 obj31 obj16 , attr16 attr3 attr0) 0.25
+(obj1 obj3 obj31 obj30 , attr25 attr0 attr22) 0.25
+(obj8 obj3 obj49 obj30 , attr25 attr29 attr23 attr0) 0.25
+(obj20 obj3 obj30 obj8 obj10 obj49 , attr29 attr23) 0.25
+(obj20 obj31 obj29 obj46 obj47 obj15 , attr5 attr14) 0.25
+(obj5 obj14 obj30 , attr25 attr2 attr0) 0.25
+(obj20 obj3 obj34 obj15 obj30 , attr29 attr22) 0.25
+(obj5 obj4 obj30 obj47 obj41 obj15 , attr34 attr2) 0.25
+(obj0 obj30 obj5 obj45 obj16 , attr34 attr4) 0.25
+(obj34 obj30 obj45 obj40 obj41 obj15 obj16 , attr34 attr22) 0.25
+(obj0 obj31 obj30 obj45 obj17 obj48 , attr4 attr38) 0.25
+(obj18 obj12 obj15 obj43 obj30 , attr29 attr2) 0.25
+(obj35 obj23 obj30 obj6 , attr34 attr35) 0.25
+(obj23 obj30 obj29 obj34 obj11 obj15 , attr34 attr29) 0.25
+(obj18 obj23 obj30 obj43 obj8 , attr35 attr29) 0.25
+(obj35 obj34 obj24 obj30 obj40 obj11 , attr18 attr34) 0.25
+(obj46 obj42 obj13 obj33 obj27 , attr13 attr31) 0.25
+(obj24 obj31 obj29 obj44 obj40 obj5 obj16 , attr3 attr16) 0.25
+(obj33 obj25 obj27 obj44 obj40 obj16 , attr3 attr31) 0.25
+(obj33 obj25 obj28 obj46 obj42 obj41 obj16 , attr15 attr31) 0.25
+(obj8 obj3 obj49 obj33 obj30 , attr25 attr29) 0.25
+(obj36 obj33 obj31 obj8 obj39 obj5 obj49 , attr25 attr3) 0.25
+(obj41 obj6 , attr19 attr34 attr21 attr38 attr17) 0.25
+(obj29 obj8 obj33 obj31 obj27 , attr3 attr38) 0.25
+(obj34 obj7 , attr7 attr34 attr15 attr1) 0.25
+(obj8 obj34 , attr18 attr27 attr29 attr3 attr1) 0.25
+(obj10 obj34 obj15 , attr21 attr29) 0.25
+(obj21 obj27 obj41 obj49 obj0 , attr36 attr20) 0.25
+(obj45 obj5 obj23 obj32 , attr28 attr8) 0.25
+(obj34 obj27 obj18 obj11 obj15 obj49 , attr36 attr29) 0.25
+(obj20 obj34 , attr19 attr22 attr29 attr15 attr1) 0.25
+(obj22 obj34 , attr18 attr19 attr12) 0.25
+(obj20 obj34 obj18 obj23 obj43 obj15 obj49 , attr19 attr29) 0.25
+(obj45 obj32 obj31 , attr17 attr38 attr39) 0.25
+(obj35 obj34 obj24 obj6 obj38 obj41 obj15 , attr34 attr21) 0.25
+(obj34 obj24 obj16 , attr36 attr7 attr34 attr15 attr3) 0.25
+(obj2 obj34 obj43 obj26 obj6 , attr19 attr7) 0.25
+(obj1 obj34 obj26 obj47 obj41 obj11 , attr36 attr27) 0.25
+(obj2 obj34 obj26 obj16 , attr7 attr22) 0.25
+(obj47 obj34 obj15 obj26 obj41 , attr36 attr19 attr12) 0.25
+(obj47 obj15 obj36 , attr37 attr12 attr14 attr32 attr9) 0.25
+(obj37 obj47 obj1 obj32 , attr27 attr32) 0.25
+(obj47 obj12 obj42 obj41 , attr27 attr2) 0.25
+(obj47 obj5 obj43 obj18 , attr5 attr2 attr28) 0.25
+(obj5 obj18 obj47 obj43 obj15 obj48 , attr5 attr2) 0.25
+(obj21 obj41 , attr36 attr17 attr20 attr15 attr22) 0.25
+(obj46 obj47 obj2 obj43 obj23 , attr12 attr28) 0.25
+(obj8 obj48 , attr18 attr24 attr35 attr23 attr38) 0.25
+(obj1 obj32 obj6 , attr24 attr32 attr0 attr19) 0.25
+(obj10 obj12 obj15 , attr6 attr29 attr39) 0.25
+(obj37 obj35 obj32 obj40 obj25 , attr18 attr30) 0.25
+(obj38 obj6 , attr21 attr34 attr14 attr38 attr9) 0.25
+(obj0 obj2 obj42 obj25 obj16 , attr4 attr31) 0.25
+(obj8 obj5 obj39 obj38 , attr25 attr8) 0.25
+(obj10 obj38 , attr21 attr23 attr9) 0.25
+(obj11 obj38 , attr34 attr33 attr38) 0.25
+(obj1 obj3 obj5 obj32 obj27 obj43 obj49 obj16 , attr28 attr0) 0.25
+(obj3 obj2 obj5 obj45 obj16 obj49 , attr4 attr28) 0.25
+(obj18 obj42 obj38 , attr33 attr9) 0.25
+(obj12 obj32 , attr27 attr39 attr8 attr1) 0.25
+(obj9 obj21 obj13 obj38 , attr8 attr9) 0.25
+(obj36 obj22 obj7 obj38 , attr25 attr9) 0.25
+(obj22 obj42 obj13 obj40 obj38 , attr31 attr9) 0.25
+(obj20 obj22 obj38 obj48 obj6 , attr38 attr9) 0.25
+(obj20 obj22 obj38 obj40 obj10 obj48 , attr23 attr9) 0.25
+(obj8 obj39 obj26 obj38 , attr33 attr8) 0.25
+(obj28 obj41 obj2 obj38 , attr21 attr31) 0.25
+(obj28 obj13 obj12 obj38 , attr8 attr31) 0.25
+(obj5 obj30 obj29 obj6 obj40 obj11 obj16 , attr34 attr0) 0.25
+(obj28 obj29 obj9 obj38 , attr14 attr8) 0.25
+(obj1 obj21 obj34 obj26 obj41 obj15 obj16 , attr36 attr22) 0.25
+(obj28 obj15 obj41 , attr36 attr21 attr2 attr15) 0.25
+(obj45 obj30 obj38 obj40 obj16 , attr34 attr23) 0.25
+(obj20 obj3 obj25 obj31 obj19 obj40 obj15 obj16 , attr14 attr22) 0.25
+(obj0 obj6 obj29 obj38 obj47 obj40 obj15 obj16 , attr34 attr14) 0.25
+(obj5 obj6 obj47 obj44 obj45 obj15 obj16 , attr37 attr34) 0.25
+(obj0 obj47 obj9 obj28 obj15 obj16 , attr36 attr14) 0.25
+(obj5 obj44 obj10 obj15 obj48 obj16 , attr37 attr16) 0.25
+(obj2 obj17 , attr7 attr4 attr21) 0.25
+(obj5 obj31 obj39 obj17 obj48 obj49 , attr4 attr5) 0.25
+(obj20 obj32 obj27 obj8 obj6 obj48 obj17 , attr24 attr38) 0.25
+(obj0 obj32 obj19 obj42 obj43 obj49 , attr19 attr30) 0.25
+(obj18 obj39 obj8 , attr1 attr33 attr3) 0.25
+(obj8 obj22 obj39 obj30 , attr25 attr18) 0.25
+(obj24 obj35 obj15 obj17 , attr5 attr21) 0.25
+(obj35 obj43 obj17 obj49 , attr5 attr20) 0.25
+(obj20 obj49 obj3 obj45 obj16 , attr28 attr23) 0.25
+(obj21 obj5 obj4 obj26 obj41 obj16 , attr36 attr17) 0.25
+(obj49 obj45 obj43 obj27 , attr20 attr28) 0.25
+(obj44 obj45 obj49 , attr37 attr20) 0.25
+(obj1 obj22 obj2 obj6 obj9 obj18 obj23 obj42 obj43 obj45 obj15 , attr6 attr19) 0.25
+(obj0 obj4 obj30 obj29 obj6 obj38 obj45 obj41 obj11 , attr34 attr38) 0.25
+(obj21 obj34 obj24 obj4 obj28 obj47 obj41 obj49 obj15 obj16 , attr36 attr15) 0.25
+(obj20 obj47 obj49 obj15 obj16 , attr37 attr15) 0.25
+(obj35 obj42 obj14 obj27 , attr6 attr13 attr20 attr30) 0.25
+(obj37 obj21 obj17 obj27 , attr24 attr20) 0.25
+(obj2 obj34 obj26 obj7 obj12 , attr7 attr1) 0.25
+(obj3 obj5 obj7 obj31 obj8 obj39 , attr25 attr1) 0.25
+(obj7 obj6 , attr7 attr34 attr17 attr9) 0.25
+(obj0 obj22 obj33 obj31 obj30 obj8 obj38 , attr25 attr38) 0.25
+(obj21 obj35 obj49 obj44 obj27 , attr20 attr3) 0.25
+(obj2 obj32 obj26 obj8 obj39 obj34 obj12 , attr27 attr1) 0.25
+(obj21 obj18 obj9 obj47 obj15 obj48 , attr36 attr9) 0.25
+(obj1 obj3 obj5 obj31 obj30 obj8 obj39 obj14 obj49 , attr25 attr0) 0.25
+(obj21 obj5 obj32 obj26 obj8 obj45 obj4 , attr8 attr17) 0.25
+(obj8 obj5 obj14 obj7 obj31 , attr25 attr17) 0.25
+(obj1 obj21 obj32 obj27 obj8 obj6 obj16 , attr24 attr0) 0.25
+(obj32 obj31 obj6 obj8 obj45 obj41 obj4 , attr38 attr17) 0.25
+(obj0 obj3 obj25 obj31 obj9 obj42 obj16 , attr4 attr14) 0.25
+(obj21 obj5 obj31 obj26 obj6 obj8 obj32 obj14 obj16 , attr0 attr17) 0.25
+(obj37 obj35 obj34 obj47 obj42 obj41 , attr27 attr15) 0.25
+(obj9 obj5 , attr36 attr6 attr4 attr0 attr8) 0.25
+(obj1 obj0 obj22 obj49 , attr25 attr19) 0.25
+(obj0 obj22 obj2 obj42 obj41 , attr19 attr31) 0.25
+(obj29 obj35 obj4 obj40 obj0 , attr34 attr30) 0.25
+(obj36 obj22 obj7 , attr10 attr25 attr9) 0.25
+(obj22 obj31 obj30 obj8 obj3 obj38 obj49 , attr25 attr23) 0.25
+(obj22 obj27 obj29 obj6 obj45 obj11 , attr6 attr38) 0.25
+(obj47 obj34 obj15 obj23 obj41 , attr19 attr12 attr34) 0.25
+(obj22 obj32 obj30 obj8 obj11 obj48 , attr18 attr38) 0.25
+(obj22 obj2 obj27 obj28 obj46 obj42 obj40 obj13 obj12 , attr6 attr31) 0.25
+(obj42 obj45 obj5 obj14 obj6 , attr6 attr17) 0.25
+(obj10 obj22 obj15 , attr6 attr37 attr9 attr39) 0.25
+(obj22 obj35 obj46 obj45 obj10 obj12 obj15 , attr6 attr39) 0.25
+(obj35 obj25 obj31 obj27 obj29 obj40 obj49 , attr3 attr30) 0.25
+(obj22 obj23 obj5 obj29 obj35 obj46 obj18 obj43 obj15 , attr6 attr5) 0.25
+(obj22 obj2 obj26 obj19 obj47 obj23 obj34 obj43 obj41 obj42 obj15 , attr19 attr12) 0.25
+(obj20 obj42 obj15 obj47 , attr19 attr14 attr15 attr9) 0.25
+(obj20 obj22 obj31 obj30 obj8 obj38 obj45 obj48 , attr23 attr38) 0.25
+(obj8 obj35 obj25 obj48 obj30 , attr18 attr35) 0.25
+(obj9 obj18 obj23 obj42 , attr6 attr19 attr13) 0.25
+(obj23 obj5 obj4 obj29 obj38 obj45 , attr34 attr8) 0.25
+(obj23 obj5 obj34 obj7 , attr34 attr1) 0.25
+(obj20 obj21 obj34 obj25 obj41 obj15 obj16 , attr15 attr22) 0.25
+(obj8 obj42 obj14 obj26 , attr33 attr17) 0.25
+(obj18 obj42 obj26 , attr19 attr33) 0.25
+(obj19 obj47 obj2 obj42 obj34 obj26 obj41 , attr19 attr12 attr27) 0.25
+(obj21 obj22 obj7 obj36 obj9 obj13 obj48 , attr10 attr9) 0.25
+(obj11 obj18 obj26 , attr36 attr33) 0.25
+(obj20 obj11 obj45 , attr11 attr38) 0.25
+(obj32 obj26 obj6 obj19 obj45 obj42 obj41 , attr19 attr17) 0.25
+(obj32 obj26 obj8 obj19 obj42 obj41 , attr27 attr17) 0.25
+(obj31 obj26 obj19 obj42 obj41 obj14 , attr12 attr17) 0.25
+(obj20 obj21 obj45 obj19 , attr11 attr22) 0.25
+(obj20 obj3 obj2 obj26 obj31 obj34 , attr22 attr1) 0.25
+(obj46 obj36 obj23 obj42 obj14 , attr6 attr12 attr13) 0.25
+(obj10 obj22 obj45 , attr6 attr37 attr23 attr39) 0.25
+(obj20 obj2 obj32 obj26 obj18 obj23 obj34 , attr19 attr1) 0.25
+(obj10 obj22 obj45 obj15 , attr6 attr37 attr39) 0.25
+(obj35 obj12 obj32 , attr27 attr39) 0.25
+(obj21 obj26 obj7 , attr10 attr17) 0.25
+(obj1 obj20 obj3 obj2 obj45 obj16 , attr28 attr22) 0.25
+(obj47 obj45 obj5 obj23 obj16 , attr34 attr28) 0.25
+(obj37 obj35 obj32 obj19 obj42 obj40 , attr27 attr30) 0.25
+(obj21 obj26 obj31 obj19 obj45 obj41 obj16 , attr17 attr22) 0.25
+(obj45 obj15 obj25 obj12 , attr26 attr39) 0.25
+(obj45 obj5 obj26 , attr37 attr8 attr17) 0.25
+(obj2 obj42 obj31 , attr12 attr4) 0.25
+(obj23 obj26 obj7 , attr10 attr1) 0.25
+(obj21 obj45 obj26 , attr17 attr8 attr22) 0.25
+(obj22 obj23 obj26 , attr10 attr19 attr12 attr5) 0.25
+(obj0 obj23 obj6 obj47 obj34 obj41 obj45 obj15 , attr19 attr34) 0.25
+(obj9 obj22 obj23 obj26 , attr10 attr19) 0.25
+(obj34 obj24 obj26 obj16 , attr36 attr7) 0.25
+(obj35 obj24 obj26 obj17 obj43 , attr7 attr5) 0.25
+(obj21 obj25 obj26 , attr10 attr0 attr22) 0.25
+(obj42 obj45 obj5 obj31 obj16 , attr4 attr17) 0.25
+(obj0 obj27 , attr36 attr30 attr20 attr38 attr31) 0.25
+(obj8 obj45 obj31 obj16 , attr23 attr17) 0.25
+(obj45 obj15 obj25 obj31 , attr22 attr39) 0.25
+(obj45 obj32 obj12 , attr8 attr39) 0.25
+(obj45 obj5 obj32 obj16 , attr28 attr17) 0.25
+(obj19 obj42 obj32 , attr19 attr27 attr30 attr17) 0.25
+(obj0 obj4 obj27 obj41 obj11 obj48 , attr36 attr38) 0.25
+(obj8 obj35 obj34 obj40 obj39 , attr18 attr27 attr3) 0.25
+(obj20 obj45 obj32 obj27 , attr28 attr38) 0.25
+(obj18 obj23 obj8 , attr35 attr29 attr1) 0.25
+(obj9 obj18 obj23 obj43 obj6 , attr6 attr19 attr35) 0.25
+(obj1 obj35 obj2 obj42 obj40 obj11 obj12 , attr6 attr27) 0.25
+(obj36 obj42 , attr6 attr11 attr12 attr13 attr14 attr9) 0.25
+(obj3 obj16 , attr4 attr14 attr0 attr23 attr22 attr28) 0.234375
+(obj43 obj27 , attr6 attr0 attr20 attr30 attr29 attr28) 0.234375
+(obj47 obj5 , attr36 attr37 attr34 attr5 attr2 attr28) 0.234375
+(obj36 obj15 obj6 , attr6 attr37 attr14 attr32 attr9) 0.21875
+(obj8 obj5 obj31 , attr25 attr17 attr3 attr0 attr1) 0.21875
+(obj45 obj43 , attr6 attr19 attr26 attr28 attr20) 0.21875
+(obj15 obj14 , attr6 attr32 attr12 attr26 attr2) 0.21875
+(obj5 obj43 , attr6 attr5 attr2 attr28 attr0) 0.21875
+(obj11 obj40 , attr18 attr6 attr27 attr34 attr0) 0.21875
+(obj8 obj16 , attr24 attr23 attr3 attr0 attr17) 0.21875
+(obj19 obj2 obj34 obj41 , attr19 attr12 attr21 attr27 attr22) 0.21875
+(obj44 obj16 , attr37 attr34 attr3 attr16 attr31) 0.21875
+(obj25 obj27 , attr30 attr32 attr3 attr0 attr31) 0.21875
+(obj15 obj26 , attr36 attr37 attr12 attr5 attr22 attr19) 0.21875
+(obj2 obj6 , attr6 attr37 attr21 attr19 attr7) 0.21875
+(obj1 obj49 , attr25 attr19 attr36 attr28 attr0) 0.21875
+(obj20 obj15 obj49 , attr37 attr5 attr29 attr15 attr19) 0.21875
+(obj1 obj2 , attr6 attr19 attr27 attr28 attr22) 0.21875
+(obj34 obj40 , attr18 attr34 attr22 attr27 attr3) 0.21875
+(obj22 obj2 , attr6 attr37 attr12 attr31 attr19) 0.21875
+(obj29 obj23 , attr6 attr34 attr5 attr16 attr29 attr8) 0.21875
+(obj29 obj5 obj40 , attr6 attr34 attr16 attr3 attr0) 0.21875
+(obj20 obj32 , attr24 attr19 attr28 attr38 attr1) 0.21875
+(obj8 obj32 obj26 , attr27 attr17 attr0 attr8 attr1) 0.21875
+(obj20 obj22 , attr37 attr5 attr23 attr19 attr38 attr9) 0.21875
+(obj1 obj47 , attr36 attr19 attr27 attr32 attr28) 0.21875
+(obj47 obj18 , attr36 attr5 attr2 attr19 attr28 attr9) 0.21875
+(obj40 obj38 , attr34 attr31 attr14 attr23 attr9) 0.21875
+(obj3 obj30 , attr25 attr4 attr0 attr23 attr22 attr29) 0.21875
+(obj8 obj27 , attr38 attr24 attr29 attr3 attr0) 0.21875
+(obj25 obj31 obj49 , attr4 attr23 attr30 attr0 attr3) 0.21875
+(obj18 obj34 , attr36 attr19 attr29 attr3 attr1) 0.21875
+(obj19 obj41 , attr12 attr21 attr22 attr19 attr17 attr27) 0.21875
+(obj47 obj42 obj41 , attr19 attr12 attr2 attr27 attr15) 0.21875
+(obj47 obj43 , attr12 attr5 attr2 attr15 attr19 attr28) 0.21875
+(obj47 obj15 obj43 , attr19 attr12 attr5 attr2 attr15) 0.21875
+(obj5 obj32 , attr17 attr0 attr28 attr8 attr1) 0.21875
+(obj26 obj41 , attr36 attr12 attr22 attr19 attr17 attr27) 0.21875
+(obj21 obj15 , attr36 attr22 attr32 attr15 attr9) 0.21875
+(obj19 obj32 , attr19 attr27 attr17 attr30 attr24) 0.21875
+(obj2 obj5 , attr6 attr37 attr4 attr28 attr1) 0.21875
+(obj19 obj21 , attr11 attr17 attr22 attr24 attr9) 0.21875
+(obj20 obj21 , attr11 attr22 attr24 attr15 attr9) 0.21875
+(obj9 obj36 , attr10 attr6 attr13 attr14 attr9) 0.21875
+(obj36 obj14 , attr6 attr25 attr12 attr13 attr32) 0.21875
+(obj8 obj26 , attr27 attr33 attr0 attr17 attr1 attr8) 0.203125
+(obj8 obj25 obj30 , attr18 attr35 attr23 attr0) 0.1875
+(obj11 obj29 obj30 , attr34 attr29 attr38 attr0) 0.1875
+(obj2 obj31 , attr12 attr22 attr4 attr1) 0.1875
+(obj3 obj5 obj39 obj31 , attr25 attr4 attr0 attr1) 0.1875
+(obj31 obj6 , attr14 attr32 attr38 attr0 attr17) 0.1875
+(obj8 obj3 obj31 , attr25 attr23 attr0 attr1) 0.1875
+(obj8 obj31 obj16 , attr23 attr3 attr0 attr17) 0.1875
+(obj21 obj31 , attr22 attr32 attr3 attr0 attr17) 0.1875
+(obj28 obj12 obj5 , attr6 attr2 attr8 attr1) 0.1875
+(obj45 obj15 obj40 , attr6 attr34 attr26 attr22) 0.1875
+(obj11 obj24 , attr36 attr11 attr34 attr18) 0.1875
+(obj2 obj42 obj41 , attr19 attr12 attr27 attr31) 0.1875
+(obj46 obj1 , attr25 attr24 attr6 attr28) 0.1875
+(obj46 obj14 , attr25 attr6 attr12 attr13 attr30) 0.1875
+(obj10 obj12 , attr6 attr39 attr29 attr1) 0.1875
+(obj46 obj18 , attr6 attr24 attr13 attr5 attr28) 0.1875
+(obj47 obj34 obj42 obj41 , attr19 attr12 attr27 attr15) 0.1875
+(obj40 obj25 obj31 obj49 , attr30 attr23 attr0 attr3) 0.1875
+(obj19 obj15 obj6 , attr19 attr14 attr21 attr9) 0.1875
+(obj24 obj15 obj48 , attr36 attr26 attr5 attr16) 0.1875
+(obj18 obj24 obj48 , attr36 attr24 attr26 attr5) 0.1875
+(obj35 obj17 , attr7 attr5 attr21 attr20) 0.1875
+(obj24 obj35 obj15 , attr34 attr5 attr21 attr15) 0.1875
+(obj24 obj15 obj16 , attr36 attr34 attr15 attr16) 0.1875
+(obj8 obj5 obj39 obj31 , attr25 attr3 attr0 attr1) 0.1875
+(obj9 obj43 obj6 , attr6 attr19 attr35 attr0) 0.1875
+(obj8 obj32 obj39 obj26 , attr27 attr0 attr8 attr1) 0.1875
+(obj8 obj34 obj39 , attr18 attr27 attr3 attr1) 0.1875
+(obj35 obj39 , attr18 attr27 attr5 attr3) 0.1875
+(obj9 obj40 obj6 , attr6 attr14 attr0 attr9) 0.1875
+(obj12 obj40 , attr6 attr27 attr26 attr31) 0.1875
+(obj15 obj40 obj16 , attr34 attr14 attr16 attr22) 0.1875
+(obj18 obj40 , attr6 attr26 attr3 attr9) 0.1875
+(obj19 obj15 obj40 , attr22 attr14 attr16 attr9) 0.1875
+(obj38 obj40 obj16 , attr34 attr14 attr23 attr31) 0.1875
+(obj20 obj25 obj16 , attr14 attr15 attr23 attr22) 0.1875
+(obj42 obj49 , attr19 attr4 attr15 attr30 attr20) 0.1875
+(obj16 obj5 obj6 , attr37 attr34 attr0 attr17) 0.1875
+(obj9 obj18 obj6 , attr6 attr19 attr35 attr9) 0.1875
+(obj1 obj18 obj15 , attr36 attr6 attr26 attr19) 0.1875
+(obj0 obj42 obj49 , attr19 attr4 attr20 attr30) 0.1875
+(obj3 obj31 obj25 obj40 obj16 , attr14 attr0 attr23 attr22) 0.1875
+(obj19 obj10 , attr21 attr16 attr30 attr9) 0.1875
+(obj37 obj35 obj42 , attr27 attr15 attr30 attr20) 0.1875
+(obj29 obj38 , attr34 attr14 attr38 attr8) 0.1875
+(obj44 obj5 obj16 , attr37 attr34 attr3 attr16) 0.1875
+(obj24 obj17 , attr24 attr5 attr21 attr7) 0.1875
+(obj44 obj24 , attr11 attr34 attr3 attr16) 0.1875
+(obj21 obj24 obj25 , attr10 attr32 attr15 attr3) 0.1875
+(obj1 obj26 , attr36 attr19 attr27 attr0 attr22) 0.1875
+(obj26 obj6 , attr19 attr17 attr7 attr0 attr37) 0.1875
+(obj18 obj5 obj27 , attr36 attr6 attr3 attr28) 0.1875
+(obj20 obj49 obj16 , attr37 attr15 attr23 attr28) 0.1875
+(obj21 obj24 obj27 , attr36 attr24 attr32 attr3) 0.1875
+(obj28 obj2 , attr6 attr31 attr21 attr1) 0.1875
+(obj11 obj26 , attr36 attr27 attr33 attr0) 0.1875
+(obj12 obj26 , attr7 attr27 attr8 attr1) 0.1875
+(obj35 obj43 obj49 , attr5 attr15 attr30 attr20) 0.1875
+(obj45 obj5 obj6 , attr6 attr37 attr34 attr17) 0.1875
+(obj46 obj23 , attr6 attr12 attr13 attr28 attr5) 0.1875
+(obj46 obj35 obj15 , attr6 attr5 attr15 attr39) 0.1875
+(obj46 obj19 obj42 , attr11 attr12 attr14 attr30) 0.1875
+(obj46 obj42 obj25 , attr14 attr15 attr30 attr31) 0.1875
+(obj10 obj15 obj6 , attr6 attr37 attr21 attr9) 0.1875
+(obj9 obj13 , attr10 attr6 attr13 attr8 attr9) 0.1875
+(obj36 obj5 , attr6 attr37 attr3 attr25) 0.1875
+(obj20 obj36 , attr11 attr37 attr14 attr9) 0.1875
+(obj18 obj43 obj48 , attr5 attr26 attr2 attr35) 0.1875
+(obj47 obj15 obj48 , attr36 attr37 attr5 attr2 attr9) 0.1875
+(obj1 obj5 obj49 , attr25 attr36 attr28 attr0) 0.1875
+(obj25 obj49 , attr30 attr4 attr15 attr23 attr0 attr3) 0.1875
+(obj29 obj40 obj31 , attr30 attr14 attr16 attr0 attr3) 0.1875
+(obj48 obj17 , attr24 attr4 attr5 attr38) 0.1875
+(obj25 obj40 obj27 , attr30 attr3 attr0 attr31) 0.1875
+(obj20 obj3 obj16 , attr14 attr28 attr23 attr22) 0.1875
+(obj20 obj15 obj16 , attr37 attr14 attr15 attr22) 0.1875
+(obj18 obj43 obj6 , attr6 attr19 attr26 attr35) 0.1875
+(obj29 obj35 obj40 , attr6 attr34 attr3 attr30) 0.1875
+(obj23 obj15 obj43 , attr6 attr19 attr12 attr5 attr29) 0.1875
+(obj20 obj18 obj23 obj43 obj49 , attr19 attr5 attr29 attr28) 0.1875
+(obj24 obj43 , attr26 attr7 attr5 attr15) 0.1875
+(obj34 obj32 , attr18 attr19 attr27 attr1) 0.1875
+(obj49 obj43 obj32 , attr30 attr19 attr28 attr0) 0.1875
+(obj37 obj40 , attr18 attr27 attr16 attr30) 0.1875
+(obj20 obj46 obj24 , attr11 attr5 attr15 attr24) 0.1875
+(obj21 obj24 obj16 , attr36 attr24 attr15 attr3) 0.1875
+(obj0 obj22 , attr25 attr19 attr38 attr31) 0.1875
+(obj23 obj24 , attr10 attr34 attr5 attr16) 0.1875
+(obj10 obj35 , attr6 attr21 attr30 attr39) 0.1875
+(obj5 obj25 , attr4 attr2 attr3 attr0) 0.1875
+(obj8 obj25 , attr18 attr23 attr35 attr3 attr0) 0.1875
+(obj5 obj26 obj49 , attr36 attr37 attr5 attr0) 0.1875
+(obj3 obj25 obj31 obj16 , attr4 attr14 attr0 attr23 attr22) 0.1875
+(obj28 obj18 obj5 , attr36 attr6 attr2 attr1) 0.1875
+(obj28 obj25 , attr14 attr2 attr15 attr0 attr31) 0.1875
+(obj28 obj25 obj16 , attr14 attr15 attr0 attr31) 0.1875
+(obj28 obj5 obj26 , attr36 attr0 attr8 attr1) 0.1875
+(obj42 obj6 , attr6 attr19 attr17 attr14 attr9) 0.1875
+(obj29 obj5 obj40 obj16 , attr34 attr16 attr3 attr0) 0.1875
+(obj20 obj29 , attr14 attr5 attr29 attr38) 0.1875
+(obj8 obj48 obj30 , attr18 attr35 attr23 attr38) 0.1875
+(obj20 obj18 obj32 , attr24 attr1 attr28 attr19) 0.1875
+(obj21 obj32 , attr24 attr32 attr0 attr8 attr17) 0.1875
+(obj1 obj32 obj27 , attr24 attr32 attr28 attr0) 0.1875
+(obj20 obj18 obj15 , attr19 attr5 attr29 attr9) 0.1875
+(obj8 obj32 obj31 , attr17 attr0 attr38 attr1) 0.1875
+(obj32 obj31 obj14 , attr32 attr0 attr30 attr17) 0.1875
+(obj29 obj32 obj31 obj27 , attr0 attr32 attr38 attr30) 0.1875
+(obj22 obj42 , attr6 attr19 attr12 attr31 attr9) 0.1875
+(obj2 obj23 , attr6 attr19 attr12 attr28 attr1) 0.1875
+(obj47 obj23 obj15 , attr19 attr12 attr5 attr34) 0.1875
+(obj42 obj25 obj16 , attr4 attr14 attr15 attr31) 0.1875
+(obj47 obj15 obj26 , attr36 attr37 attr12 attr5 attr19) 0.1875
+(obj8 obj23 , attr35 attr29 attr8 attr1) 0.1875
+(obj19 obj42 obj26 obj41 , attr19 attr12 attr27 attr17) 0.1875
+(obj36 obj35 , attr6 attr11 attr13 attr3) 0.1875
+(obj18 obj49 obj27 , attr36 attr29 attr3 attr28) 0.1875
+(obj42 obj27 , attr6 attr13 attr20 attr30 attr31) 0.1875
+(obj37 obj19 , attr24 attr27 attr16 attr30) 0.1875
+(obj2 obj15 obj6 , attr6 attr37 attr21 attr19) 0.1875
+(obj20 obj19 obj6 , attr24 attr14 attr19 attr9) 0.1875
+(obj5 obj4 obj41 , attr36 attr34 attr2 attr17) 0.1875
+(obj11 obj41 , attr36 attr27 attr34 attr38) 0.1875
+(obj20 obj41 , attr19 attr15 attr38 attr22) 0.1875
+(obj21 obj13 , attr10 attr32 attr8 attr9) 0.1875
+(obj21 obj14 , attr32 attr20 attr0 attr17) 0.1875
+(obj31 obj41 , attr12 attr17 attr38 attr22) 0.1875
+(obj37 obj8 , attr18 attr24 attr27 attr33) 0.1875
+(obj30 obj40 obj16 , attr34 attr23 attr0 attr22) 0.1875
+(obj35 obj34 obj41 , attr34 attr21 attr27 attr15) 0.1875
+(obj20 obj2 obj26 , attr37 attr22 attr19 attr1) 0.1875
+(obj22 obj45 obj6 , attr6 attr19 attr38 attr37) 0.1875
+(obj25 obj40 obj30 , attr18 attr0 attr23 attr22) 0.1875
+(obj20 obj15 obj26 , attr22 attr37 attr5 attr19) 0.1875
+(obj22 obj45 obj15 , attr6 attr37 attr19 attr39) 0.1875
+(obj13 obj12 , attr6 attr7 attr8 attr31) 0.1875
+(obj45 obj23 , attr6 attr19 attr34 attr28 attr8) 0.1875
+(obj42 obj15 obj43 , attr6 attr19 attr12 attr2 attr15) 0.1875
+(obj25 obj31 obj16 , attr4 attr14 attr3 attr23 attr22 attr0) 0.1875
+(obj1 obj15 obj6 , attr6 attr19 attr26 attr32) 0.1875
+(obj11 obj45 , attr6 attr11 attr34 attr38) 0.1875
+(obj46 obj15 obj31 , attr12 attr5 attr14 attr39) 0.1875
+(obj45 obj30 obj16 , attr34 attr4 attr23 attr22) 0.1875
+(obj29 obj43 obj49 , attr5 attr29 attr30 attr0) 0.1875
+(obj29 obj31 obj6 , attr32 attr14 attr0 attr38) 0.1875
+(obj29 obj15 obj31 , attr14 attr5 attr32 attr16) 0.1875
+(obj29 obj40 obj31 obj16 , attr14 attr3 attr0 attr16) 0.1875
+(obj28 obj29 obj9 , attr6 attr14 attr0 attr8) 0.1875
+(obj30 obj6 , attr34 attr35 attr38 attr0) 0.1875
+(obj11 obj8 obj30 , attr18 attr29 attr0 attr38) 0.1875
+(obj15 obj30 , attr29 attr34 attr2 attr22) 0.1875
+(obj29 obj24 obj31 , attr5 attr32 attr3 attr16) 0.1875
+(obj1 obj27 obj6 , attr6 attr24 attr32 attr0) 0.1875
+(obj36 obj25 , attr10 attr14 attr32 attr3) 0.1875
+(obj20 obj19 obj15 , attr19 attr22 attr14 attr9) 0.1875
+(obj34 obj5 , attr36 attr34 attr3 attr1) 0.1875
+(obj29 obj31 obj27 , attr0 attr32 attr38 attr30 attr3) 0.1875
+(obj46 obj36 obj14 , attr6 attr25 attr12 attr13) 0.1875
+(obj34 obj12 , attr7 attr27 attr29 attr1) 0.1875
+(obj41 obj34 obj15 obj16 , attr36 attr34 attr15 attr22) 0.1875
+(obj20 obj34 obj15 , attr19 attr29 attr15 attr22) 0.1875
+(obj34 obj15 obj23 , attr19 attr12 attr29 attr34) 0.1875
+(obj3 obj31 obj30 , attr25 attr4 attr0 attr23 attr22) 0.1875
+(obj8 obj31 obj30 , attr25 attr0 attr23 attr38) 0.1875
+(obj47 obj35 , attr34 attr5 attr27 attr15) 0.1875
+(obj47 obj40 , attr34 attr14 attr27 attr9) 0.1875
+(obj47 obj41 , attr36 attr12 attr2 attr15 attr19 attr27 attr34) 0.1875
+(obj22 obj41 , attr19 attr12 attr38 attr31) 0.1875
+(obj5 obj48 obj16 , attr36 attr37 attr4 attr16) 0.1875
+(obj11 obj8 obj32 , attr18 attr27 attr0 attr38) 0.1875
+(obj38 obj15 obj6 , attr14 attr34 attr21 attr9) 0.1875
+(obj33 obj49 , attr25 attr29 attr15 attr3) 0.1875
+(obj1 obj21 obj16 , attr36 attr24 attr0 attr22) 0.1875
+(obj46 obj43 obj49 , attr5 attr15 attr30 attr28) 0.1875
+(obj29 obj25 obj40 obj31 , attr30 attr14 attr3 attr0) 0.1875
+(obj20 obj47 obj15 obj49 , attr37 attr5 attr15 attr19) 0.1875
+(obj5 obj48 obj49 , attr36 attr37 attr4 attr5) 0.1875
+(obj21 obj18 , attr36 attr24 attr3 attr9) 0.1875
+(obj1 obj8 , attr25 attr24 attr27 attr0) 0.1875
+(obj8 obj3 , attr25 attr29 attr23 attr0 attr1) 0.1875
+(obj41 obj38 , attr34 attr21 attr38 attr31) 0.1875
+(obj8 obj22 obj30 , attr25 attr18 attr23 attr38) 0.1875
+(obj42 obj5 , attr6 attr4 attr2 attr17) 0.1875
+(obj22 obj13 , attr10 attr6 attr31 attr9) 0.1875
+(obj20 obj19 obj42 , attr11 attr14 attr19 attr9) 0.1875
+(obj45 obj2 obj49 , attr37 attr4 attr28 attr19) 0.1875
+(obj11 obj14 , attr6 attr13 attr33 attr0) 0.1875
+(obj35 obj49 , attr3 attr5 attr20 attr30 attr15) 0.1875
+(obj35 obj32 , attr18 attr27 attr30 attr39) 0.1875
+(obj19 obj42 obj31 , attr12 attr14 attr30 attr17) 0.1875
+(obj13 obj27 , attr6 attr13 attr32 attr31) 0.1875
+(obj20 obj18 obj23 , attr19 attr5 attr29 attr28 attr1) 0.1875
+(obj40 obj31 , attr14 attr23 attr30 attr22 attr0 attr3 attr16) 0.1640625
+(obj22 obj23 , attr10 attr19 attr12 attr5 attr6) 0.15625
+(obj1 obj5 , attr25 attr36 attr6 attr0 attr28) 0.15625
+(obj1 obj43 , attr6 attr19 attr26 attr28 attr0) 0.15625
+(obj1 obj16 , attr36 attr24 attr28 attr0 attr22) 0.15625
+(obj28 obj9 , attr36 attr6 attr14 attr0 attr8) 0.15625
+(obj28 obj16 , attr36 attr14 attr15 attr0 attr31) 0.15625
+(obj3 obj5 , attr25 attr4 attr28 attr0 attr1) 0.15625
+(obj29 obj35 , attr6 attr34 attr5 attr3 attr30) 0.15625
+(obj5 obj6 , attr6 attr37 attr34 attr0 attr17) 0.15625
+(obj8 obj49 , attr25 attr23 attr29 attr3 attr0) 0.15625
+(obj15 obj49 , attr36 attr37 attr5 attr15 attr19 attr29) 0.15625
+(obj40 obj27 , attr6 attr30 attr3 attr0 attr31) 0.15625
+(obj10 obj22 , attr6 attr37 attr39 attr23 attr9) 0.15625
+(obj29 obj40 obj16 , attr34 attr14 attr3 attr0 attr16) 0.15625
+(obj20 obj42 , attr11 attr14 attr15 attr19 attr9) 0.15625
+(obj47 obj15 obj18 , attr36 attr19 attr5 attr2 attr9) 0.15625
+(obj47 obj22 obj15 , attr37 attr12 attr5 attr19 attr9) 0.15625
+(obj47 obj23 , attr19 attr12 attr5 attr34 attr28) 0.15625
+(obj40 obj30 , attr18 attr34 attr23 attr0 attr22) 0.15625
+(obj19 obj26 obj41 , attr19 attr12 attr17 attr27 attr22) 0.15625
+(obj22 obj26 , attr10 attr19 attr12 attr5 attr37) 0.15625
+(obj29 obj25 obj31 , attr30 attr14 attr32 attr3 attr0) 0.15625
+(obj11 obj30 , attr18 attr34 attr29 attr38 attr0) 0.15625
+(obj1 obj21 , attr36 attr24 attr32 attr0 attr22) 0.15625
+(obj48 obj49 , attr36 attr37 attr4 attr5 attr23) 0.15625
+(obj34 obj49 , attr36 attr19 attr29 attr15 attr3) 0.15625
+(obj8 obj5 , attr25 attr3 attr0 attr17 attr1 attr8) 0.15625
+(obj36 obj15 , attr6 attr37 attr12 attr14 attr32 attr9) 0.140625
+(obj5 obj25 obj30 , attr4 attr2 attr0) 0.125
+(obj9 obj25 obj30 , attr4 attr35 attr0) 0.125
+(obj3 obj30 obj25 obj31 obj16 , attr4 attr0 attr23 attr22) 0.125
+(obj1 obj31 , attr25 attr32 attr0 attr22) 0.125
+(obj3 obj2 obj31 , attr4 attr22 attr1) 0.125
+(obj4 obj31 obj32 , attr30 attr38 attr17) 0.125
+(obj9 obj22 obj23 , attr10 attr19 attr6) 0.125
+(obj36 obj6 obj9 obj42 obj40 obj15 , attr6 attr14 attr9) 0.125
+(obj8 obj32 obj31 obj6 , attr38 attr0 attr17) 0.125
+(obj11 obj9 obj27 , attr36 attr6 attr13 attr0) 0.125
+(obj1 obj14 obj31 , attr25 attr32 attr0) 0.125
+(obj36 obj16 , attr37 attr14 attr3) 0.125
+(obj16 obj31 obj6 , attr14 attr0 attr17) 0.125
+(obj48 obj31 obj17 , attr4 attr5 attr38) 0.125
+(obj18 obj5 obj39 obj31 , attr5 attr3 attr1) 0.125
+(obj10 obj42 obj40 , attr6 attr30 attr9) 0.125
+(obj11 obj8 obj39 , attr18 attr27 attr33 attr0) 0.125
+(obj20 obj8 obj31 , attr23 attr38 attr1) 0.125
+(obj20 obj15 obj31 , attr5 attr14 attr22) 0.125
+(obj21 obj31 obj16 , attr22 attr3 attr0 attr17) 0.125
+(obj19 obj36 obj42 , attr11 attr12 attr14 attr9) 0.125
+(obj8 obj22 obj38 obj31 obj30 , attr25 attr23 attr38) 0.125
+(obj20 obj22 obj48 obj31 , attr5 attr23 attr38) 0.125
+(obj23 obj31 , attr12 attr5 attr16 attr1) 0.125
+(obj23 obj5 obj31 , attr5 attr16 attr1) 0.125
+(obj23 obj15 obj31 , attr12 attr5 attr16) 0.125
+(obj36 obj45 , attr6 attr11 attr37) 0.125
+(obj45 obj38 , attr34 attr23 attr38 attr8) 0.125
+(obj45 obj38 obj30 , attr34 attr23 attr38) 0.125
+(obj45 obj15 obj40 obj6 , attr6 attr34 attr26) 0.125
+(obj45 obj25 obj40 , attr26 attr23 attr22) 0.125
+(obj45 obj30 obj40 obj16 , attr34 attr23 attr22) 0.125
+(obj1 obj24 obj6 , attr24 attr26 attr32) 0.125
+(obj41 obj45 obj6 , attr19 attr34 attr38 attr17) 0.125
+(obj41 obj45 obj16 , attr34 attr17 attr22) 0.125
+(obj20 obj36 obj42 obj19 , attr11 attr14 attr9) 0.125
+(obj20 obj45 obj41 , attr19 attr38 attr22) 0.125
+(obj41 obj45 obj30 , attr34 attr38 attr22) 0.125
+(obj45 obj31 obj41 , attr17 attr38 attr22) 0.125
+(obj45 obj15 obj34 obj41 , attr19 attr34 attr22) 0.125
+(obj0 obj45 obj42 obj49 , attr19 attr4 attr20) 0.125
+(obj42 obj45 obj5 , attr6 attr4 attr17) 0.125
+(obj45 obj42 obj6 , attr6 attr19 attr17) 0.125
+(obj45 obj42 obj14 , attr6 attr20 attr17) 0.125
+(obj19 obj45 obj42 , attr11 attr17 attr19) 0.125
+(obj21 obj45 obj42 , attr11 attr20 attr17) 0.125
+(obj35 obj45 obj42 , attr6 attr11 attr20) 0.125
+(obj45 obj42 obj41 , attr19 attr20 attr17) 0.125
+(obj8 obj12 , attr27 attr29 attr8 attr1) 0.125
+(obj45 obj43 obj27 , attr6 attr20 attr28) 0.125
+(obj45 obj42 obj43 , attr6 attr19 attr20) 0.125
+(obj44 obj45 obj35 , attr11 attr34 attr20) 0.125
+(obj46 obj0 , attr25 attr14 attr30 attr31) 0.125
+(obj46 obj2 , attr6 attr12 attr28 attr31) 0.125
+(obj46 obj3 , attr25 attr14 attr28) 0.125
+(obj46 obj1 obj5 , attr25 attr6 attr28) 0.125
+(obj46 obj6 , attr6 attr24 attr14) 0.125
+(obj46 obj12 , attr6 attr11 attr31 attr39) 0.125
+(obj13 obj24 , attr10 attr7 attr32) 0.125
+(obj46 obj20 obj15 obj47 , attr5 attr14 attr15) 0.125
+(obj46 obj20 obj18 , attr24 attr5 attr28) 0.125
+(obj46 obj20 obj19 , attr11 attr14 attr24) 0.125
+(obj18 obj34 obj49 obj27 , attr36 attr29 attr3) 0.125
+(obj21 obj42 obj41 , attr17 attr20 attr15) 0.125
+(obj29 obj34 , attr34 attr29 attr3) 0.125
+(obj37 obj35 obj25 , attr18 attr15 attr30) 0.125
+(obj11 obj34 obj30 , attr18 attr34 attr29) 0.125
+(obj34 obj15 obj30 , attr34 attr29 attr22) 0.125
+(obj20 obj8 obj48 , attr24 attr23 attr38) 0.125
+(obj37 obj35 obj32 obj40 , attr18 attr27 attr30) 0.125
+(obj20 obj48 obj16 , attr37 attr23 attr24) 0.125
+(obj20 obj18 obj48 , attr24 attr5 attr9) 0.125
+(obj9 obj21 obj48 , attr10 attr36 attr9) 0.125
+(obj21 obj48 obj18 , attr36 attr24 attr9) 0.125
+(obj0 obj35 , attr34 attr20 attr30) 0.125
+(obj8 obj22 obj48 obj30 , attr18 attr23 attr38) 0.125
+(obj34 obj47 obj42 obj43 obj41 obj15 , attr19 attr12 attr15) 0.125
+(obj35 obj4 , attr34 attr15 attr30) 0.125
+(obj20 obj22 obj48 obj6 , attr37 attr38 attr9) 0.125
+(obj20 obj47 obj22 obj15 obj48 , attr37 attr5 attr9) 0.125
+(obj37 obj35 obj34 , attr18 attr27 attr15) 0.125
+(obj35 obj2 obj12 , attr6 attr7 attr27) 0.125
+(obj24 obj48 obj16 , attr36 attr24 attr16) 0.125
+(obj21 obj24 obj48 , attr10 attr24 attr36) 0.125
+(obj23 obj24 obj48 , attr10 attr5 attr16) 0.125
+(obj48 obj26 , attr10 attr37 attr5 attr36) 0.125
+(obj22 obj48 obj26 , attr10 attr37 attr5) 0.125
+(obj24 obj48 obj26 , attr10 attr36 attr5) 0.125
+(obj48 obj27 , attr36 attr24 attr38) 0.125
+(obj46 obj35 obj15 obj22 , attr6 attr5 attr39) 0.125
+(obj35 obj23 obj6 , attr6 attr34 attr35) 0.125
+(obj15 obj35 obj23 obj5 obj29 , attr6 attr34 attr5) 0.125
+(obj5 obj48 obj31 , attr4 attr5 attr16) 0.125
+(obj35 obj24 obj17 , attr7 attr5 attr21) 0.125
+(obj7 obj38 , attr25 attr34 attr9) 0.125
+(obj36 obj22 obj48 , attr10 attr37 attr9) 0.125
+(obj48 obj39 , attr18 attr4 attr5) 0.125
+(obj1 obj43 obj6 , attr6 attr19 attr26 attr0) 0.125
+(obj8 obj40 obj25 obj39 , attr18 attr3 attr0) 0.125
+(obj1 obj3 obj16 , attr28 attr0 attr22) 0.125
+(obj29 obj5 obj39 , attr5 attr0 attr3 attr8) 0.125
+(obj39 obj30 , attr25 attr18 attr4 attr0) 0.125
+(obj8 obj39 obj30 , attr25 attr18 attr0) 0.125
+(obj25 obj39 obj30 , attr18 attr4 attr0) 0.125
+(obj45 obj3 obj2 obj16 , attr4 attr28 attr22) 0.125
+(obj5 obj39 obj31 obj26 , attr5 attr0 attr1) 0.125
+(obj29 obj5 obj39 obj31 obj49 , attr5 attr3 attr0) 0.125
+(obj11 obj8 obj40 obj32 obj39 , attr18 attr27 attr0) 0.125
+(obj35 obj24 obj39 , attr18 attr5 attr3) 0.125
+(obj8 obj39 obj38 , attr25 attr33 attr8) 0.125
+(obj0 obj40 , attr34 attr14 attr30 attr31) 0.125
+(obj2 obj40 , attr6 attr27 attr31 attr22) 0.125
+(obj1 obj2 obj40 , attr6 attr27 attr22) 0.125
+(obj11 obj1 obj40 , attr6 attr27 attr0) 0.125
+(obj1 obj49 obj27 obj5 obj16 , attr36 attr28 attr0) 0.125
+(obj2 obj42 obj40 obj12 , attr6 attr27 attr31) 0.125
+(obj25 obj39 , attr18 attr4 attr3 attr0) 0.125
+(obj14 obj40 obj43 , attr6 attr26 attr30 attr0) 0.125
+(obj1 obj43 obj14 obj40 obj6 , attr6 attr26 attr0) 0.125
+(obj1 obj45 obj15 obj40 , attr6 attr26 attr22) 0.125
+(obj10 obj15 obj40 , attr6 attr16 attr9) 0.125
+(obj18 obj15 obj40 obj6 , attr6 attr26 attr9) 0.125
+(obj3 obj49 obj5 obj16 , attr4 attr28 attr0) 0.125
+(obj19 obj10 obj40 , attr16 attr30 attr9) 0.125
+(obj20 obj40 , attr22 attr14 attr23 attr9) 0.125
+(obj20 obj19 obj15 obj40 , attr22 attr14 attr9) 0.125
+(obj10 obj22 obj40 , attr6 attr23 attr9) 0.125
+(obj22 obj42 obj13 obj40 , attr6 attr31 attr9) 0.125
+(obj15 obj23 obj5 obj40 obj29 , attr6 attr34 attr16) 0.125
+(obj0 obj38 obj40 obj16 , attr34 attr14 attr31) 0.125
+(obj24 obj15 obj40 , attr34 attr26 attr16) 0.125
+(obj46 obj0 obj42 obj25 obj40 , attr14 attr30 attr31) 0.125
+(obj1 obj25 obj40 , attr26 attr0 attr22) 0.125
+(obj17 obj16 , attr24 attr4 attr7) 0.125
+(obj18 obj2 obj23 , attr6 attr19 attr28 attr1) 0.125
+(obj1 obj2 obj23 obj18 obj45 obj43 , attr6 attr19 attr28) 0.125
+(obj20 obj18 obj3 obj23 , attr29 attr28 attr1) 0.125
+(obj1 obj18 obj5 obj27 , attr36 attr6 attr28) 0.125
+(obj18 obj2 obj5 obj23 , attr6 attr28 attr1) 0.125
+(obj20 obj3 obj25 obj31 obj40 obj16 , attr14 attr23 attr22) 0.125
+(obj20 obj15 obj25 obj16 , attr14 attr15 attr22) 0.125
+(obj18 obj10 , attr6 attr1 attr29 attr9) 0.125
+(obj18 obj12 obj23 obj10 , attr6 attr29 attr1) 0.125
+(obj7 obj16 , attr7 attr34 attr15 attr17) 0.125
+(obj1 obj21 obj25 obj31 , attr32 attr0 attr22) 0.125
+(obj18 obj5 obj15 , attr36 attr6 attr5 attr2) 0.125
+(obj18 obj15 obj6 , attr6 attr19 attr26 attr9) 0.125
+(obj9 obj18 obj15 , attr36 attr19 attr6 attr9) 0.125
+(obj22 obj6 obj9 obj18 obj42 obj15 , attr6 attr19 attr9) 0.125
+(obj18 obj15 obj10 , attr6 attr29 attr9) 0.125
+(obj11 obj18 obj15 obj27 , attr36 attr6 attr29) 0.125
+(obj0 obj42 obj43 obj49 , attr19 attr20 attr30) 0.125
+(obj18 obj27 obj16 , attr36 attr24 attr28 attr3) 0.125
+(obj1 obj18 obj27 obj16 , attr36 attr24 attr28) 0.125
+(obj19 obj0 obj42 , attr19 attr14 attr30) 0.125
+(obj19 obj1 , attr24 attr27 attr22 attr19) 0.125
+(obj1 obj2 obj26 obj19 obj34 obj41 , attr19 attr27 attr22) 0.125
+(obj21 obj25 obj16 , attr22 attr3 attr0 attr15) 0.125
+(obj19 obj8 obj32 , attr24 attr27 attr17) 0.125
+(obj8 obj21 obj16 obj32 obj6 , attr24 attr0 attr17) 0.125
+(obj19 obj42 obj14 obj31 , attr12 attr30 attr17) 0.125
+(obj28 obj42 obj25 , attr14 attr2 attr15 attr31) 0.125
+(obj28 obj46 obj42 obj25 obj16 , attr14 attr15 attr31) 0.125
+(obj19 obj42 obj43 , attr19 attr12 attr30) 0.125
+(obj15 obj23 obj5 obj29 , attr6 attr34 attr5 attr16) 0.125
+(obj45 obj23 obj15 obj6 , attr6 attr19 attr34) 0.125
+(obj42 obj31 obj16 , attr4 attr14 attr17) 0.125
+(obj38 obj25 obj40 obj16 , attr14 attr23 attr31) 0.125
+(obj11 obj29 obj23 obj15 , attr6 attr34 attr29) 0.125
+(obj28 obj42 obj15 obj43 , attr6 attr2 attr15) 0.125
+(obj19 obj35 obj42 , attr11 attr27 attr30) 0.125
+(obj21 obj35 obj42 , attr11 attr20 attr15) 0.125
+(obj35 obj42 obj43 , attr6 attr15 attr30 attr20) 0.125
+(obj11 obj18 obj23 obj27 , attr6 attr13 attr29) 0.125
+(obj9 obj36 obj42 , attr6 attr13 attr14 attr9) 0.125
+(obj36 obj22 obj42 obj15 , attr6 attr12 attr9) 0.125
+(obj20 obj23 obj18 obj43 obj15 obj49 , attr19 attr5 attr29) 0.125
+(obj37 obj35 obj42 obj43 obj49 , attr15 attr30 attr20) 0.125
+(obj22 obj23 obj2 obj42 obj43 obj15 , attr6 attr19 attr12) 0.125
+(obj18 obj22 obj23 obj15 obj43 , attr6 attr19 attr5) 0.125
+(obj8 obj25 obj40 , attr18 attr23 attr3 attr0) 0.125
+(obj46 obj42 obj40 obj27 , attr6 attr30 attr31) 0.125
+(obj28 obj46 obj42 obj40 , attr6 attr14 attr31) 0.125
+(obj46 obj29 obj42 obj40 , attr6 attr14 attr30) 0.125
+(obj35 obj42 obj40 , attr6 attr27 attr30) 0.125
+(obj42 obj40 obj38 , attr31 attr14 attr9) 0.125
+(obj8 obj24 , attr18 attr24 attr3) 0.125
+(obj0 obj42 obj41 , attr19 attr20 attr31) 0.125
+(obj11 obj5 obj16 , attr36 attr34 attr0) 0.125
+(obj12 obj24 , attr11 attr26 attr7) 0.125
+(obj42 obj4 obj41 , attr2 attr15 attr17) 0.125
+(obj1 obj24 obj15 , attr36 attr26 attr32) 0.125
+(obj47 obj15 obj49 , attr36 attr37 attr5 attr15 attr19) 0.125
+(obj24 obj5 obj16 , attr36 attr34 attr3 attr16) 0.125
+(obj35 obj34 obj24 obj7 obj16 , attr7 attr34 attr15) 0.125
+(obj2 obj43 obj6 , attr6 attr19 attr7) 0.125
+(obj15 obj24 obj5 obj16 , attr36 attr34 attr16) 0.125
+(obj24 obj17 obj6 , attr24 attr21 attr7) 0.125
+(obj15 obj44 obj5 obj16 , attr37 attr34 attr16) 0.125
+(obj1 obj18 obj24 obj48 , attr36 attr24 attr26) 0.125
+(obj18 obj24 obj5 obj49 , attr36 attr5 attr3) 0.125
+(obj0 obj15 obj47 obj16 , attr36 attr34 attr14) 0.125
+(obj18 obj24 obj15 obj48 , attr36 attr26 attr5) 0.125
+(obj0 obj38 obj30 , attr25 attr34 attr38) 0.125
+(obj19 obj10 obj15 , attr21 attr16 attr9) 0.125
+(obj34 obj24 obj4 obj47 obj41 obj15 obj16 , attr36 attr34 attr15) 0.125
+(obj21 obj44 obj35 , attr11 attr20 attr3) 0.125
+(obj36 obj5 obj49 , attr25 attr37 attr3) 0.125
+(obj47 obj16 obj15 obj6 , attr37 attr34 attr14) 0.125
+(obj36 obj38 , attr25 attr14 attr9) 0.125
+(obj3 obj31 obj26 , attr22 attr0 attr1) 0.125
+(obj2 obj39 , attr27 attr4 attr1) 0.125
+(obj0 obj44 obj41 , attr34 attr20 attr31) 0.125
+(obj1 obj29 obj27 obj14 obj6 , attr6 attr32 attr0) 0.125
+(obj15 obj27 , attr36 attr32 attr29 attr6) 0.125
+(obj1 obj15 obj27 , attr36 attr6 attr32) 0.125
+(obj49 obj27 obj5 obj16 , attr36 attr28 attr0 attr3) 0.125
+(obj17 obj27 , attr24 attr20 attr38) 0.125
+(obj1 obj18 obj27 , attr36 attr24 attr6 attr28) 0.125
+(obj18 obj27 obj8 , attr24 attr29 attr3) 0.125
+(obj9 obj5 obj39 , attr4 attr0 attr8) 0.125
+(obj11 obj18 obj27 , attr36 attr6 attr13 attr29) 0.125
+(obj8 obj5 obj32 obj26 , attr17 attr0 attr8 attr1) 0.125
+(obj20 obj27 , attr24 attr29 attr28 attr38) 0.125
+(obj20 obj8 obj27 , attr24 attr29 attr38) 0.125
+(obj20 obj18 obj27 , attr24 attr29 attr28) 0.125
+(obj1 obj21 obj27 , attr36 attr24 attr32 attr0) 0.125
+(obj21 obj14 obj27 , attr32 attr20 attr0) 0.125
+(obj49 obj25 obj43 , attr30 attr15 attr0) 0.125
+(obj1 obj21 obj27 obj16 , attr36 attr24 attr0) 0.125
+(obj21 obj27 obj5 obj49 obj16 , attr36 attr3 attr0) 0.125
+(obj21 obj27 obj8 obj16 , attr24 attr3 attr0) 0.125
+(obj22 obj27 , attr6 attr38 attr31) 0.125
+(obj18 obj23 obj27 , attr6 attr13 attr29 attr28) 0.125
+(obj18 obj39 , attr5 attr33 attr3 attr1) 0.125
+(obj1 obj45 , attr6 attr19 attr26 attr28 attr22) 0.125
+(obj32 obj31 obj27 obj29 obj14 obj25 , attr32 attr30 attr0) 0.125
+(obj27 obj25 obj40 obj16 , attr3 attr0 attr31) 0.125
+(obj21 obj29 obj25 obj31 obj27 , attr32 attr3 attr0) 0.125
+(obj28 obj3 obj31 , attr14 attr0 attr1) 0.125
+(obj28 obj4 , attr36 attr2 attr15 attr8) 0.125
+(obj28 obj5 obj4 , attr36 attr2 attr8) 0.125
+(obj1 obj45 obj2 , attr6 attr19 attr28 attr22) 0.125
+(obj28 obj9 obj5 , attr36 attr6 attr0 attr8) 0.125
+(obj28 obj9 obj29 obj40 obj6 , attr6 attr14 attr0) 0.125
+(obj28 obj10 obj2 , attr6 attr21 attr1) 0.125
+(obj28 obj13 obj12 , attr6 attr8 attr31) 0.125
+(obj43 obj26 obj49 , attr19 attr5 attr0) 0.125
+(obj28 obj5 obj14 obj43 , attr6 attr2 attr0) 0.125
+(obj28 obj47 obj15 obj4 obj41 , attr36 attr2 attr15) 0.125
+(obj0 obj3 obj31 , attr25 attr4 attr14) 0.125
+(obj28 obj15 obj6 , attr6 attr14 attr21) 0.125
+(obj28 obj9 obj15 , attr36 attr6 attr14) 0.125
+(obj19 obj18 obj20 obj6 , attr24 attr19 attr9) 0.125
+(obj11 obj8 obj39 obj26 , attr27 attr33 attr0) 0.125
+(obj25 obj40 obj6 , attr26 attr14 attr0) 0.125
+(obj1 obj32 obj26 , attr19 attr27 attr0) 0.125
+(obj47 obj15 obj7 , attr34 attr15 attr9) 0.125
+(obj13 obj26 , attr10 attr7 attr8) 0.125
+(obj9 obj45 , attr6 attr19 attr4 attr8) 0.125
+(obj20 obj47 obj49 , attr37 attr5 attr28 attr19 attr15) 0.125
+(obj44 obj49 , attr37 attr20 attr3) 0.125
+(obj14 obj26 , attr12 attr33 attr0 attr17) 0.125
+(obj15 obj25 obj40 , attr26 attr14 attr22) 0.125
+(obj8 obj14 obj26 , attr33 attr0 attr17) 0.125
+(obj20 obj6 obj9 obj19 obj47 obj42 obj15 , attr19 attr14 attr9) 0.125
+(obj21 obj8 , attr24 attr0 attr3 attr8 attr17) 0.125
+(obj2 obj15 obj26 , attr37 attr12 attr22 attr19) 0.125
+(obj0 obj42 obj25 obj31 , attr4 attr14 attr30) 0.125
+(obj46 obj18 obj23 , attr6 attr5 attr13 attr28) 0.125
+(obj46 obj22 obj23 obj15 obj43 , attr6 attr12 attr5) 0.125
+(obj46 obj15 obj25 , attr14 attr15 attr39) 0.125
+(obj8 obj5 obj31 obj26 obj32 , attr17 attr0 attr1) 0.125
+(obj46 obj1 obj18 obj27 , attr6 attr24 attr28) 0.125
+(obj46 obj29 obj15 , attr6 attr5 attr14) 0.125
+(obj46 obj0 obj31 , attr25 attr14 attr30) 0.125
+(obj23 obj31 obj26 , attr12 attr5 attr1) 0.125
+(obj1 obj45 obj15 , attr6 attr19 attr26 attr22) 0.125
+(obj46 obj25 obj31 , attr14 attr30 attr39) 0.125
+(obj29 obj31 obj0 , attr14 attr30 attr38) 0.125
+(obj46 obj29 obj31 , attr5 attr14 attr30) 0.125
+(obj45 obj2 obj15 , attr6 attr37 attr22 attr19) 0.125
+(obj46 obj32 obj27 , attr24 attr28 attr30) 0.125
+(obj20 obj29 obj31 , attr5 attr14 attr38) 0.125
+(obj46 obj10 obj35 , attr6 attr30 attr39) 0.125
+(obj46 obj35 obj25 , attr15 attr30 attr39) 0.125
+(obj16 obj5 obj26 obj6 , attr37 attr0 attr17) 0.125
+(obj46 obj36 obj31 , attr25 attr12 attr14) 0.125
+(obj46 obj37 , attr24 attr15 attr30) 0.125
+(obj46 obj0 obj38 , attr25 attr14 attr31) 0.125
+(obj20 obj45 obj31 obj30 , attr23 attr38 attr22) 0.125
+(obj46 obj12 obj42 , attr6 attr11 attr31) 0.125
+(obj46 obj42 obj14 , attr6 attr12 attr13 attr30) 0.125
+(obj15 obj26 obj16 , attr36 attr37 attr22) 0.125
+(obj46 obj22 obj2 obj42 , attr6 attr12 attr31) 0.125
+(obj46 obj42 obj27 , attr6 attr13 attr30 attr31) 0.125
+(obj46 obj28 obj42 , attr6 attr14 attr15 attr31) 0.125
+(obj3 obj2 obj5 , attr4 attr28 attr1) 0.125
+(obj46 obj28 obj42 obj15 , attr6 attr14 attr15) 0.125
+(obj46 obj19 obj42 obj31 , attr12 attr14 attr30) 0.125
+(obj1 obj8 obj32 , attr24 attr27 attr0) 0.125
+(obj46 obj36 obj42 obj15 , attr6 attr12 attr14) 0.125
+(obj46 obj42 obj41 , attr12 attr15 attr31) 0.125
+(obj35 obj26 , attr7 attr27 attr5) 0.125
+(obj9 obj0 obj15 obj47 , attr36 attr19 attr14) 0.125
+(obj36 obj18 obj35 obj27 , attr6 attr13 attr3) 0.125
+(obj28 obj35 obj15 , attr6 attr21 attr15) 0.125
+(obj20 obj2 , attr37 attr22 attr28 attr19 attr1) 0.125
+(obj35 obj30 , attr18 attr34 attr35) 0.125
+(obj35 obj31 , attr5 attr3 attr30 attr39) 0.125
+(obj29 obj35 obj31 obj49 , attr5 attr3 attr30) 0.125
+(obj35 obj32 obj25 , attr18 attr30 attr39) 0.125
+(obj35 obj33 , attr13 attr15 attr3) 0.125
+(obj10 obj5 , attr6 attr37 attr16 attr1) 0.125
+(obj20 obj3 obj2 , attr22 attr28 attr1) 0.125
+(obj35 obj2 obj34 , attr7 attr27 attr21) 0.125
+(obj24 obj35 obj34 obj15 obj41 , attr34 attr21 attr15) 0.125
+(obj47 obj49 obj5 obj16 , attr36 attr37 attr28) 0.125
+(obj11 obj0 obj4 obj41 , attr36 attr34 attr38) 0.125
+(obj9 obj36 obj13 , attr10 attr6 attr13 attr9) 0.125
+(obj29 obj15 obj40 obj6 , attr6 attr34 attr14) 0.125
+(obj11 obj29 obj5 obj40 obj6 , attr6 attr34 attr0) 0.125
+(obj1 obj36 obj14 , attr25 attr6 attr32) 0.125
+(obj36 obj15 obj14 , attr6 attr12 attr32) 0.125
+(obj36 obj18 , attr6 attr13 attr3 attr9) 0.125
+(obj19 obj36 obj15 obj47 obj42 , attr12 attr14 attr9) 0.125
+(obj47 obj49 obj5 obj18 , attr36 attr5 attr28) 0.125
+(obj20 obj36 obj15 obj47 obj6 , attr37 attr14 attr9) 0.125
+(obj12 obj43 obj6 , attr6 attr7 attr26) 0.125
+(obj36 obj13 obj21 , attr10 attr32 attr9) 0.125
+(obj29 obj43 obj14 obj40 obj27 , attr6 attr30 attr0) 0.125
+(obj36 obj22 obj5 , attr25 attr37 attr6) 0.125
+(obj25 obj31 obj27 obj29 obj40 obj49 , attr30 attr3 attr0) 0.125
+(obj10 obj48 obj40 , attr16 attr23 attr9) 0.125
+(obj15 obj48 obj40 , attr26 attr16 attr9) 0.125
+(obj24 obj48 obj40 , attr18 attr26 attr16) 0.125
+(obj48 obj25 obj40 , attr18 attr26 attr23) 0.125
+(obj4 obj48 obj41 , attr36 attr2 attr38) 0.125
+(obj42 obj48 , attr4 attr2 attr9) 0.125
+(obj18 obj15 obj43 obj48 , attr5 attr26 attr2) 0.125
+(obj49 obj45 obj48 obj16 , attr37 attr4 attr23) 0.125
+(obj20 obj22 obj45 obj48 , attr37 attr23 attr38) 0.125
+(obj45 obj48 obj31 obj30 , attr4 attr23 attr38) 0.125
+(obj47 obj15 obj26 obj49 , attr36 attr37 attr5 attr19) 0.125
+(obj9 obj42 obj15 obj6 , attr6 attr19 attr14 attr9) 0.125
+(obj4 obj49 , attr36 attr15 attr30) 0.125
+(obj1 obj40 obj26 , attr27 attr0 attr22) 0.125
+(obj0 obj5 obj49 , attr25 attr36 attr4) 0.125
+(obj3 obj5 obj49 , attr25 attr4 attr28 attr0) 0.125
+(obj9 obj49 , attr36 attr19 attr4 attr0) 0.125
+(obj9 obj0 obj49 , attr36 attr19 attr4) 0.125
+(obj14 obj49 , attr25 attr30 attr20 attr0) 0.125
+(obj3 obj49 obj16 , attr4 attr0 attr23 attr28) 0.125
+(obj17 obj49 , attr4 attr5 attr20) 0.125
+(obj10 obj40 obj31 , attr16 attr30 attr23) 0.125
+(obj18 obj5 obj49 , attr36 attr5 attr3 attr28) 0.125
+(obj18 obj15 obj49 , attr36 attr19 attr5 attr29) 0.125
+(obj20 obj3 obj49 , attr29 attr28 attr23) 0.125
+(obj20 obj10 obj49 , attr37 attr29 attr23) 0.125
+(obj41 obj4 obj7 obj16 , attr34 attr15 attr17) 0.125
+(obj1 obj0 obj49 , attr25 attr36 attr19) 0.125
+(obj21 obj49 , attr36 attr20 attr15 attr0 attr3) 0.125
+(obj0 obj2 obj42 , attr19 attr4 attr31) 0.125
+(obj22 obj5 obj49 , attr25 attr37 attr5) 0.125
+(obj20 obj22 obj49 , attr37 attr5 attr23 attr19) 0.125
+(obj20 obj2 obj34 obj26 , attr19 attr22 attr1) 0.125
+(obj19 obj16 obj6 , attr24 attr14 attr17) 0.125
+(obj15 obj5 obj48 obj16 , attr36 attr37 attr16) 0.125
+(obj28 obj40 obj27 , attr6 attr0 attr31) 0.125
+(obj32 obj40 , attr18 attr27 attr30 attr0) 0.125
+(obj29 obj40 obj0 , attr34 attr14 attr30) 0.125
+(obj20 obj1 obj2 obj45 , attr19 attr28 attr22) 0.125
+(obj29 obj40 obj10 , attr6 attr16 attr30) 0.125
+(obj32 obj40 obj25 , attr18 attr30 attr0) 0.125
+(obj20 obj2 obj5 , attr37 attr28 attr1) 0.125
+(obj20 obj0 obj6 , attr19 attr14 attr38) 0.125
+(obj20 obj7 , attr1 attr15 attr9) 0.125
+(obj20 obj11 , attr11 attr29 attr38) 0.125
+(obj20 obj45 obj2 obj15 obj26 , attr37 attr22 attr19) 0.125
+(obj34 obj30 , attr18 attr34 attr29 attr22) 0.125
+(obj20 obj47 obj15 obj6 , attr37 attr14 attr19 attr9) 0.125
+(obj20 obj1 obj16 , attr24 attr28 attr22) 0.125
+(obj20 obj10 obj15 , attr37 attr29 attr9) 0.125
+(obj34 obj40 obj16 , attr34 attr3 attr22) 0.125
+(obj34 obj40 obj30 , attr18 attr34 attr22) 0.125
+(obj20 obj45 obj2 obj16 , attr37 attr28 attr22) 0.125
+(obj20 obj16 obj6 , attr24 attr14 attr37) 0.125
+(obj36 obj40 , attr6 attr14 attr3 attr9) 0.125
+(obj36 obj40 obj18 , attr6 attr3 attr9) 0.125
+(obj36 obj40 obj29 , attr6 attr14 attr3) 0.125
+(obj19 obj48 , attr24 attr16 attr9) 0.125
+(obj20 obj18 obj2 obj23 obj32 , attr19 attr28 attr1) 0.125
+(obj18 obj5 obj43 , attr6 attr5 attr2 attr28) 0.125
+(obj18 obj5 obj43 obj15 , attr6 attr5 attr2) 0.125
+(obj35 obj25 obj40 , attr18 attr3 attr30) 0.125
+(obj20 obj43 obj49 , attr19 attr5 attr29 attr15 attr28) 0.125
+(obj20 obj15 obj43 obj49 , attr19 attr5 attr29 attr15) 0.125
+(obj21 obj43 obj49 , attr15 attr0 attr20) 0.125
+(obj46 obj18 obj23 obj5 obj43 , attr6 attr5 attr28) 0.125
+(obj29 obj35 obj5 obj40 , attr6 attr34 attr3) 0.125
+(obj24 obj15 obj43 , attr26 attr5 attr15) 0.125
+(obj25 obj43 obj6 , attr26 attr0 attr35) 0.125
+(obj35 obj34 obj40 , attr18 attr27 attr34 attr3) 0.125
+(obj15 obj43 obj25 , attr26 attr2 attr15) 0.125
+(obj18 obj43 obj48 obj25 , attr26 attr2 attr35) 0.125
+(obj43 obj26 obj6 , attr19 attr0 attr7) 0.125
+(obj35 obj34 obj24 obj40 , attr18 attr34 attr3) 0.125
+(obj8 obj5 obj39 obj31 obj49 , attr25 attr3 attr0) 0.125
+(obj1 obj5 obj43 obj27 , attr6 attr28 attr0) 0.125
+(obj14 obj43 obj27 , attr6 attr30 attr20 attr0) 0.125
+(obj18 obj23 obj43 obj27 , attr6 attr29 attr28) 0.125
+(obj28 obj43 , attr6 attr2 attr15 attr0) 0.125
+(obj20 obj48 obj17 , attr24 attr5 attr38) 0.125
+(obj28 obj43 obj25 , attr2 attr15 attr0) 0.125
+(obj29 obj43 , attr6 attr5 attr29 attr30 attr0) 0.125
+(obj29 obj5 obj43 , attr6 attr5 attr0) 0.125
+(obj21 obj48 , attr10 attr36 attr24 attr9) 0.125
+(obj11 obj29 obj43 obj27 , attr6 attr29 attr0) 0.125
+(obj43 obj30 , attr29 attr35 attr2 attr0) 0.125
+(obj8 obj43 obj30 , attr35 attr29 attr0) 0.125
+(obj25 obj43 obj30 , attr35 attr2 attr0) 0.125
+(obj43 obj31 obj14 , attr12 attr0 attr30) 0.125
+(obj34 obj33 obj49 , attr29 attr15 attr3) 0.125
+(obj43 obj31 obj26 , attr12 attr5 attr0) 0.125
+(obj20 obj1 obj32 obj18 , attr24 attr28 attr19) 0.125
+(obj29 obj43 obj31 obj49 , attr5 attr30 attr0) 0.125
+(obj1 obj49 obj43 obj32 , attr19 attr28 attr0) 0.125
+(obj32 obj49 obj43 obj27 , attr0 attr30 attr28) 0.125
+(obj34 obj15 obj43 , attr19 attr12 attr29 attr15) 0.125
+(obj20 obj34 obj15 obj43 obj49 , attr19 attr29 attr15) 0.125
+(obj28 obj25 obj40 obj16 , attr14 attr0 attr31) 0.125
+(obj46 obj35 obj15 obj43 , attr6 attr5 attr15) 0.125
+(obj18 obj35 obj23 obj43 , attr6 attr5 attr35) 0.125
+(obj35 obj24 obj43 , attr7 attr5 attr15) 0.125
+(obj35 obj2 , attr6 attr7 attr27 attr21) 0.125
+(obj26 obj49 , attr36 attr37 attr5 attr0 attr19) 0.125
+(obj1 obj21 obj24 obj27 , attr36 attr24 attr32) 0.125
+(obj21 obj24 obj15 obj47 , attr36 attr32 attr15) 0.125
+(obj20 obj21 obj24 obj46 , attr11 attr15 attr24) 0.125
+(obj35 obj2 obj6 , attr6 attr7 attr21) 0.125
+(obj22 obj24 obj48 , attr10 attr18 attr5) 0.125
+(obj15 obj23 obj5 obj24 obj29 , attr34 attr5 attr16) 0.125
+(obj1 obj22 , attr25 attr19 attr6) 0.125
+(obj0 obj42 obj25 , attr4 attr14 attr30 attr31) 0.125
+(obj45 obj2 obj16 , attr37 attr4 attr28 attr22) 0.125
+(obj43 obj42 obj25 obj4 , attr2 attr15 attr30) 0.125
+(obj10 obj25 obj31 , attr30 attr23 attr39) 0.125
+(obj13 obj25 , attr10 attr32 attr31) 0.125
+(obj1 obj14 obj25 obj6 , attr26 attr32 attr0) 0.125
+(obj2 obj40 obj41 , attr27 attr31 attr22) 0.125
+(obj1 obj15 obj25 , attr26 attr32 attr22) 0.125
+(obj15 obj25 obj6 , attr32 attr26 attr14) 0.125
+(obj24 obj5 obj15 obj48 , attr36 attr5 attr16) 0.125
+(obj15 obj25 obj14 , attr32 attr26 attr2) 0.125
+(obj0 obj42 obj25 obj16 , attr4 attr14 attr31) 0.125
+(obj2 obj25 obj16 , attr4 attr22 attr31) 0.125
+(obj11 obj35 obj12 obj42 , attr6 attr11 attr27) 0.125
+(obj22 obj6 , attr6 attr19 attr37 attr38 attr9) 0.125
+(obj34 obj40 obj41 , attr34 attr27 attr22) 0.125
+(obj28 obj0 obj16 , attr36 attr14 attr31) 0.125
+(obj28 obj9 obj16 , attr36 attr14 attr0) 0.125
+(obj28 obj47 obj15 obj16 , attr36 attr14 attr15) 0.125
+(obj28 obj18 obj5 obj15 , attr36 attr6 attr2) 0.125
+(obj28 obj20 , attr14 attr15 attr1) 0.125
+(obj35 obj15 obj6 , attr6 attr34 attr21) 0.125
+(obj28 obj21 , attr36 attr0 attr15 attr8) 0.125
+(obj28 obj21 obj49 obj16 , attr36 attr15 attr0) 0.125
+(obj5 obj32 obj26 obj28 obj8 obj39 , attr0 attr8 attr1) 0.125
+(obj28 obj27 , attr36 attr6 attr0 attr31) 0.125
+(obj28 obj27 obj16 , attr36 attr0 attr31) 0.125
+(obj36 obj10 obj22 obj15 obj6 , attr6 attr37 attr9) 0.125
+(obj29 obj3 , attr14 attr29 attr0) 0.125
+(obj29 obj4 , attr30 attr34 attr38 attr8) 0.125
+(obj29 obj4 obj0 , attr34 attr30 attr38) 0.125
+(obj11 obj22 , attr18 attr6 attr38) 0.125
+(obj29 obj38 obj0 obj6 , attr34 attr14 attr38) 0.125
+(obj29 obj10 , attr6 attr29 attr16 attr30) 0.125
+(obj29 obj13 , attr6 attr32 attr8) 0.125
+(obj29 obj15 obj6 , attr6 attr32 attr34 attr14) 0.125
+(obj29 obj16 obj40 obj6 , attr34 attr14 attr0) 0.125
+(obj29 obj15 obj40 obj16 , attr34 attr14 attr16) 0.125
+(obj29 obj35 obj5 obj18 , attr6 attr5 attr3) 0.125
+(obj19 obj29 obj40 obj31 , attr14 attr30 attr16) 0.125
+(obj9 obj0 obj42 , attr19 attr4 attr14) 0.125
+(obj20 obj29 obj15 , attr14 attr5 attr29) 0.125
+(obj29 obj21 , attr0 attr32 attr3 attr8) 0.125
+(obj29 obj22 , attr6 attr5 attr38) 0.125
+(obj29 obj23 obj12 , attr6 attr29 attr8) 0.125
+(obj13 obj42 , attr6 attr13 attr31 attr9) 0.125
+(obj18 obj35 obj23 , attr6 attr5 attr13 attr35) 0.125
+(obj15 obj22 obj5 , attr6 attr37 attr5) 0.125
+(obj48 obj31 obj16 , attr4 attr16 attr23) 0.125
+(obj9 obj18 obj42 , attr6 attr19 attr13 attr9) 0.125
+(obj19 obj1 obj32 , attr24 attr27 attr19) 0.125
+(obj22 obj16 , attr37 attr23 attr31) 0.125
+(obj19 obj32 obj6 , attr24 attr17 attr19) 0.125
+(obj20 obj32 obj6 , attr24 attr38 attr19) 0.125
+(obj45 obj26 obj16 , attr37 attr22 attr17) 0.125
+(obj20 obj8 obj32 , attr24 attr38 attr1) 0.125
+(obj21 obj32 obj6 , attr24 attr32 attr0 attr17) 0.125
+(obj8 obj32 obj48 , attr18 attr24 attr38) 0.125
+(obj23 obj5 obj32 , attr28 attr8 attr1) 0.125
+(obj37 obj24 obj32 , attr18 attr24 attr32) 0.125
+(obj35 obj48 , attr18 attr5 attr35) 0.125
+(obj2 obj34 obj32 obj26 , attr19 attr27 attr1) 0.125
+(obj32 obj26 obj6 , attr19 attr0 attr17) 0.125
+(obj19 obj42 obj15 obj47 , attr19 attr12 attr14 attr9) 0.125
+(obj9 obj32 obj26 , attr19 attr0 attr8) 0.125
+(obj19 obj42 obj32 obj26 obj41 , attr19 attr27 attr17) 0.125
+(obj23 obj32 obj26 , attr19 attr8 attr1) 0.125
+(obj21 obj35 obj24 , attr11 attr15 attr3) 0.125
+(obj27 obj32 obj6 , attr24 attr32 attr38 attr0) 0.125
+(obj1 obj27 obj32 obj16 , attr24 attr28 attr0) 0.125
+(obj20 obj32 obj27 , attr24 attr28 attr38) 0.125
+(obj29 obj32 obj8 , attr38 attr0 attr8) 0.125
+(obj29 obj32 obj21 , attr32 attr0 attr8) 0.125
+(obj11 obj8 obj32 obj30 , attr18 attr0 attr38) 0.125
+(obj32 obj31 obj6 , attr32 attr38 attr0 attr17) 0.125
+(obj20 obj22 obj6 , attr37 attr19 attr38 attr9) 0.125
+(obj21 obj42 obj7 , attr17 attr15 attr9) 0.125
+(obj20 obj33 , attr29 attr15 attr38) 0.125
+(obj0 obj22 obj33 obj38 , attr25 attr38 attr31) 0.125
+(obj33 obj25 obj16 , attr31 attr15 attr3) 0.125
+(obj19 obj21 obj42 , attr11 attr17 attr9) 0.125
+(obj49 obj5 obj26 obj16 , attr36 attr37 attr0) 0.125
+(obj46 obj20 obj49 obj43 obj47 , attr5 attr15 attr28) 0.125
+(obj46 obj2 obj43 obj23 , attr6 attr12 attr28) 0.125
+(obj46 obj43 obj27 , attr6 attr28 attr30) 0.125
+(obj46 obj43 obj31 , attr12 attr5 attr30) 0.125
+(obj36 obj22 obj2 obj15 , attr6 attr37 attr12) 0.125
+(obj46 obj42 obj43 , attr6 attr12 attr15 attr30) 0.125
+(obj46 obj42 obj43 obj14 , attr6 attr12 attr30) 0.125
+(obj46 obj42 obj15 obj43 , attr6 attr12 attr15) 0.125
+(obj46 obj35 obj42 obj43 , attr6 attr15 attr30) 0.125
+(obj1 obj47 obj15 , attr36 attr19 attr32) 0.125
+(obj9 obj47 obj15 , attr36 attr19 attr14 attr9) 0.125
+(obj47 obj15 obj14 , attr32 attr12 attr2) 0.125
+(obj21 obj49 obj25 obj16 , attr3 attr0 attr15) 0.125
+(obj47 obj5 obj16 , attr36 attr37 attr34 attr28) 0.125
+(obj47 obj5 obj15 obj16 , attr36 attr37 attr34) 0.125
+(obj1 obj47 obj49 obj18 , attr36 attr19 attr28) 0.125
+(obj47 obj5 obj18 , attr36 attr5 attr2 attr28) 0.125
+(obj47 obj5 obj15 obj48 obj18 , attr36 attr5 attr2) 0.125
+(obj9 obj47 obj15 obj18 , attr36 attr19 attr9) 0.125
+(obj20 obj47 obj5 obj49 , attr37 attr5 attr28) 0.125
+(obj20 obj47 obj16 , attr37 attr14 attr15 attr28) 0.125
+(obj20 obj47 obj15 obj16 , attr37 attr14 attr15) 0.125
+(obj49 obj26 obj6 , attr19 attr0 attr37) 0.125
+(obj47 obj23 obj5 , attr34 attr5 attr28) 0.125
+(obj47 obj24 obj5 obj15 , attr36 attr34 attr5) 0.125
+(obj1 obj47 obj27 , attr36 attr32 attr28) 0.125
+(obj28 obj47 obj15 , attr36 attr14 attr2 attr15) 0.125
+(obj47 obj15 obj29 , attr14 attr34 attr5 attr32) 0.125
+(obj47 obj29 obj15 obj6 , attr32 attr34 attr14) 0.125
+(obj47 obj24 obj15 obj29 , attr34 attr5 attr32) 0.125
+(obj8 obj42 obj26 , attr27 attr33 attr17) 0.125
+(obj47 obj15 obj31 , attr14 attr12 attr5 attr32) 0.125
+(obj47 obj15 obj31 obj29 , attr14 attr5 attr32) 0.125
+(obj36 obj22 obj26 , attr10 attr37 attr12) 0.125
+(obj1 obj47 obj34 obj26 obj41 , attr36 attr19 attr27) 0.125
+(obj0 obj49 obj27 , attr36 attr20 attr30) 0.125
+(obj36 obj22 obj23 , attr10 attr6 attr12) 0.125
+(obj13 obj7 , attr10 attr7 attr9) 0.125
+(obj13 obj2 obj12 , attr6 attr7 attr31) 0.125
+(obj36 obj29 obj15 obj6 , attr6 attr32 attr14) 0.125
+(obj36 obj27 , attr6 attr13 attr32 attr3) 0.125
+(obj42 obj14 obj4 , attr2 attr30 attr17) 0.125
+(obj36 obj29 obj27 , attr6 attr32 attr3) 0.125
+(obj11 obj49 obj27 , attr36 attr29 attr0) 0.125
+(obj36 obj15 obj31 obj47 , attr14 attr12 attr32) 0.125
+(obj36 obj33 , attr25 attr13 attr3) 0.125
+(obj8 obj5 obj14 obj31 , attr25 attr0 attr17) 0.125
+(obj18 obj12 obj15 obj14 obj43 , attr6 attr26 attr2) 0.125
+(obj36 obj25 obj31 obj29 , attr14 attr32 attr3) 0.125
+(obj0 obj42 obj27 , attr20 attr30 attr31) 0.125
+(obj37 obj24 obj15 , attr32 attr15 attr16) 0.125
+(obj37 obj24 obj16 , attr24 attr15 attr16) 0.125
+(obj20 obj3 obj15 , attr14 attr29 attr22) 0.125
+(obj46 obj13 obj42 obj27 , attr6 attr13 attr31) 0.125
+(obj35 obj49 obj27 , attr20 attr30 attr3) 0.125
+(obj37 obj21 obj24 obj25 , attr10 attr32 attr15) 0.125
+(obj29 obj49 obj18 , attr5 attr29 attr3) 0.125
+(obj37 obj14 obj27 , attr32 attr20 attr30) 0.125
+(obj37 obj21 obj27 , attr24 attr32 attr20) 0.125
+(obj21 obj49 obj41 , attr36 attr20 attr15) 0.125
+(obj1 obj5 obj14 , attr25 attr6 attr0) 0.125
+(obj37 obj29 obj31 , attr32 attr30 attr16) 0.125
+(obj28 obj23 obj5 obj12 , attr6 attr8 attr1) 0.125
+(obj37 obj1 obj32 , attr24 attr27 attr32) 0.125
+(obj5 obj43 obj49 , attr5 attr28 attr0) 0.125
+(obj36 obj14 obj31 , attr25 attr12 attr32) 0.125
+(obj37 obj19 obj32 , attr24 attr27 attr30) 0.125
+(obj10 obj5 obj15 , attr6 attr37 attr16) 0.125
+(obj28 obj42 obj15 , attr6 attr14 attr2 attr15) 0.125
+(obj37 obj32 obj27 , attr24 attr32 attr30) 0.125
+(obj49 obj27 obj43 obj14 , attr30 attr20 attr0) 0.125
+(obj20 obj18 obj23 obj5 , attr5 attr28 attr1) 0.125
+(obj20 obj18 obj8 , attr24 attr29 attr1) 0.125
+(obj20 obj18 obj10 , attr1 attr29 attr9) 0.125
+(obj20 obj40 obj38 , attr14 attr23 attr9) 0.125
+(obj3 obj25 obj31 obj30 obj49 obj16 , attr4 attr0 attr23) 0.125
+(obj18 obj5 obj26 , attr36 attr5 attr1) 0.125
+(obj5 obj14 obj6 , attr6 attr0 attr17) 0.125
+(obj20 obj19 obj16 , attr24 attr14 attr22) 0.125
+(obj12 obj42 obj41 , attr27 attr2 attr31) 0.125
+(obj21 obj4 , attr36 attr15 attr8 attr17) 0.125
+(obj8 obj14 , attr25 attr33 attr0 attr17) 0.125
+(obj21 obj5 obj4 obj26 , attr36 attr8 attr17) 0.125
+(obj0 obj41 obj16 , attr36 attr34 attr31) 0.125
+(obj1 obj21 obj27 obj32 obj6 , attr24 attr32 attr0) 0.125
+(obj14 obj31 obj49 , attr25 attr0 attr30) 0.125
+(obj11 obj40 obj30 , attr18 attr34 attr0) 0.125
+(obj15 obj25 obj41 , attr2 attr15 attr22) 0.125
+(obj19 obj2 obj34 obj26 obj41 , attr19 attr12 attr27 attr22) 0.125
+(obj1 obj21 obj15 , attr36 attr32 attr22) 0.125
+(obj28 obj41 obj16 , attr36 attr15 attr31) 0.125
+(obj28 obj42 obj25 obj41 , attr2 attr15 attr31) 0.125
+(obj29 obj49 obj27 , attr0 attr29 attr3 attr30) 0.125
+(obj21 obj41 obj4 obj16 , attr36 attr15 attr17) 0.125
+(obj20 obj45 obj16 , attr37 attr28 attr23 attr22) 0.125
+(obj21 obj34 obj15 obj41 obj16 , attr36 attr15 attr22) 0.125
+(obj45 obj41 obj32 obj6 , attr19 attr38 attr17) 0.125
+(obj8 obj32 obj41 , attr27 attr38 attr17) 0.125
+(obj20 obj3 obj45 obj16 , attr28 attr23 attr22) 0.125
+(obj33 obj41 , attr15 attr38 attr31) 0.125
+(obj21 obj18 obj24 obj27 obj16 , attr36 attr24 attr3) 0.125
+(obj20 obj34 obj15 obj41 , attr19 attr15 attr22) 0.125
+(obj20 obj19 obj45 , attr11 attr22 attr19) 0.125
+(obj19 obj21 obj6 , attr24 attr17 attr9) 0.125
+(obj19 obj21 obj16 , attr24 attr17 attr22) 0.125
+(obj20 obj26 , attr19 attr1 attr5 attr37 attr22) 0.125
+(obj29 obj49 obj8 obj27 , attr29 attr3 attr0) 0.125
+(obj8 obj33 obj49 , attr25 attr29 attr3) 0.125
+(obj34 obj15 obj49 , attr36 attr19 attr29 attr15) 0.125
+(obj1 obj45 obj2 obj15 , attr6 attr19 attr22) 0.125
+(obj8 obj25 obj40 obj30 , attr18 attr23 attr0) 0.125
+(obj35 obj25 obj49 , attr15 attr30 attr3) 0.125
+(obj35 obj14 obj42 obj43 obj27 , attr6 attr20 attr30) 0.125
+(obj46 obj29 obj35 obj43 , attr6 attr5 attr30) 0.125
+(obj21 obj15 obj25 , attr32 attr15 attr22) 0.125
+(obj46 obj22 obj5 , attr25 attr6 attr5) 0.125
+(obj15 obj47 obj5 obj4 obj41 , attr36 attr34 attr2) 0.125
+(obj18 obj42 obj43 obj15 , attr6 attr19 attr2) 0.125
+(obj46 obj22 obj15 , attr6 attr12 attr5 attr39) 0.125
+(obj45 obj24 , attr11 attr34 attr26) 0.125
+(obj24 obj15 obj25 , attr26 attr32 attr15) 0.125
+(obj0 obj15 obj47 obj6 , attr19 attr34 attr14) 0.125
+(obj3 obj25 obj40 obj30 obj31 obj16 , attr0 attr23 attr22) 0.125
+(obj44 obj35 , attr11 attr34 attr20 attr3) 0.125
+(obj21 obj25 obj31 , attr32 attr3 attr0 attr22) 0.125
+(obj44 obj24 obj35 , attr11 attr34 attr3) 0.125
+(obj36 obj44 , attr11 attr3 attr37) 0.125
+(obj21 obj40 obj25 obj31 obj16 , attr3 attr0 attr22) 0.125
+(obj2 obj26 obj6 , attr37 attr19 attr7) 0.125
+(obj44 obj42 , attr11 attr20 attr31) 0.125
+(obj37 obj27 , attr24 attr32 attr20 attr30) 0.125
+(obj9 obj1 obj26 obj49 , attr36 attr19 attr0) 0.125
+(obj15 obj45 obj5 obj6 , attr6 attr37 attr34) 0.125
+(obj47 obj22 obj15 obj26 , attr37 attr12 attr5 attr19) 0.125
+(obj11 obj1 obj26 , attr36 attr27 attr0) 0.125
+(obj2 obj34 obj31 obj26 , attr12 attr22 attr1) 0.125
+(obj45 obj5 obj4 , attr34 attr8 attr17) 0.125
+(obj2 obj34 obj26 obj12 , attr7 attr27 attr1) 0.125
+(obj0 obj49 obj41 , attr36 attr19 attr20) 0.125
+(obj8 obj45 , attr23 attr38 attr8 attr17) 0.125
+(obj9 obj45 obj5 , attr6 attr4 attr8) 0.125
+(obj11 obj29 obj45 obj6 , attr6 attr34 attr38) 0.125
+(obj1 obj34 obj15 obj26 obj41 , attr36 attr19 attr22) 0.125
+(obj45 obj14 , attr6 attr26 attr20 attr17) 0.125
+(obj20 obj22 obj26 obj47 obj15 obj49 , attr37 attr5 attr19) 0.125
+(obj5 obj26 obj47 obj15 obj48 obj49 , attr36 attr37 attr5) 0.125
+(obj2 obj26 obj16 , attr37 attr7 attr22) 0.125
+(obj5 obj26 obj16 , attr36 attr37 attr0 attr17) 0.125
+(obj45 obj15 obj12 , attr6 attr26 attr39) 0.125
+(obj14 obj31 obj26 , attr12 attr0 attr17) 0.125
+(obj0 obj31 obj49 , attr25 attr4 attr30) 0.125
+(obj2 obj34 obj23 obj26 , attr19 attr12 attr1) 0.125
+(obj15 obj31 obj26 , attr12 attr5 attr22) 0.125
+(obj42 obj25 obj49 , attr4 attr15 attr30) 0.125
+(obj29 obj15 obj40 , attr6 attr34 attr14 attr16) 0.125
+(obj36 obj23 , attr10 attr6 attr12 attr13) 0.125
+(obj19 obj31 obj26 obj41 , attr12 attr17 attr22) 0.125
+(obj9 obj1 obj15 obj18 , attr36 attr19 attr6) 0.125
+(obj19 obj45 obj26 obj41 , attr19 attr17 attr22) 0.125
+(obj9 obj23 obj26 , attr10 attr19 attr8) 0.125
+(obj20 obj31 obj26 , attr1 attr5 attr22) 0.125
+(obj37 obj8 obj32 , attr18 attr24 attr27) 0.125
+(obj49 obj43 obj16 , attr15 attr0 attr28) 0.125
+(obj29 obj45 , attr6 attr34 attr38 attr8) 0.125
+(obj21 obj31 obj26 obj16 , attr22 attr0 attr17) 0.125
+(obj37 obj32 obj25 , attr18 attr32 attr30) 0.125
+(obj29 obj45 obj5 obj23 , attr6 attr34 attr8) 0.125
+(obj46 obj14 obj31 , attr25 attr12 attr30) 0.125
+(obj45 obj30 , attr34 attr23 attr4 attr38 attr22) 0.125
+(obj11 obj15 obj5 , attr36 attr6 attr34) 0.125
+(obj47 obj15 obj4 obj41 , attr36 attr34 attr2 attr15) 0.125
+(obj3 obj45 obj25 obj31 obj30 obj16 , attr4 attr23 attr22) 0.125
+(obj29 obj23 obj15 obj43 obj18 , attr6 attr5 attr29) 0.125
+(obj29 obj24 , attr34 attr5 attr32 attr3 attr16) 0.125
+(obj29 obj24 obj15 , attr34 attr5 attr32 attr16) 0.125
+(obj29 obj5 obj31 , attr5 attr16 attr3 attr0) 0.125
+(obj24 obj29 obj44 obj40 obj5 obj16 , attr34 attr3 attr16) 0.125
+(obj29 obj25 obj31 obj6 , attr14 attr32 attr0) 0.125
+(obj29 obj40 obj25 obj31 obj16 , attr14 attr3 attr0) 0.125
+(obj29 obj5 obj39 obj26 , attr5 attr0 attr8) 0.125
+(obj29 obj5 obj40 obj27 , attr6 attr3 attr0) 0.125
+(obj29 obj27 obj6 , attr6 attr32 attr38 attr0) 0.125
+(obj47 obj38 obj15 obj40 obj6 , attr34 attr14 attr9) 0.125
+(obj11 obj29 obj27 , attr6 attr29 attr0 attr38) 0.125
+(obj29 obj14 obj27 , attr6 attr32 attr30 attr0) 0.125
+(obj29 obj18 obj27 , attr6 attr29 attr3) 0.125
+(obj22 obj31 obj49 , attr25 attr5 attr23) 0.125
+(obj29 obj25 obj31 obj27 , attr30 attr32 attr3 attr0) 0.125
+(obj22 obj45 obj31 , attr23 attr38 attr39) 0.125
+(obj28 obj29 obj9 obj5 , attr6 attr0 attr8) 0.125
+(obj22 obj40 obj38 , attr31 attr23 attr9) 0.125
+(obj41 obj4 obj30 , attr34 attr2 attr38) 0.125
+(obj0 obj5 obj30 , attr25 attr34 attr4) 0.125
+(obj3 obj5 obj31 obj30 obj39 obj49 , attr25 attr4 attr0) 0.125
+(obj8 obj40 obj39 , attr18 attr27 attr3 attr0) 0.125
+(obj0 obj4 obj27 , attr36 attr30 attr38) 0.125
+(obj8 obj30 obj6 , attr35 attr38 attr0) 0.125
+(obj11 obj29 obj30 obj6 , attr34 attr38 attr0) 0.125
+(obj20 obj19 obj1 , attr24 attr22 attr19) 0.125
+(obj30 obj5 obj16 , attr34 attr4 attr0) 0.125
+(obj29 obj24 obj5 obj31 , attr5 attr3 attr16) 0.125
+(obj18 obj43 obj30 , attr29 attr35 attr2) 0.125
+(obj20 obj30 , attr29 attr23 attr38 attr22) 0.125
+(obj20 obj3 obj30 , attr29 attr23 attr22) 0.125
+(obj27 obj6 , attr6 attr24 attr32 attr38 attr0) 0.125
+(obj20 obj8 obj30 , attr29 attr23 attr38) 0.125
+(obj23 obj30 , attr34 attr35 attr29) 0.125
+(obj29 obj24 obj15 obj31 , attr5 attr32 attr16) 0.125
+(obj18 obj33 obj27 , attr13 attr29 attr3) 0.125
+(obj29 obj33 obj8 obj27 , attr29 attr3 attr38) 0.125
+(obj8 obj33 obj30 , attr25 attr29 attr38) 0.125
+(obj46 obj35 obj31 , attr5 attr30 attr39) 0.125
+(obj8 obj33 obj31 , attr25 attr3 attr38) 0.125
+(obj20 obj45 obj32 , attr19 attr28 attr38) 0.125
+(obj34 obj6 , attr19 attr34 attr21 attr7) 0.125
+(obj2 obj34 obj6 , attr19 attr21 attr7) 0.125
+(obj0 obj41 obj45 obj6 , attr19 attr34 attr38) 0.125
+(obj22 obj45 obj32 , attr19 attr38 attr39) 0.125
+(obj10 obj34 , attr21 attr29 attr1) 0.125
+(obj24 obj25 obj40 , attr18 attr26 attr3) 0.125
+(obj11 obj8 obj34 , attr18 attr27 attr29) 0.125
+(obj8 obj34 obj12 , attr27 attr29 attr1) 0.125
+(obj0 obj34 obj15 obj47 obj41 , attr36 attr19 attr34) 0.125
+(obj41 obj34 obj15 obj6 , attr19 attr34 attr21) 0.125
+(obj29 obj8 obj31 obj27 , attr38 attr3 attr0) 0.125
+(obj11 obj34 obj15 , attr36 attr34 attr29) 0.125
+(obj18 obj34 obj5 , attr36 attr3 attr1) 0.125
+(obj18 obj34 obj8 , attr29 attr3 attr1) 0.125
+(obj18 obj34 obj15 obj49 , attr36 attr19 attr29) 0.125
+(obj11 obj29 obj27 obj6 , attr6 attr38 attr0) 0.125
+(obj20 obj3 obj34 , attr22 attr29 attr1) 0.125
+(obj0 obj31 obj30 , attr25 attr4 attr38) 0.125
+(obj21 obj34 obj16 , attr36 attr22 attr15 attr3) 0.125
+(obj11 obj8 obj29 obj30 obj27 , attr29 attr0 attr38) 0.125
+(obj20 obj18 obj34 obj23 , attr19 attr29 attr1) 0.125
+(obj35 obj34 obj24 obj6 , attr7 attr34 attr21) 0.125
+(obj21 obj5 , attr36 attr0 attr3 attr8 attr17) 0.125
+(obj11 obj34 obj24 , attr36 attr18 attr34) 0.125
+(obj24 obj34 obj15 obj41 , attr36 attr34 attr21 attr15) 0.125
+(obj24 obj34 obj5 obj16 , attr36 attr34 attr3) 0.125
+(obj21 obj34 obj24 obj49 obj16 , attr36 attr15 attr3) 0.125
+(obj34 obj25 , attr18 attr22 attr15 attr3) 0.125
+(obj21 obj34 obj25 obj16 , attr22 attr3 attr15) 0.125
+(obj35 obj34 obj24 obj25 , attr18 attr15 attr3) 0.125
+(obj8 obj3 obj49 obj31 obj30 , attr25 attr23 attr0) 0.125
+(obj8 obj31 obj49 , attr25 attr23 attr3 attr0) 0.125
+(obj1 obj34 obj26 obj41 , attr36 attr19 attr27 attr22) 0.125
+(obj34 obj15 obj26 obj41 , attr36 attr19 attr12 attr22) 0.125
+(obj34 obj26 obj16 , attr36 attr7 attr22) 0.125
+(obj18 obj34 obj26 , attr36 attr19 attr1) 0.125
+(obj17 obj41 , attr21 attr20 attr38) 0.125
+(obj47 obj35 obj24 obj15 , attr34 attr5 attr15) 0.125
+(obj18 obj15 obj47 obj41 , attr36 attr19 attr2) 0.125
+(obj47 obj22 obj15 obj36 , attr37 attr12 attr9) 0.125
+(obj37 obj47 , attr27 attr32 attr15) 0.125
+(obj0 obj32 , attr19 attr30 attr38) 0.125
+(obj47 obj34 obj26 obj41 , attr36 attr19 attr12 attr27) 0.125
+(obj47 obj35 obj34 obj41 , attr34 attr27 attr15) 0.125
+(obj49 obj25 obj31 obj16 , attr4 attr23 attr3 attr0) 0.125
+(obj47 obj42 obj15 obj18 , attr19 attr2 attr9) 0.125
+(obj2 obj32 , attr19 attr27 attr28 attr1) 0.125
+(obj21 obj5 obj8 , attr0 attr3 attr8 attr17) 0.125
+(obj47 obj43 obj18 , attr19 attr5 attr2 attr28) 0.125
+(obj47 obj15 obj43 obj18 , attr19 attr5 attr2) 0.125
+(obj46 obj20 obj42 , attr11 attr14 attr15) 0.125
+(obj20 obj47 obj43 obj49 , attr19 attr5 attr15 attr28) 0.125
+(obj20 obj47 obj15 obj43 obj49 , attr19 attr5 attr15) 0.125
+(obj47 obj2 obj43 obj23 , attr19 attr12 attr28) 0.125
+(obj20 obj23 obj18 obj47 obj43 obj49 , attr19 attr5 attr28) 0.125
+(obj32 obj4 , attr30 attr38 attr8 attr17) 0.125
+(obj47 obj45 obj15 obj6 , attr37 attr34 attr19) 0.125
+(obj9 obj21 obj28 obj5 obj26 , attr36 attr0 attr8) 0.125
+(obj47 obj45 obj5 obj16 , attr37 attr34 attr28) 0.125
+(obj20 obj47 obj2 obj49 obj45 , attr37 attr28 attr19) 0.125
+(obj47 obj45 obj23 , attr19 attr34 attr28) 0.125
+(obj46 obj47 , attr12 attr5 attr14 attr15 attr28) 0.125
+(obj46 obj47 obj20 , attr5 attr14 attr15 attr28) 0.125
+(obj21 obj41 obj16 , attr36 attr22 attr15 attr17) 0.125
+(obj46 obj47 obj20 obj16 , attr14 attr15 attr28) 0.125
+(obj46 obj47 obj15 obj31 , attr12 attr5 attr14) 0.125
+(obj46 obj47 obj42 obj15 , attr12 attr14 attr15) 0.125
+(obj46 obj47 obj43 , attr12 attr5 attr15 attr28) 0.125
+(obj3 obj5 obj32 , attr28 attr0 attr1) 0.125
+(obj46 obj47 obj15 obj43 , attr12 attr5 attr15) 0.125
+(obj46 obj47 obj23 obj43 , attr12 attr5 attr28) 0.125
+(obj0 obj48 , attr36 attr4 attr38) 0.125
+(obj0 obj22 obj41 , attr19 attr38 attr31) 0.125
+(obj8 obj48 obj6 , attr24 attr35 attr38) 0.125
+(obj11 obj48 , attr36 attr18 attr38) 0.125
+(obj22 obj2 obj42 obj41 , attr19 attr12 attr31) 0.125
+(obj15 obj48 obj6 , attr37 attr26 attr9) 0.125
+(obj10 obj15 obj48 , attr37 attr16 attr9) 0.125
+(obj19 obj40 obj31 , attr14 attr30 attr16 attr22) 0.125
+(obj25 obj41 , attr22 attr2 attr15 attr31) 0.125
+(obj36 obj13 obj15 obj6 , attr6 attr32 attr9) 0.125
+(obj1 obj15 obj14 obj6 , attr6 attr26 attr32) 0.125
+(obj5 obj38 , attr25 attr34 attr8) 0.125
+(obj9 obj21 obj13 , attr10 attr8 attr9) 0.125
+(obj8 obj32 obj6 , attr24 attr38 attr0 attr17) 0.125
+(obj9 obj38 , attr14 attr8 attr9) 0.125
+(obj41 obj25 obj16 , attr31 attr15 attr22) 0.125
+(obj3 obj49 obj31 obj30 , attr25 attr4 attr0 attr23) 0.125
+(obj0 obj5 obj16 , attr36 attr34 attr4) 0.125
+(obj13 obj38 , attr31 attr8 attr9) 0.125
+(obj45 obj2 obj5 obj49 obj16 , attr37 attr4 attr28) 0.125
+(obj41 obj5 obj4 obj16 , attr36 attr34 attr17) 0.125
+(obj19 obj38 obj15 obj6 , attr14 attr21 attr9) 0.125
+(obj20 obj38 obj6 , attr14 attr38 attr9) 0.125
+(obj21 obj41 obj26 obj16 , attr36 attr22 attr17) 0.125
+(obj16 obj7 obj6 , attr7 attr34 attr17) 0.125
+(obj15 obj32 , attr19 attr32 attr39) 0.125
+(obj20 obj22 obj48 obj38 , attr23 attr38 attr9) 0.125
+(obj9 obj0 obj16 , attr36 attr4 attr14) 0.125
+(obj9 obj49 obj5 obj16 , attr36 attr4 attr0) 0.125
+(obj10 obj48 obj16 , attr37 attr16 attr23) 0.125
+(obj29 obj45 obj4 obj38 , attr34 attr38 attr8) 0.125
+(obj32 obj16 , attr24 attr28 attr0 attr17) 0.125
+(obj38 obj30 , attr25 attr34 attr23 attr38) 0.125
+(obj0 obj31 obj38 , attr25 attr14 attr38) 0.125
+(obj3 obj31 obj38 , attr25 attr14 attr23) 0.125
+(obj5 obj32 obj16 , attr28 attr0 attr17) 0.125
+(obj20 obj31 obj38 , attr14 attr23 attr38) 0.125
+(obj0 obj45 obj17 , attr4 attr20 attr38) 0.125
+(obj42 obj43 obj49 , attr19 attr15 attr30 attr20) 0.125
+(obj8 obj14 obj39 , attr25 attr33 attr0) 0.125
+(obj22 obj39 , attr25 attr18 attr5) 0.125
+(obj41 obj30 , attr34 attr2 attr38 attr22) 0.125
+(obj34 obj25 obj40 , attr18 attr3 attr22) 0.125
+(obj29 obj49 obj43 obj27 , attr29 attr0 attr30) 0.125
+(obj41 obj15 obj30 , attr34 attr2 attr22) 0.125
+(obj49 obj42 obj43 obj41 , attr19 attr15 attr20) 0.125
+(obj8 obj35 obj25 , attr18 attr35 attr3) 0.125
+(obj0 obj4 , attr36 attr34 attr30 attr38) 0.125
+(obj21 obj5 obj16 , attr36 attr3 attr0 attr17) 0.125
+(obj49 obj3 obj45 obj16 , attr4 attr28 attr23) 0.125
+(obj0 obj5 , attr25 attr36 attr34 attr4) 0.125
+(obj20 obj49 obj45 obj16 , attr37 attr28 attr23) 0.125
+(obj8 obj5 obj31 obj7 , attr25 attr17 attr1) 0.125
+(obj45 obj43 obj49 , attr19 attr28 attr20) 0.125
+(obj1 obj3 obj5 obj49 , attr25 attr28 attr0) 0.125
+(obj46 obj5 obj49 , attr25 attr5 attr28) 0.125
+(obj46 obj31 obj49 , attr25 attr5 attr30) 0.125
+(obj21 obj8 obj16 , attr24 attr3 attr0 attr17) 0.125
+(obj46 obj35 obj43 obj49 , attr5 attr15 attr30) 0.125
+(obj47 obj49 , attr36 attr37 attr5 attr15 attr19 attr28) 0.125
+(obj47 obj49 obj16 , attr36 attr37 attr15 attr28) 0.125
+(obj32 obj41 , attr19 attr27 attr38 attr17) 0.125
+(obj47 obj49 obj15 obj16 , attr36 attr37 attr15) 0.125
+(obj45 obj41 obj4 obj6 , attr34 attr38 attr17) 0.125
+(obj1 obj3 , attr25 attr28 attr0 attr22) 0.125
+(obj20 obj47 obj49 obj16 , attr37 attr15 attr28) 0.125
+(obj47 obj24 obj15 obj49 , attr36 attr5 attr15) 0.125
+(obj47 obj34 obj15 obj49 obj41 , attr36 attr19 attr15) 0.125
+(obj44 obj27 , attr31 attr20 attr3) 0.125
+(obj49 obj5 obj48 obj16 , attr36 attr37 attr4) 0.125
+(obj20 obj22 obj48 obj49 , attr37 attr5 attr23) 0.125
+(obj48 obj31 obj49 , attr4 attr5 attr23) 0.125
+(obj9 obj45 obj2 obj42 , attr6 attr19 attr4) 0.125
+(obj8 obj45 obj4 obj32 , attr38 attr8 attr17) 0.125
+(obj9 obj3 obj25 obj31 obj16 , attr4 attr14 attr0) 0.125
+(obj8 obj3 obj5 obj39 obj31 , attr25 attr0 attr1) 0.125
+(obj11 obj47 obj34 obj41 , attr36 attr27 attr34) 0.125
+(obj0 obj41 obj38 , attr34 attr38 attr31) 0.125
+(obj41 obj38 obj6 , attr34 attr21 attr38) 0.125
+(obj40 obj41 , attr34 attr22 attr27 attr31) 0.125
+(obj41 obj40 obj16 , attr34 attr31 attr22) 0.125
+(obj9 obj22 , attr10 attr19 attr6 attr9) 0.125
+(obj1 obj2 obj42 , attr6 attr19 attr27) 0.125
+(obj42 obj4 , attr2 attr15 attr30 attr17) 0.125
+(obj1 obj5 obj27 obj9 obj28 obj11 , attr36 attr6 attr0) 0.125
+(obj46 obj22 obj12 , attr6 attr31 attr39) 0.125
+(obj9 obj36 obj22 obj13 , attr10 attr6 attr9) 0.125
+(obj29 obj35 obj24 obj5 , attr34 attr5 attr3) 0.125
+(obj46 obj36 obj22 obj14 , attr25 attr6 attr12) 0.125
+(obj42 obj5 obj14 , attr6 attr2 attr17) 0.125
+(obj42 obj15 obj14 obj43 , attr6 attr12 attr2) 0.125
+(obj29 obj35 obj40 obj27 , attr6 attr3 attr30) 0.125
+(obj45 obj22 obj2 obj15 obj6 , attr6 attr37 attr19) 0.125
+(obj18 obj42 obj15 , attr6 attr19 attr2 attr9) 0.125
+(obj18 obj22 obj15 , attr6 attr19 attr5 attr9) 0.125
+(obj19 obj42 obj22 obj15 obj47 , attr19 attr12 attr9) 0.125
+(obj20 obj21 obj15 , attr22 attr15 attr9) 0.125
+(obj20 obj10 obj22 obj48 , attr37 attr23 attr9) 0.125
+(obj20 obj21 obj42 , attr11 attr15 attr9) 0.125
+(obj20 obj47 obj22 obj15 obj6 , attr37 attr19 attr9) 0.125
+(obj22 obj2 obj42 , attr6 attr19 attr12 attr31) 0.125
+(obj20 obj18 obj22 obj15 obj47 , attr19 attr5 attr9) 0.125
+(obj23 obj42 , attr6 attr19 attr12 attr13) 0.125
+(obj20 obj21 obj16 , attr24 attr15 attr22) 0.125
+(obj23 obj6 , attr6 attr19 attr34 attr35) 0.125
+(obj9 obj1 obj43 obj6 , attr6 attr19 attr0) 0.125
+(obj23 obj7 , attr10 attr34 attr1) 0.125
+(obj10 obj23 , attr6 attr29 attr16 attr1) 0.125
+(obj10 obj23 obj5 , attr6 attr16 attr1) 0.125
+(obj11 obj23 , attr6 attr34 attr13 attr29) 0.125
+(obj28 obj12 obj42 , attr6 attr2 attr31) 0.125
+(obj8 obj23 obj12 , attr29 attr8 attr1) 0.125
+(obj16 obj45 obj5 obj6 , attr37 attr34 attr17) 0.125
+(obj45 obj15 obj16 , attr37 attr34 attr22) 0.125
+(obj18 obj49 obj15 obj26 obj47 , attr36 attr19 attr5) 0.125
+(obj9 obj8 , attr35 attr0 attr8) 0.125
+(obj2 obj26 obj19 obj34 obj41 obj15 , attr19 attr12 attr22) 0.125
+(obj19 obj21 obj45 , attr11 attr17 attr22) 0.125
+(obj20 obj5 obj26 , attr37 attr5 attr1) 0.125
+(obj20 obj22 obj45 , attr37 attr23 attr38 attr19) 0.125
+(obj20 obj22 obj45 obj6 , attr37 attr38 attr19) 0.125
+(obj21 obj5 obj32 obj26 obj8 , attr0 attr8 attr17) 0.125
+(obj9 obj45 obj23 , attr6 attr19 attr8) 0.125
+(obj1 obj21 obj26 obj16 , attr36 attr0 attr22) 0.125
+(obj21 obj5 obj26 obj16 , attr36 attr0 attr17) 0.125
+(obj45 obj15 obj25 , attr22 attr26 attr39) 0.125
+(obj47 obj22 obj2 obj15 obj26 , attr37 attr12 attr19) 0.125
+(obj45 obj26 obj6 , attr19 attr17 attr37) 0.125
+(obj21 obj35 obj49 , attr20 attr15 attr3) 0.125
+(obj23 obj5 obj39 obj26 , attr5 attr8 attr1) 0.125
+(obj10 obj2 , attr6 attr37 attr21 attr1) 0.125
+(obj20 obj18 obj23 obj26 , attr19 attr5 attr1) 0.125
+(obj22 obj23 obj26 obj47 obj43 obj15 , attr19 attr12 attr5) 0.125
+(obj0 obj45 obj30 , attr34 attr4 attr38) 0.125
+(obj8 obj45 obj31 , attr23 attr38 attr17) 0.125
+(obj46 obj2 obj27 , attr6 attr28 attr31) 0.125
+(obj3 obj49 obj43 obj27 , attr29 attr28 attr0) 0.125
+(obj45 obj31 obj30 , attr4 attr23 attr38 attr22) 0.125
+(obj45 obj5 obj32 , attr28 attr8 attr17) 0.125
+(obj10 obj2 obj5 , attr6 attr37 attr1) 0.125
+(obj8 obj27 obj32 obj6 , attr24 attr38 attr0) 0.125
+(obj10 obj29 obj43 obj27 , attr6 attr29 attr30) 0.125
+(obj45 obj23 obj32 , attr19 attr28 attr8) 0.125
+(obj45 obj32 obj26 , attr19 attr8 attr17) 0.125
+(obj12 obj27 , attr6 attr29 attr31) 0.125
+(obj46 obj42 obj33 , attr13 attr15 attr31) 0.125
+(obj11 obj35 obj45 , attr6 attr11 attr34) 0.125
+(obj11 obj35 obj34 obj40 , attr18 attr27 attr34) 0.125
+(obj20 obj45 obj49 , attr37 attr28 attr23 attr19) 0.125
+(obj20 obj10 obj3 obj8 , attr29 attr23 attr1) 0.125
+(obj18 obj23 obj5 , attr6 attr5 attr28 attr1) 0.125
+(obj35 obj24 obj49 , attr5 attr15 attr3) 0.125
+(obj9 obj18 obj23 , attr6 attr19 attr13 attr35) 0.125
+(obj11 obj1 , attr36 attr6 attr27 attr0) 0.125
+(obj18 obj23 obj15 obj43 , attr6 attr19 attr5 attr29) 0.125
+(obj24 obj5 , attr36 attr34 attr5 attr3 attr16) 0.09375
+(obj9 obj15 , attr36 attr19 attr14 attr6 attr9) 0.09375
+(obj11 obj29 , attr6 attr34 attr29 attr38 attr0) 0.09375
+(obj29 obj49 , attr30 attr5 attr29 attr3 attr0) 0.09375
+(obj28 obj42 , attr6 attr14 attr2 attr15 attr31) 0.09375
+(obj5 obj27 , attr36 attr6 attr28 attr0 attr3) 0.09375
+(obj30 obj16 , attr34 attr23 attr4 attr0 attr22) 0.09375
+(obj22 obj23 obj15 obj43 , attr6 attr19 attr12 attr5) 0.0625
+(obj1 obj24 , attr36 attr24 attr26 attr32) 0.0625
+(obj46 obj5 , attr25 attr6 attr5 attr28) 0.0625
+(obj36 obj22 obj15 , attr6 attr37 attr12 attr9) 0.0625
+(obj49 obj41 , attr36 attr19 attr15 attr20) 0.0625
+(obj5 obj39 obj26 , attr5 attr0 attr8 attr1) 0.0625
+(obj41 obj4 obj16 , attr36 attr34 attr15 attr17) 0.0625
+(obj9 obj1 , attr36 attr19 attr6 attr0) 0.0625
+(obj9 obj16 , attr36 attr4 attr14 attr0) 0.0625
+(obj15 obj24 obj5 , attr36 attr34 attr5 attr16) 0.0625
+(obj31 obj38 , attr25 attr14 attr23 attr38) 0.0625
+(obj15 obj5 obj16 , attr36 attr37 attr34 attr16) 0.0625
+(obj1 obj27 obj16 , attr36 attr24 attr28 attr0) 0.0625
+(obj21 obj27 obj16 , attr36 attr24 attr3 attr0) 0.0625
+(obj3 obj2 , attr4 attr22 attr28 attr1) 0.0625
+(obj46 obj42 obj15 , attr6 attr12 attr14 attr15) 0.0625
+(obj3 obj45 obj16 , attr4 attr28 attr23 attr22) 0.0625
+(obj46 obj15 obj43 , attr6 attr12 attr5 attr15) 0.0625
+(obj29 obj35 obj5 , attr6 attr34 attr5 attr3) 0.0625
+(obj0 obj6 , attr19 attr34 attr14 attr38) 0.0625
+(obj47 obj49 obj18 , attr36 attr19 attr5 attr28) 0.0625
+(obj24 obj49 , attr36 attr5 attr15 attr3) 0.0625
+(obj20 obj1 , attr24 attr22 attr28 attr19) 0.0625
+(obj29 obj40 obj6 , attr6 attr34 attr14 attr0) 0.0625
+(obj20 obj5 , attr37 attr5 attr28 attr1) 0.0625
+(obj29 obj40 obj27 , attr6 attr0 attr3 attr30) 0.0625
+(obj2 obj43 obj23 , attr6 attr19 attr12 attr28) 0.0625
+(obj28 obj40 , attr6 attr14 attr0 attr31) 0.0625
+(obj29 obj43 obj27 , attr6 attr29 attr0 attr30) 0.0625
+(obj43 obj31 , attr12 attr5 attr30 attr0) 0.0625
+(obj1 obj25 , attr26 attr32 attr0 attr22) 0.0625
+(obj36 obj29 , attr6 attr14 attr32 attr3) 0.0625
+(obj29 obj0 , attr34 attr14 attr30 attr38) 0.0625
+(obj29 obj18 , attr6 attr5 attr29 attr3) 0.0625
+(obj21 obj35 , attr11 attr20 attr15 attr3) 0.0625
+(obj23 obj32 , attr19 attr28 attr8 attr1) 0.0625
+(obj8 obj33 , attr25 attr29 attr3 attr38) 0.0625
+(obj46 obj23 obj43 , attr6 attr12 attr5 attr28) 0.0625
+(obj20 obj47 obj22 obj15 , attr37 attr5 attr19 attr9) 0.0625
+(obj46 obj35 obj43 , attr6 attr5 attr15 attr30) 0.0625
+(obj42 obj22 obj15 , attr6 attr19 attr12 attr9) 0.0625
+(obj19 obj45 , attr11 attr17 attr19 attr22) 0.0625
+(obj0 obj15 obj47 , attr36 attr19 attr34 attr14) 0.0625
+(obj21 obj5 obj26 , attr36 attr0 attr8 attr17) 0.0625
+(obj21 obj26 obj16 , attr36 attr22 attr0 attr17) 0.0625
+(obj45 obj4 , attr34 attr38 attr8 attr17) 0.0625
+(obj21 obj49 obj16 , attr36 attr15 attr0 attr3) 0.0625
+(obj46 obj29 , attr6 attr5 attr14 attr30) 0.0625
+(obj11 obj15 , attr36 attr6 attr34 attr29) 0.0625
+(obj29 obj24 obj5 , attr34 attr5 attr3 attr16) 0.0625
+(obj29 obj8 obj27 , attr38 attr29 attr3 attr0) 0.0625
+(obj0 obj30 , attr25 attr34 attr4 attr38) 0.0625
+(obj47 obj23 obj43 , attr19 attr12 attr5 attr28) 0.0625
+(obj47 obj45 , attr37 attr34 attr28 attr19) 0.0625
+(obj46 obj47 obj15 , attr12 attr5 attr14 attr15) 0.0625
+(obj29 obj31 obj49 , attr30 attr5 attr3 attr0) 0.0625
+(obj10 obj48 , attr37 attr16 attr23 attr9) 0.0625
+(obj1 obj14 obj6 , attr6 attr26 attr32 attr0) 0.0625
+(obj20 obj38 , attr14 attr23 attr38 attr9) 0.0625
+(obj46 obj42 obj40 , attr6 attr14 attr30 attr31) 0.0625
+(obj49 obj45 obj16 , attr37 attr4 attr28 attr23) 0.0625
+(obj47 obj5 obj49 , attr36 attr37 attr5 attr28) 0.0625
+(obj9 obj0 , attr36 attr19 attr4 attr14) 0.0625
+(obj22 obj5 , attr25 attr37 attr5 attr6) 0.0625
+(obj34 obj26 obj41 , attr36 attr19 attr12 attr27 attr22) 0.0625
+(obj22 obj2 obj15 , attr6 attr37 attr12 attr19) 0.0625
+(obj22 obj15 obj6 , attr6 attr37 attr19 attr9) 0.0625
+(obj23 obj12 , attr6 attr29 attr8 attr1) 0.0625
+(obj20 obj45 obj2 , attr37 attr22 attr28 attr19) 0.0625
+(obj1 obj5 obj27 , attr36 attr6 attr28 attr0) 0.0625
+(obj11 obj5 , attr36 attr6 attr34 attr0) 0.0625
+(obj36 obj42 obj15 , attr6 attr12 attr14 attr9) 0.0625
+(obj11 obj29 obj6 , attr6 attr34 attr38 attr0) 0.0625
