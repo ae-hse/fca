@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+from distribute_setup import use_setuptools
+use_setuptools()
+
 from setuptools import setup
 
 setup(name             = "fca",
@@ -9,4 +12,4 @@ setup(name             = "fca",
       keywords         = ["FCA", "Concept mining", "Mathematics", "lattice theory"],
       license          = "LGPL",
       platforms        = ["Linux", "Mac OS X", "Windows XP/2000/NT"],
-      )
+)

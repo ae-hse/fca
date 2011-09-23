@@ -80,8 +80,13 @@ class ExplorationDB(object):
     
     @context_modifier
     def edit_example(self, name, old_name, intent):
-        if name in self._cxt.objects:
-            raise NotUniqueObjectName()
+        first = False
+        for obj in self._cxt.objects:
+            if name == obj:
+                if first:
+                    raise NotUniqueObjectName()
+                else:
+                    first = True
         self._cxt.set_object_intent(intent, old_name)
         self._cxt.rename_object(old_name, name)
         
@@ -97,8 +102,13 @@ class ExplorationDB(object):
         
     @context_modifier
     def edit_attribute(self, name, old_name, extent):
-        if name in self._cxt.attributes:
-            raise NotUniqueAttributeName()
+        first = False
+        for attribute in self._cxt.attributes:
+            if name == attribute:
+                if first:
+                    raise NotUniqueAttributeName()
+                else:
+                    first = True
         self._cxt.set_attribute_extent(extent, old_name)
         self._cxt.rename_attribute(old_name, name)
             
