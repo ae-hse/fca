@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
-from copy import deepcopy
+from copy import copy, deepcopy
 from fca import Context
 from fca.partial_context import PartialContext
 
@@ -11,7 +11,9 @@ class NotCounterexample(ExplorationException):
     pass
     
 class IllegalContextModification(ExplorationException):
-    pass
+    
+    def __str__(self):
+        return "Attempted context modification conflicts with existing background knowledge"
     
 class NotUniqueObjectName(ExplorationException):
     pass
@@ -22,18 +24,10 @@ class NotUniqueAttributeName(ExplorationException):
 def context_modifier(F):
     """
     Decorator for methods where context is somehow modified.
-    Checks whether this new context respects all confirmed implications.
-    If it does not, exception is raised and context remains unmodified. Also
-    recompute implications in context.
+    Recompute implications in context.
     """
     def wrapper(db, *args):
-        unmodified_cxt = deepcopy(db._cxt)
         F(db, *args)
-        for intent in db._cxt.intents():
-            for imp in db._implications:
-                if not imp.is_respected(intent):
-                    db._cxt = unmodified_cxt
-                    raise IllegalContextModification()
         db._cxt_implications = db._cxt.get_attribute_implications(
                                             confirmed=db._implications,
                                             cond=db._cond)
@@ -55,9 +49,9 @@ class ExplorationDB(object):
     """docstring for ExplorationDB"""
     def __init__(self, context, implications, cond=lambda x: True):
         super(ExplorationDB, self).__init__()
-        self._cxt = deepcopy(context)
+        self._cxt = context
         # background knowledge
-        self._implications = deepcopy(implications)
+        self._implications = implications
         # condition on pseudo-intents
         self._cond = cond
         # relative basis
@@ -65,6 +59,12 @@ class ExplorationDB(object):
                                                 confirmed=self._implications,
                                                 cond=cond)
     
+    def _check_intents(self, intents):
+        for intent in intents:
+            for imp in self._implications:
+                if not imp.is_respected(intent):
+                    raise IllegalContextModification()
+
     @base_modifier
     def confirm_implication(self, imp):
         """docstring for confirm_implication"""
@@ -76,6 +76,8 @@ class ExplorationDB(object):
     
     @context_modifier
     def add_example(self, name, intent):
+        self._check_intents([intent])
+
         if name in self._cxt.objects:
             raise NotUniqueObjectName()
         self._cxt.add_object_with_intent(intent, name)
@@ -86,15 +88,15 @@ class ExplorationDB(object):
     
     @context_modifier
     def edit_example(self, name, old_name, intent):
-        first = False
-        for obj in self._cxt.objects:
-            if name == obj:
-                if first:
-                    raise NotUniqueObjectName()
-                else:
-                    first = True
-        self._cxt.set_object_intent(intent, old_name)
-        self._cxt.rename_object(old_name, name)
+        old_intent = self._cxt.get_object_intent(old_name)
+        if intent != old_intent:
+            self._check_intents([intent])
+            self._cxt.set_object_intent(intent, old_name)
+        if old_name != name:
+            if name in self._cxt.objects:
+                raise NotUniqueObjectName()
+            else:
+                self._cxt.rename_object(old_name, name)
         
     @context_modifier
     def add_attribute(self, name, extent):
@@ -108,6 +110,14 @@ class ExplorationDB(object):
         
     @context_modifier
     def edit_attribute(self, name, old_name, extent):
+        intents = []
+        for obj in self._cxt.objects:
+            if obj in extent:
+                intents.append(self._cxt.get_object_intent(obj).add(old_name))
+            else:
+                intents.append(self._cxt.get_object_intent(obj).discard(old_name))
+        self._check_intents(intents)
+
         first = False
         for attribute in self._cxt.attributes:
             if name == attribute:
@@ -119,10 +129,10 @@ class ExplorationDB(object):
         self._cxt.rename_attribute(old_name, name)
             
     def get_open_implications(self):
-        return deepcopy(self._cxt_implications)
+        return copy(self._cxt_implications)
         
     def get_base(self):
-        return deepcopy(self._implications)
+        return copy(self._implications)
         
     def get_object_names(self):
         return self._cxt.objects
