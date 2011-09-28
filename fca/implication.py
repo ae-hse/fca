@@ -55,11 +55,19 @@ class Implication(object):
     conclusion = property(get_conclusion)
         
     def __repr__(self):
-        premise = ", ".join([str(element) for element in self._premise])
-        short_conclusion = self._conclusion - self._premise
-        conclusion = ", ".join([str(element) for element in short_conclusion])
+        try:
+            premise = ", ".join([element for element in self._premise])
+            short_conclusion = self._conclusion - self._premise
+            conclusion = ", ".join([element for element in short_conclusion])
+        except:
+            premise = ", ".join([str(element) for element in self._premise])
+            short_conclusion = self._conclusion - self._premise
+            conclusion = ", ".join([str(element) for element in short_conclusion])
         return " => ".join((premise, conclusion,))
         
+    def __unicode__(self):
+        return self.__repr__()
+
     def __cmp__(self, other):
         if ((self._premise == other.premise) and 
             (self._conclusion == other.conclusion)):
