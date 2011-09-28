@@ -228,7 +228,7 @@ class Context(object):
         del self._attributes[attr_index]
         
     def delete_attribute_by_name(self, attr_name):
-        self.delete_attribute(self.attributes.index(obj_name))
+        self.delete_attribute(self.attributes.index(attr_name))
         
     def rename_object(self, old_name, name):
         self._objects[self._objects.index(old_name)] = name
