@@ -103,7 +103,7 @@ if __name__ == "__main__":
              [True, True, False, True, False, True, True, False, True]]
     cxt = fca.Context(table, objects, attributes)
     
-    imp_basis = compute_dg_basis(cxt, closure_operators.closure)
+    imp_basis = compute_dg_basis(cxt)
     print(len(imp_basis))
     for imp in imp_basis:
         print imp

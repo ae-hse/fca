@@ -70,9 +70,8 @@ class Equality(object):
 class CommandLineExpert(object):
 
     def is_valid(self, imp):
-        return input(
-           'Is the following implication valid? Enter "True" or "False":\n%s\n'
-                                                                          % imp)
+        print "{0}".format(imp)
+        return input('Is the following implication valid? Enter "True" or "False": {0}'.format(imp))
                                                                                     
     def explore(self, exploration):
         while exploration.get_open_implications():
