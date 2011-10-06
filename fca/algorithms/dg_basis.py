@@ -53,7 +53,7 @@ def generalized_compute_dg_basis(attributes,
     """
     relative_basis = []
     
-    a = set()
+    a = close(set(), imp_basis)
     i = len(attributes)
     
     while len(a) < len(attributes):
@@ -75,35 +75,44 @@ def generalized_compute_dg_basis(attributes,
                     a = b
                     i = j
                     break
+        if len(a) == 0:
+            break
 
     return relative_basis
 
 if __name__ == "__main__":    
-    objects = ['Air Canada', 'Air New Zeland', 'All Nippon Airways',
-               'Ansett Australia', 'The Australian Airlines Group',
-               'British Midland', 'Lufthansa', 'Mexicana',
-               'Scandinavian Airlines', 'Singapore Airlines',
-               'Thai Airways International', 'United Airlines',
-               'VARIG']
-    attributes = ['Latin America', 'Europe', 'Canada', 'Asia Pasific',
-                  'Middle East', 'Africa', 'Mexico', 'Carribean',
-                  'United States']
-    table = [[True, True, True, True, True, False, True, True, True],
-             [False, True, False, True, False, False, False, False, True],
-             [False, True, False, True, False, False, False, False, True],
-             [False, False, False, True, False, False, False, False, False],
-             [False, True, True, True, True, True, False, False, True],
-             [False, True, False, False, False, False, False, False, False],
-             [True, True, True, True ,True, True, True, False, True],
-             [True, False, True, False, False, False, True, True, True],
-             [True, True, False, True, False, True, False, False, True],
-             [False, True, True, True, True, True, False, False, True],
-             [True, True, False, True, False, False, False, True, True],
-             [True, True, True, True, False, False, True, True, True],
-             [True, True, False, True, False, True, True, False, True]]
-    cxt = fca.Context(table, objects, attributes)
-    
-    imp_basis = compute_dg_basis(cxt)
+    # objects = ['Air Canada', 'Air New Zeland', 'All Nippon Airways',
+    #            'Ansett Australia', 'The Australian Airlines Group',
+    #            'British Midland', 'Lufthansa', 'Mexicana',
+    #            'Scandinavian Airlines', 'Singapore Airlines',
+    #            'Thai Airways International', 'United Airlines',
+    #            'VARIG']
+    # attributes = ['Latin America', 'Europe', 'Canada', 'Asia Pasific',
+    #               'Middle East', 'Africa', 'Mexico', 'Carribean',
+    #               'United States']
+    # table = [[True, True, True, True, True, False, True, True, True],
+    #          [False, True, False, True, False, False, False, False, True],
+    #          [False, True, False, True, False, False, False, False, True],
+    #          [False, False, False, True, False, False, False, False, False],
+    #          [False, True, True, True, True, True, False, False, True],
+    #          [False, True, False, False, False, False, False, False, False],
+    #          [True, True, True, True ,True, True, True, False, True],
+    #          [True, False, True, False, False, False, True, True, True],
+    #          [True, True, False, True, False, True, False, False, True],
+    #          [False, True, True, True, True, True, False, False, True],
+    #          [True, True, False, True, False, False, False, True, True],
+    #          [True, True, True, True, False, False, True, True, True],
+    #          [True, True, False, True, False, True, True, False, True]]
+    # cxt = fca.Context(table, objects, attributes)
+    ct = [[True, True, True, True],\
+              [True, False, True, False],\
+              [False, True, True, False],\
+              [False, True, True, True]]
+    objs = ['1', '2', '3', '4']
+    attrs = ['a', 'b', 'c', 'd']
+    cxt = fca.Context(ct, objs, attrs)
+
+    imp_basis = compute_dg_basis(cxt, imp_basis=[Implication(set(), set(['c']))])
     print(len(imp_basis))
     for imp in imp_basis:
         print imp

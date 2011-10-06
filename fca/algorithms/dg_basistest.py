@@ -87,6 +87,11 @@ class BasisTest2(unittest.TestCase):
         self.cxt = fca.Context(ct, objs, attrs)
     
     def test_relative_basis(self):
+        imp_basis=[Implication(set(), set(['c']))]
+        relative_basis = compute_dg_basis(self.cxt, imp_basis=imp_basis)
+        self.assertFalse(imp_basis[0] in relative_basis)
+
+    def test_basis(self):
         simple_basis = compute_dg_basis(self.cxt)
         
         message = "Implication [{0}] occurs more than once"
