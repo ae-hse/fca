@@ -9,7 +9,7 @@ from fca.implication import Implication
 import fca
 
 def compute_dg_basis(cxt,
-                     close=closure_operators.simple_closure,
+                     close=closure_operators.lin_closure,
                      imp_basis=[],
                      cond=lambda x: True):
     """
