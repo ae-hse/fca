@@ -63,6 +63,8 @@ def generalized_compute_dg_basis(attributes,
         if (a_closed - a) & set(attributes[: i]):
             a -= set(attributes[i :])
         else:
+            if len(a_closed) == len(attributes):
+                return relative_basis
             a = a_closed
             i = len(attributes)
         for j in range(i - 1, -1, -1):
@@ -75,8 +77,6 @@ def generalized_compute_dg_basis(attributes,
                     a = b
                     i = j
                     break
-        if len(a) == 0:
-            break
 
     return relative_basis
 
@@ -104,15 +104,12 @@ if __name__ == "__main__":
     #          [True, True, True, True, False, False, True, True, True],
     #          [True, True, False, True, False, True, True, False, True]]
     # cxt = fca.Context(table, objects, attributes)
-    ct = [[True, True, True, True],\
-              [True, False, True, False],\
-              [False, True, True, False],\
-              [False, True, True, True]]
-    objs = ['1', '2', '3', '4']
-    attrs = ['a', 'b', 'c', 'd']
+    ct = [[True]]
+    objs = ['1']
+    attrs = ['a']
     cxt = fca.Context(ct, objs, attrs)
 
-    imp_basis = compute_dg_basis(cxt, imp_basis=[Implication(set(), set(['c']))])
-    print(len(imp_basis))
+    imp_basis = compute_dg_basis(cxt, imp_basis=[Implication(set(), set(['a']))])
+
     for imp in imp_basis:
         print imp

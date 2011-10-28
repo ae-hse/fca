@@ -120,13 +120,16 @@ def lin_closure(s, implications):
     True
     
     """
+    new_closure = s.copy()
     count, imps = {}, {}
     for imp in implications:
         count[imp] = len(imp.premise)
+        if count[imp] == 0:
+            new_closure |= imp.conclusion
         for a in imp.premise:
             imps.setdefault(a, [])
             imps[a].append(imp)
-    new_closure, update = s.copy(), list(s)
+    update = list(new_closure)
     
     while update:
         m = update[-1]
