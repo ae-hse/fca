@@ -107,6 +107,10 @@ class ExplorationDB(object):
     @context_modifier
     def delete_attribute(self, name):
         self._cxt.delete_attribute_by_name(name)
+
+    @context_modifier
+    def touch(self):
+        pass
         
     @context_modifier
     def edit_attribute(self, name, old_name, extent):
