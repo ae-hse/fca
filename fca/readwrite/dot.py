@@ -61,7 +61,7 @@ def write_dot(cs, path):
 
     output_file.close()
 
-def uwrite_dot(cs, path):
+def uwrite_dot(cs, path, full=False):
     assert len(path)!=0, "Filename can't be empty"
     
     import codecs
@@ -81,8 +81,10 @@ def uwrite_dot(cs, path):
         if len(own_objects[cs[i]])!=0:
             output_file.write("c%i -> c%i" % (i, i))
             # TODO:
-            if len(own_objects[cs[i]]) >= 1:
-                own_objects[cs[i]] = [str(len(own_objects[cs[i]]))]
+            if not full:
+                if len(own_objects[cs[i]]) >= 1:
+                    own_objects[cs[i]] = [str(len(own_objects[cs[i]]))]
+
             output_file.write("[headlabel=\"%s\", " %\
                      "; ".join(own_objects[cs[i]]))
             output_file.write(
@@ -90,8 +92,9 @@ def uwrite_dot(cs, path):
         if len(own_attributes[cs[i]])!=0:
             output_file.write("c%i -> c%i" % (i, i))
             # TODO:
-            if len(own_attributes[cs[i]]) >= 1:
-                own_attributes[cs[i]] = [str(len(own_attributes[cs[i]]))]
+            if not full:
+                if len(own_attributes[cs[i]]) >= 1:
+                    own_attributes[cs[i]] = [str(len(own_attributes[cs[i]]))]
             output_file.write("[taillabel=\"%s\", " %\
                      "; ".join(own_attributes[cs[i]]))
             output_file.write(
