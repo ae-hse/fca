@@ -25,9 +25,10 @@ def write_dot(cs, path):
     output_file = open(path, "w")
     output_file.write("digraph L{")
     output_file.write("\n")
-    output_file.write("node[shape=circle,style=filled,label=\"\"];")
+    output_file.write("nodesep=.25;\n")
+    output_file.write("node[shape=circle,label=\"\"];")
     output_file.write("\n")
-    output_file.write("edge[dir=\"none\",minlen=2];")
+    output_file.write("edge[dir=\"none\",minlen=2,fontsize=11,labelfloat=true,fontname=Arial];")
     output_file.write("\n")
 
     own_objects = find_own_objects(cs)
@@ -40,7 +41,7 @@ def write_dot(cs, path):
             if len(own_objects[cs[i]]) >= 5:
                 own_objects[cs[i]] = [str(len(own_objects[cs[i]]))]
             output_file.write("[headlabel=\"%s\", " %\
-                     "; ".join(own_objects[cs[i]]))
+                     "\\n ".join(own_objects[cs[i]]))
             output_file.write(
                 "labeldistance=1,labelangle=270,color=transparent]\n")
         if len(own_attributes[cs[i]])!=0:
@@ -49,7 +50,7 @@ def write_dot(cs, path):
             if len(own_attributes[cs[i]]) >= 5:
                 own_attributes[cs[i]] = [str(len(own_attributes[cs[i]]))]
             output_file.write("[taillabel=\"%s\", " %\
-                     "; ".join(own_attributes[cs[i]]))
+                     "\\n ".join(own_attributes[cs[i]]))
             output_file.write(
                 "labeldistance=2,labelangle=90,color=transparent]\n")
 
@@ -69,41 +70,51 @@ def uwrite_dot(cs, path, full=False):
     output_file = codecs.open(path, "w", "utf-8")
     output_file.write("digraph L{")
     output_file.write("\n")
-    output_file.write("node[shape=circle,style=filled,label=\"\"];")
+    output_file.write("nodesep=.25;\n")
+    output_file.write("node[shape=circle,label=\"\"];")
     output_file.write("\n")
-    output_file.write("edge[dir=\"none\",minlen=2];")
+    output_file.write("edge[dir=\"none\",minlen=2,fontsize=9,labelfloat=true,fontname=Arial,color=grey,style=\"setlinewidth(.7)\"];")
     output_file.write("\n")
 
     own_objects = find_own_objects(cs)
     own_attributes = find_own_attributes(cs)
+
     for i in xrange(len(cs)):
         output_file.write("c%i [width=0.25]\n" % i)
+
+    parents = fca.compute_covering_relation(cs)
+    for i in xrange(len(cs)):
+        for p in parents[cs[i]]:
+            output_file.write("c%i -> c%i\n" % (cs.index(p), i))
+
+    for i in xrange(len(cs)):
         if len(own_objects[cs[i]])!=0:
             output_file.write("c%i -> c%i" % (i, i))
             # TODO:
             if not full:
                 if len(own_objects[cs[i]]) >= 1:
                     own_objects[cs[i]] = [str(len(own_objects[cs[i]]))]
-
+            if len(own_objects[cs[i]]) > 6:
+                own_objects[cs[i]] = own_objects[cs[i]][:6] + ["..."]
+            n = len(own_objects[cs[i]])
             output_file.write("[headlabel=\"%s\", " %\
-                     "; ".join(own_objects[cs[i]]))
+                     "\\n ".join(own_objects[cs[i]]))
             output_file.write(
-                "labeldistance=1,labelangle=270,color=transparent]\n")
+                "labeldistance={0},labelangle=270,color=transparent]\n".format(n/1.8 + 0.5))
         if len(own_attributes[cs[i]])!=0:
             output_file.write("c%i -> c%i" % (i, i))
             # TODO:
             if not full:
                 if len(own_attributes[cs[i]]) >= 1:
                     own_attributes[cs[i]] = [str(len(own_attributes[cs[i]]))]
+            if len(own_attributes[cs[i]]) > 6:
+                own_attributes[cs[i]] = own_attributes[cs[i]][:6] + ["..."]
+            n = len(own_attributes[cs[i]])
             output_file.write("[taillabel=\"%s\", " %\
-                     "; ".join(own_attributes[cs[i]]))
+                     "\\n ".join(own_attributes[cs[i]]))
             output_file.write(
-                "labeldistance=2,labelangle=90,color=transparent]\n")
+                "labeldistance={0},labelangle=90,color=transparent]\n".format(n/1.8 + 0.5))
 
-    parents = fca.compute_covering_relation(cs)
-    for i in xrange(len(cs)):
-        for p in parents[cs[i]]:
-            output_file.write("c%i -> c%i\n" % (cs.index(p), i))
     output_file.write("}")
 
     output_file.close()
