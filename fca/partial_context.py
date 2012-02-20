@@ -100,7 +100,7 @@ class PartialContext(object):
             xintent = self.x_context.get_object_intent(o)
             new_xintent = closure(xintent, implications)
             qintent = self.q_context.get_object_intent(o)
-            if not xintent <= qintent:
+            if not new_xintent <= qintent:
                 # TODO: undo the modifications
                 raise ValueError(
                     'implications are inconsistent with the partial context')
