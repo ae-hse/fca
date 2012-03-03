@@ -67,6 +67,12 @@ class Basis(object):
     def add_background_implication(self, imp):
         self._background_implications.append(imp)
 
+    def respect_background_knowledge(self, intent):
+        for imp in self._background_implications:
+            if not imp.is_respected(intent):
+                return False
+        return True
+
 class ExplorationSession(object):
     _cxt = None
     _basis = None
@@ -92,7 +98,7 @@ class ExplorationSession(object):
 
     def reject_implication(self, imp, object, intent):
         if not imp.is_respected(intent):
-            self._cxt.add_object_with_intent(intent, object)
+            self._cxt.add_object(object, intent)
         else:
             raise FalseCounterexample()
 
@@ -107,3 +113,4 @@ class Exploration(object):
 
     def create_session(self):
         return ExplorationSession(self._cxt)
+

@@ -100,9 +100,7 @@ def write_cxt(context, path):
     output_file.close()
     
 def uwrite_cxt(context, path):
-    import codecs
-    
-    output_file = codecs.open(path, "w", "utf-8")
+    output_file = open(path, "w")
     output_file.write("B\n\n")
 
     output_file.write(str(len(context.objects))+"\n")
@@ -124,9 +122,7 @@ def uwrite_cxt(context, path):
     output_file.close()
     
 def uread_cxt(path):
-    import codecs
-    
-    input_file = codecs.open(path, "r", "utf-8")
+    input_file = open(path, "r")
     assert input_file.readline().strip() == "B",\
         "File is not valid cxt"
     input_file.readline() # Empty line
@@ -134,8 +130,8 @@ def uread_cxt(path):
     number_of_attributes = int(input_file.readline().strip())
     input_file.readline() # Empty line
 
-    objects = [input_file.readline().strip() for i in xrange(number_of_objects)]
-    attributes = [input_file.readline().strip() for i in xrange(number_of_attributes)]
+    objects = [unicode(input_file.readline().strip(), "utf-8") for i in xrange(number_of_objects)]
+    attributes = [unicode(input_file.readline().strip(), "utf-8") for i in xrange(number_of_attributes)]
 
     table = []
     for i in xrange(number_of_objects):

@@ -170,7 +170,7 @@ def read_xml(path):
         global buffer
         if data[0] == "\n":
             return
-        data = str(data).strip()
+        data = data.strip()
         buffer += data
     
     p = xml.parsers.expat.ParserCreate()

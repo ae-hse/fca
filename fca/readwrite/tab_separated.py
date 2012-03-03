@@ -137,6 +137,72 @@ def read_mv_txt(path):
 
     return fca.ManyValuedContext(table, objects, attributes)
 
+def uread_mv_txt(path):
+    """Read many-valued context from path, which is tab separated txt file
+
+    Format
+    ======
+
+    First line is tab separated attributes' names
+    Next an empty line
+    Then tab separated values, each line corresponds to one object.
+
+    Examples
+    ========
+
+    Load example file from tests directory
+
+    >>> c = read_mv_txt('tests/table.txt')
+    >>> len(c)
+    3
+    >>> len(c[0])
+    3
+    >>> for o in c:
+    ...     print o
+    ...
+    ['7', '6', '7']
+    ['7', '2', '9']
+    ['1', '3', '4']
+    >>> print c.objects
+    ['obj1', 'obj2', 'obj3']
+    >>> print c.attributes
+    ['attr1', 'attr2', 'attr3']
+
+    """
+    input_file = open(path, "rb")
+    rdr = csv.reader(input_file, delimiter="\t")
+    rec = rdr.next() # read objects names
+    
+    objects = []
+    for obj in rec:
+        objects.append(unicode(obj, "utf-8").strip())
+    
+    rec = rdr.next() # read attributes names
+
+    attributes = []
+    for attr in rec:
+        attributes.append(unicode(attr, "utf-8").strip())
+    
+    rdr.next() # empty line
+    
+    table = []
+    for rec in rdr:
+        line = []
+        for num in rec:
+            line.append(num)
+        table.append(line)
+    input_file.close()
+
+    # TODO: It's hack
+    # Strange things happen with csv in case some of "non standard" characters
+    if ((len(table) != 0) and len(attributes) != len(table[0]))\
+        or len(table) != len(objects):
+        input_file = open(path, "rb")
+        objects = input_file.readline().strip().split("\t")
+        attributes = input_file.readline().strip().split("\t")
+        input_file.close()
+
+    return fca.ManyValuedContext(table, objects, attributes)
 
 def write_mv_txt(context, path):
     output_file = open(path, "w")
@@ -145,6 +211,21 @@ def write_mv_txt(context, path):
     output_file.write("\n")
 
     output_file.write("\t".join(context.attributes))
+    output_file.write("\n\n")
+
+    for i in xrange(len(context.objects)):
+        output_file.write("\t".join([str(spam) for spam in context[i]]))
+        output_file.write("\n")
+
+    output_file.close()
+
+def uwrite_mv_txt(context, path):
+    output_file = open(path, "w")
+
+    output_file.write("\t".join(context.objects).encode("utf-8"))
+    output_file.write("\n")
+
+    output_file.write("\t".join(context.attributes).encode("utf-8"))
     output_file.write("\n\n")
 
     for i in xrange(len(context.objects)):
