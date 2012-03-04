@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from fca.algorithms.exploration2.exploration import *
+from fca.algorithms.exploration.exploration import *
 
 def is_prime(n):
     for m in xrange(n - 1, 1, -1):
@@ -20,6 +20,8 @@ def is_factorial(n):
             return False
 
 
+class ObjectDictExplorationContext(fca.ExplorationContext, fca.ObjectDictContext):
+    pass
 
 class CommandLineExploration(Exploration):
     def __init__(self):
@@ -31,9 +33,9 @@ class CommandLineExploration(Exploration):
             "factorial" : is_factorial
         }
 
-        cxt = fca.Context(attributes=list(self.d.keys()))
+        cxt = ObjectDictExplorationContext(attributes=set(self.d.keys()))
 
-        super(CommandLineExploration, self).__init__(ExplorationContext(cxt))
+        super(CommandLineExploration, self).__init__(cxt)
         self._session = self.create_session()
 
     def is_valid(self, imp):
