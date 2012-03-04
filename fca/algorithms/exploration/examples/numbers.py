@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 from fca.algorithms.exploration.exploration import *
+import fca.abstract_context
+import fca.object_dict_context
 
 def is_prime(n):
     for m in xrange(n - 1, 1, -1):

@@ -3,13 +3,13 @@
 
 from copy import copy
 
-import fca
-import fca.algorithms
+import fca.abstract_context
+import fca.algorithms.dg_basis
 
 class ExplorationContext(fca.AbstractContext):
     """Exploration mix-in"""
     _background_implications = list()
-    __fca_basis_function = fca.algorithms.compute_dg_basis
+    __fca_basis_function = fca.algorithms.dg_basis.compute_dg_basis
     _relative_basis = list()
     _relative_basis_recompute_flag = True
 
