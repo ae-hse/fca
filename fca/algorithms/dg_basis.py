@@ -2,7 +2,6 @@
 """
 Holds a function that computes Duquenne-Guigues basis for a given context 
 """
-import copy
 
 import closure_operators
 from fca.implication import Implication
@@ -16,9 +15,8 @@ def compute_dg_basis(cxt,
     Compute Duquenne-Guigues basis for a given *cxt* using 
     optimized Ganter algorithm
     """
-    aclose = lambda attributes: closure_operators.aclosure(attributes, cxt)
-    return generalized_compute_dg_basis(cxt.attributes, 
-                                        aclose,
+    return generalized_compute_dg_basis(list(cxt.attributes),
+                                        cxt.aclosure,
                                         close=close,
                                         imp_basis=imp_basis,
                                         cond=cond)
@@ -57,7 +55,7 @@ def generalized_compute_dg_basis(attributes,
     i = len(attributes)
     
     while len(a) < len(attributes):
-        a_closed = set(aclose(a))
+        a_closed = aclose(a)
         if a != a_closed and cond(a):
             relative_basis.append(Implication(a.copy(), a_closed.copy()))
         if (a_closed - a) & set(attributes[: i]):
@@ -81,35 +79,34 @@ def generalized_compute_dg_basis(attributes,
     return relative_basis
 
 if __name__ == "__main__":    
-    # objects = ['Air Canada', 'Air New Zeland', 'All Nippon Airways',
-    #            'Ansett Australia', 'The Australian Airlines Group',
-    #            'British Midland', 'Lufthansa', 'Mexicana',
-    #            'Scandinavian Airlines', 'Singapore Airlines',
-    #            'Thai Airways International', 'United Airlines',
-    #            'VARIG']
-    # attributes = ['Latin America', 'Europe', 'Canada', 'Asia Pasific',
-    #               'Middle East', 'Africa', 'Mexico', 'Carribean',
-    #               'United States']
-    # table = [[True, True, True, True, True, False, True, True, True],
-    #          [False, True, False, True, False, False, False, False, True],
-    #          [False, True, False, True, False, False, False, False, True],
-    #          [False, False, False, True, False, False, False, False, False],
-    #          [False, True, True, True, True, True, False, False, True],
-    #          [False, True, False, False, False, False, False, False, False],
-    #          [True, True, True, True ,True, True, True, False, True],
-    #          [True, False, True, False, False, False, True, True, True],
-    #          [True, True, False, True, False, True, False, False, True],
-    #          [False, True, True, True, True, True, False, False, True],
-    #          [True, True, False, True, False, False, False, True, True],
-    #          [True, True, True, True, False, False, True, True, True],
-    #          [True, True, False, True, False, True, True, False, True]]
-    # cxt = fca.Context(table, objects, attributes)
-    ct = [[True]]
-    objs = ['1']
-    attrs = ['a']
-    cxt = fca.Context(ct, objs, attrs)
+    objects = ['Air Canada', 'Air New Zeland', 'All Nippon Airways',
+                'Ansett Australia', 'The Australian Airlines Group',
+                'British Midland', 'Lufthansa', 'Mexicana',
+                'Scandinavian Airlines', 'Singapore Airlines',
+                'Thai Airways International', 'United Airlines',
+                'VARIG']
+    attributes = ['Latin America', 'Europe', 'Canada', 'Asia Pasific',
+                   'Middle East', 'Africa', 'Mexico', 'Carribean',
+                   'United States']
+    table = [[True, True, True, True, True, False, True, True, True],
+              [False, True, False, True, False, False, False, False, True],
+              [False, True, False, True, False, False, False, False, True],
+              [False, False, False, True, False, False, False, False, False],
+              [False, True, True, True, True, True, False, False, True],
+              [False, True, False, False, False, False, False, False, False],
+              [True, True, True, True ,True, True, True, False, True],
+              [True, False, True, False, False, False, True, True, True],
+              [True, True, False, True, False, True, False, False, True],
+              [False, True, True, True, True, True, False, False, True],
+              [True, True, False, True, False, False, False, True, True],
+              [True, True, True, True, False, False, True, True, True],
+              [True, True, False, True, False, True, True, False, True]]
 
-    imp_basis = compute_dg_basis(cxt, imp_basis=[Implication(set(), set(['a']))])
+    cxt = fca.ObjectDictContext(set(attributes))
 
-    for imp in imp_basis:
+    gen_intent = lambda row: {attributes[i] for i in xrange(len(attributes)) if row[i]}
+    for object_index in xrange(len(objects)):
+        cxt.add_object(objects[object_index], gen_intent(table[object_index]))
+
+    for imp in compute_dg_basis(cxt):
         print imp
