@@ -29,9 +29,13 @@ class ObjectDictContext(fca.AbstractContext):
         return {obj for obj in self._object_dict if attribute in self._object_dict[obj]}
 
     def set_intent(self, object, intent):
+        if object not in self._object_dict:
+            raise Exception("Unknown object")
         self._object_dict[object] = copy(intent)
 
     def set_extent(self, attribute, extent):
+        if attribute not in self._attributes:
+            raise Exception("Unknown attribute")
         for obj in self._object_dict:
             self._object_dict[obj].add(attribute)
 
