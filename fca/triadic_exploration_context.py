@@ -3,13 +3,14 @@
 
 from copy import copy
 
+import fca.triadic_context
 import fca.abstract_context
-import fca.algorithms.dg_basis
-import fca
+from fca.algorithms.dg_basis import compute_dg_basis
+import triadic_context
 
-class TriadicExplorationContext(fca.TriadicContext):
+class TriadicExplorationContext(triadic_context.TriadicContext):
     _background_implications = dict()
-    __fca_basis_function = fca.algorithms.dg_basis.compute_dg_basis
+    _fca_basis_function = compute_dg_basis
     _relative_basis = dict()
     _relative_basis_recompute_flag = dict()
 
@@ -23,10 +24,12 @@ class TriadicExplorationContext(fca.TriadicContext):
 
     def get_universally_true_implications(self):
         sub_cxt = self.get_extentionally_equal_dyadic()
-        basis = self.__fca_basis_function
+        basis = TriadicExplorationContext._fca_basis_function
         return basis(sub_cxt)
 
-    def get_conditionally_equal_attributes(self, conditions=self.conditions):
+    def get_conditionally_equal_attributes(self, conditions = None):
+        if not conditions:
+            conditions = self.conditions
         result = set()
 
         for attr in self.attributes:
@@ -46,7 +49,10 @@ class TriadicExplorationContext(fca.TriadicContext):
 
         return result
 
-    def get_extentionally_equal_dyadic(self, conditions=self.conditions):
+    def get_extentionally_equal_dyadic(self, conditions=None):
+        if not conditions:
+            conditions = self.conditions
+
         sub_cxt = fca.ObjectDictContext(set())
 
         if len(conditions) > 0:
@@ -57,7 +63,10 @@ class TriadicExplorationContext(fca.TriadicContext):
 
         return sub_cxt
 
-    def get_conditionally_equal_objects(self, conditions=self.conditions):
+    def get_conditionally_equal_objects(self, conditions=None):
+        if not conditions:
+            conditions = self.conditions
+
         result = set()
 
         for obj in self.objects:
@@ -77,7 +86,10 @@ class TriadicExplorationContext(fca.TriadicContext):
 
         return result
 
-    def get_intentionally_equal_dyadic(self, conditions=self.conditions):
+    def get_intentionally_equal_dyadic(self, conditions=None):
+        if not conditions:
+            conditions = self.conditions
+
         sub_cxt = fca.ObjectDictContext(self.attributes)
 
         if len(conditions) > 0:
@@ -88,7 +100,21 @@ class TriadicExplorationContext(fca.TriadicContext):
 
         return sub_cxt
 
-    class DyadicExplorationContextProxy(fca.TriadicContext.DyadicContextProxy):
+    def get_dyadic(self, condition):
+        if condition not in self._background_implications:
+            self._background_implications[condition] = list()
+
+        if condition not in self._relative_basis:
+            self._relative_basis[condition] = list()
+
+        if condition not in self._relative_basis_recompute_flag:
+            self._relative_basis_recompute_flag[condition] = True
+
+        return super(TriadicExplorationContext, self).get_dyadic(condition)
+
+
+    class DyadicExplorationContextProxy(fca.triadic_context.TriadicContext.DyadicContextProxy):
+        _fca_basis_function = compute_dg_basis
         def _check_intent(self, intent):
             for imp in self._triadic_context._background_implications[self._condition]:
                 if not imp.is_respected(intent):
@@ -99,7 +125,7 @@ class TriadicExplorationContext(fca.TriadicContext):
 
         def get_relative_basis(self):
             if self._triadic_context._relative_basis_recompute_flag[self._condition]:
-                self._triadic_context._relative_basis = self._triadic_context.__fca_basis_function(
+                self._triadic_context._relative_basis[self._condition] = self._fca_basis_function(
                     imp_basis=self._triadic_context._background_implications[self._condition])
                 self._triadic_context._relative_basis_recompute_flag[self._condition] = False
             return copy(self._triadic_context._relative_basis[self._condition])

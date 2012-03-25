@@ -11,7 +11,6 @@ class FalseCounterexample(ExplorationException):
 
 class ExplorationSession(object):
     _cxt = None
-    _basis = None
 
     def __init__(self, cxt):
         self._cxt = cxt

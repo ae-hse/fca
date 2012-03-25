@@ -4,8 +4,9 @@
 from copy import copy
 
 import fca
+import abstract_triadic_context
 
-class TriadicContext(fca.AbstractTriadicContext):
+class TriadicContext(abstract_triadic_context.AbstractTriadicContext):
     """
 
     Examples
@@ -120,6 +121,8 @@ class TriadicContext(fca.AbstractTriadicContext):
             return set.intersection(*[self.get_intent(obj) for obj in objects])
 
         def aprime(self, attributes):
+            if (len(attributes) == 0):
+                return copy(self.objects)
             return set.intersection(*[self.get_extent(attr) for attr in attributes])
 
         def oclosure(self, objects):
