@@ -50,7 +50,6 @@ class TriadicContext(fca.AbstractTriadicContext):
     MON: { VEG } { VEG, ALCO } { VEG, NO PORK, NONE } { VEG, NO PORK } { VEG, NO PORK, NONE }
     TUE: { NONE } { VEG, NO PORK, NONE } { ALCO, NO PORK, NONE } { VEG, NONE } { VEG, NONE }
     """
-
     class DyadicContextProxy(fca.AbstractContext):
         _triadic_context = None
         _condition = None
@@ -129,6 +128,7 @@ class TriadicContext(fca.AbstractTriadicContext):
         def aclosure(self, attributes):
             return self.oprime(self.aprime(attributes))
 
+    _dyadic_proxy_class = DyadicContextProxy
     _conditions = set()
     _attributes = set()
     _object_dict = dict()
@@ -165,7 +165,7 @@ class TriadicContext(fca.AbstractTriadicContext):
     def get_dyadic(self, condition):
         if condition not in self._conditions:
             raise Exception("No such condition")
-        return self.DyadicContextProxy(self, condition)
+        return self._dyadic_proxy_class(self, condition)
 
     def remove_object(self, object):
         del self._object_dict[object]
@@ -192,7 +192,7 @@ class TriadicContext(fca.AbstractTriadicContext):
                     s += "{ " + ", ".join(self._object_dict[obj][attr]) + " } "
                 else:
                     s += "{} "
-            s = s[:-1] + "\n"
+            s += "\n"
 
         return s[:-1]
 
