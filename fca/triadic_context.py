@@ -121,7 +121,7 @@ class TriadicContext(abstract_triadic_context.AbstractTriadicContext):
             return set.intersection(*[self.get_intent(obj) for obj in objects])
 
         def aprime(self, attributes):
-            if (len(attributes) == 0):
+            if not len(attributes):
                 return copy(self.objects)
             return set.intersection(*[self.get_extent(attr) for attr in attributes])
 

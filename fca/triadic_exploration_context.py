@@ -7,6 +7,8 @@ import fca.triadic_context
 import fca.abstract_context
 from fca.algorithms.dg_basis import compute_dg_basis
 import triadic_context
+from fca.utils.context_utils import union_contexts
+from fca.object_dict_context import ObjectDictContext
 
 class TriadicExplorationContext(triadic_context.TriadicContext):
     _background_implications = dict()
@@ -22,10 +24,14 @@ class TriadicExplorationContext(triadic_context.TriadicContext):
                     return False
         return True
 
+    def get_super_dyadic(self):
+        return union_contexts(ObjectDictContext(self.attributes),
+            {self.get_dyadic(condition) for condition in self.conditions})
+
     def get_universally_true_implications(self):
-        sub_cxt = self.get_extentionally_equal_dyadic()
+        super_cxt = self.get_super_dyadic()
         basis = TriadicExplorationContext._fca_basis_function
-        return basis(sub_cxt)
+        return basis(super_cxt)
 
     def get_conditionally_equal_attributes(self, conditions = None):
         if not conditions:
